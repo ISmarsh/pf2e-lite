@@ -138,7 +138,7 @@ All archetypes below are from Player Core 2 (ORC-licensed, remastered). Core vs 
 
 - **Prerequisite:** Trained in Diplomacy or Intimidation; trained in martial weapons
 - **Grants:** Trained (or expert) in Diplomacy or Intimidation. While conscious, 15-ft aura granting +1 status bonus to saves vs fear.
-- **Feat chain (L2-L10, 14 feats):** Three stance options (Dread Marshal at L4, Inspiring Marshal at L4, Strategist at L4), support actions (Snap Out of It!, Steel Yourself!, Cadence Call), charge abilities (Rallying Charge, To Battle!), tactical feats (Back to Back, Know Your Enemy, Topple Foe, Form Up!). 4 additional feats at L12-L14 naturally excluded by level cap.
+- **Feat chain (14 feats in L2-L10, plus 4 over cap):** Three stance options (Dread Marshal at L4, Inspiring Marshal at L4, Strategist at L4), support actions (Snap Out of It!, Steel Yourself!, Cadence Call), charge abilities (Rallying Charge, To Battle!), tactical feats (Back to Back, Know Your Enemy, Topple Foe, Form Up!). 4 additional feats at L12-L14 naturally excluded by level cap.
 - **System flags:** References Frightened condition (kept in our 20). **Ports cleanly.**
 - Fills a unique party-leadership role no class covers via multiclass. Deep feat chain with meaningful stance choices.
 
