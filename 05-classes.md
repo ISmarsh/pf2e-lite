@@ -37,7 +37,7 @@ Mana is a full-caster-only system. Empowered classes get their magic through cla
 - **WIS:** Cleric, Druid — 2 classes
 - **CHA:** Bard, Thaumaturge — 2 classes
 
-Every mental stat has exactly two classes. STR and DEX are well-represented across the martial roster, with Monk straddling both. Monk's qi spells key off WIS, giving that stat secondary martial relevance.
+Every mental stat has exactly two classes. STR and DEX are well-represented across the martial roster, with Monk straddling both. Monk's optional qi spells key off WIS, giving that stat secondary martial relevance.
 
 ## Ported Classes
 
