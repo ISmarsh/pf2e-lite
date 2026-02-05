@@ -56,21 +56,23 @@ All questions answered, class ports cleanly:
 - Check for archetypes that interact with changed systems (mana, conditions) and may need adaptation
 - See [Dedications](15-dedications.md)
 
-### Monk as Fourth Martial
+### Monk as Fourth Martial — Resolved
 
-- Currently 3 martials (Fighter STR, Rogue DEX, Barbarian STR/CON) — Monk would make 4
-- Grid would become **4 martial / 4 full caster / 4 empowered = 12 classes** — fully symmetric
-- Monk is WIS-based in PF2e — would add a WIS martial (currently WIS only has Cleric and Druid, both full casters)
-- Unarmed/unarmored chassis is mechanically distinct from all three existing martials
-- Flurry of Blows, ki spells (focus), stances — all port cleanly to levels 1-10
-- **Arguments for core:** symmetric grid, popular class fantasy, fills WIS martial gap, proven PF2e class
-- **Arguments for expansion:** currently listed as "niche for core," 11 classes is already many, adds documentation burden
+Promoted to core. Grid is now 4 martial / 4 full caster / 4 empowered = 12 classes.
+
+- ✅ Symmetric 4/4/4 grid — easier to communicate, aesthetically clean
+- ✅ Popular class fantasy — more mainstream than Thaumaturge or Champion, not "niche"
+- ✅ Mechanically distinct — unarmed/unarmored chassis, Flurry of Blows, stances. No overlap with Fighter/Rogue/Barbarian
+- ✅ Clean port from Player Core 2 — zero custom design needed, all mechanics work within L1-10
+- ✅ Qi spells (optional, feat-gated) give WIS secondary martial relevance. Key ability is STR or DEX (not WIS as previously noted)
+- ✅ Handwraps of Mighty Blows added to equipment for unarmed rune progression
+- ✅ Monk Dedication added to martial dedications (prereq STR 14, DEX 14)
 - See [Classes](05-classes.md)
 
 ### Expansion Classes
 
 - Psychic as first expansion caster (occult full caster, complex but distinct — streamline amps and Unleash Psyche)
-- Monk as possible core promotion (see above) — if not, first expansion martial
+- Monk promoted to core — Swashbuckler is the primary expansion martial candidate
 - Sorcerer, Witch, Magus, Swashbuckler as expansion candidates
 - Inventor, Oracle, Summoner, Kineticist as later waves
 - With Psychic as expansion: two occult full casters (Bard + Psychic) — acceptable since they play very differently
@@ -164,7 +166,7 @@ Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks deriv
 
 ### Classes
 
-- Should Monk move from expansion to core? (See Monk as Fourth Martial above)
+- ~~Should Monk move from expansion to core?~~ — ✅ Resolved. Monk promoted to core, 4/4/4 grid.
 - With 12 classes, does the roster feel too large for a "lite" system, or does the symmetry justify it?
 
 ### Crafting

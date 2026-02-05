@@ -23,11 +23,11 @@ a mana math spreadsheet, and a README with document index. See [README](README.m
 
 ## Class Grid
 
-3 martial / 4 full caster / 4 empowered (one per tradition):
+4 martial / 4 full caster / 4 empowered (one per tradition):
 
 | Role | Classes |
 |------|---------|
-| Martial | Fighter (STR), Rogue (DEX), Barbarian (STR/CON) |
+| Martial | Fighter (STR), Rogue (DEX), Barbarian (STR/CON), Monk (STR/DEX) |
 | Full caster (mana) | Wizard (INT/arcane), Cleric (WIS/divine), Druid (WIS/primal), Bard (CHA/occult) |
 | Empowered (focus spells) | Champion (STR/divine), Ranger (DEX/primal), Artificer (INT/arcane), Thaumaturge (CHA/occult) |
 
