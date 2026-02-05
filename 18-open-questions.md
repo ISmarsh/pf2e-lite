@@ -49,11 +49,15 @@ All questions answered, class ports cleanly:
 
 ## Medium Priority
 
-### Generic Archetypes Review
+### Generic Archetypes Review — Resolved
 
-- Review PF2e's complete archetype list
-- Flag high-priority generic archetypes for first expansion (likely Medic, Marshal, Sentinel)
-- Check for archetypes that interact with changed systems (mana, conditions) and may need adaptation
+Reviewed all 10 remastered generic archetypes from Player Core 2 (ORC-licensed). Categorized by priority, flagged system interactions. Core vs expansion placement deferred to compilation phase.
+
+- ✅ 4 high-priority archetypes identified: Marshal (14 feats L2-L10), Medic (4 feats), Sentinel (5 feats), Bastion (13 feats)
+- ✅ 5 medium-priority: Archer, Acrobat, Beastmaster (blocked — needs animal companion rules), Blessed One, Archaeologist
+- ✅ 1 low-priority: Assassin (condition mapping needed for cut detection states)
+- ✅ System interactions mapped: Bastion needs shield terminology translation, Archer/Blessed One need mana conversion, Medic confirmed no overlap with Medicine proficiency benefits
+- ✅ 14 popular legacy-only archetypes (APG) noted as future review candidates
 - See [Dedications](15-dedications.md)
 
 ### Monk as Fourth Martial — Resolved
@@ -178,6 +182,7 @@ Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks deriv
 
 - Is quarter-caster mana (7 at level 8) too flexible compared to PF2e's rigid 3 slots?
 - How does Free Archetype as standard interact with dedication balance? (Every character gets free archetype feats, so dedication investment costs nothing from class progression.)
+- ~~Which generic archetypes to include?~~ — ✅ Reviewed and categorized. See Generic Archetypes Review above.
 
 ## Next Steps
 
