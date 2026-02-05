@@ -12,11 +12,15 @@ No gaps. Within levels 1–10, PF2e's natural proficiency progression rarely rea
 - ⚠️ Watch during playtesting: mana flexibility may change *pacing* (front-loading power) even though encounter *balance* is unchanged
 - See [Game Mastering](17-game-mastering.md)
 
-### Proficiency Auto-Unlock Feat List
+### Proficiency Auto-Unlock Feat List — Resolved
 
-- Complete list of auto-unlock feats per skill at Trained/Expert/Master
-- Cross-reference with class features that already grant these feats (avoid double-granting)
-- Playtest for balance — auto-granting Battle Medicine at Trained in Medicine is powerful
+Complete list finalized. Three skills have auto-unlocks (Medicine, Crafting, Stealth); remaining 13 skills have no universal must-take feats. No class overlap issues.
+
+- ✅ Medicine: Battle Medicine (Trained), Continual Recovery (Expert), Ward Medic (Master)
+- ✅ Crafting: Repair (Trained), Quick Repair + Field Crafting (Expert), Efficient Crafting (Master)
+- ✅ Stealth: Swift Sneak (Master)
+- ✅ No class features auto-grant any of these — no double-granting
+- ⚠️ Watch during playtesting: Battle Medicine at Trained for all characters may reduce incentive for dedicated healers
 - See [Feats](08-feats.md)
 
 ### Artificer Deep Design — Resolved
@@ -114,10 +118,16 @@ All questions answered, class ports cleanly:
 - Verify knockdown count reset timing
 - See [Dying](12-dying.md)
 
-### Shield Material Progression
+### Shield Material Progression — Resolved
 
-- Define wooden → steel → special material progression
-- Block value and durability numbers for each tier
+Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks derived from expected Shield Blocks at-level. Full progression documented including base shields, Sturdy shields, Reinforcing runes, and material shields.
+
+- ✅ Conversion formula with validation table
+- ✅ Base shields: Buckler 3/2, Wooden 3/2, Steel 5/3, Tower 5/3
+- ✅ Sturdy shields: Minor 8/6, Lesser 10/7, Moderate 13/8
+- ✅ Reinforcing runes: +2/+2, +3/+3, +4/+4 (trails Sturdy by design)
+- ✅ Material shields: special materials gain +1 Tick
+- ⚠️ Remaining: shield repair tick restoration amount (all ticks vs fixed number?)
 - See [Shields](13-shields.md)
 
 ### Crafting System Details
@@ -174,7 +184,8 @@ All questions answered, class ports cleanly:
 1. ~~Encounter math verification~~ — ✅ Resolved, ports directly
 1. ~~Artificer class design~~ — ✅ Resolved. Full design in [06-artificer.md](06-artificer.md), balance report in [06c-artificer-balance-report.md](06c-artificer-balance-report.md)
 1. ~~Thaumaturge integration review~~ — ✅ Resolved, ports cleanly
-1. Auto-unlock feat list (first draft)
+1. ~~Auto-unlock feat list~~ — ✅ Resolved. Finalized in [08-feats.md](08-feats.md)
+1. ~~Shield conversion formula~~ — ✅ Resolved. Formula and full progression in [13-shields.md](13-shields.md)
 1. Pull all sections into a unified playtest document
 1. Begin human-written flavor text for classes and ancestries
 1. Character sheet design

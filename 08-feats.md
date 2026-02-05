@@ -43,41 +43,56 @@ When you reach a proficiency threshold in a skill, you automatically gain the fe
 
 **Design test:** "Would an experienced PF2e player tell a new player they're making a mistake by *not* taking this feat?" If yes, it should auto-unlock.
 
-### Likely Candidates (To Be Finalized)
+### Auto-Unlock Table
 
-**Medicine:**
+| Skill | Trained | Expert | Master |
+|-------|---------|--------|--------|
+| **Medicine** | Battle Medicine | Continual Recovery | Ward Medic |
+| **Crafting** | Repair (system baseline) | Quick Repair + Field Crafting | Efficient Crafting |
+| **Stealth** | — | — | Swift Sneak |
 
-- Trained: Battle Medicine
-- Expert: Continual Recovery
-- Master: Ward Medic
+**No class overlap:** No class feature in the system auto-grants any of these feats, so there are no double-granting issues.
 
-**Athletics:**
+#### Medicine
 
-- Expert: Titan Wrestler or similar
+The strongest auto-unlock chain. Every skill in PF2e has "trap" feats that look optional but are actually mandatory — Medicine has the most.
 
-**Intimidation:**
+- **Battle Medicine** (Trained): Use Medicine in combat to heal an adjacent ally. One action, once per target per day. Without this, Medicine investment has zero combat utility — every experienced player takes it.
+- **Continual Recovery** (Expert): Reduces Treat Wounds cooldown from 1 hour to 10 minutes. RPGBOT: "If you only take one skill feat in Medicine, make it this one." Without it, out-of-combat healing is painfully slow.
+- **Ward Medic** (Master): Treat Wounds affects 2 targets at once (4 at Master). At this proficiency level, you're the party medic — treating one person at a time is an obvious bottleneck.
 
-- Trained: Intimidating Glare
+#### Crafting
 
-**Crafting:**
+Already defined in [Crafting](14-crafting.md). The specialty feats (Alchemical Crafting, Magical Crafting, Snare Crafting) remain in the general pool as genuine choices — they're specialization gates, not universal taxes.
 
-- Expert: Quick Repair + Field Crafting (see [Crafting](14-crafting.md))
-- Master: Efficient Crafting
+- **Repair** (Trained): System baseline, 10 minutes to restore item durability.
+- **Quick Repair + Field Crafting** (Expert): Faster repairs and ability to create temporary items from available materials during 10-minute rests.
+- **Efficient Crafting** (Master): Reduced material costs (details in [Crafting](14-crafting.md)).
 
-**Stealth:**
+#### Stealth
 
-- Expert: Swift Sneak
+- **Swift Sneak** (Master): Move at full Speed while Sneaking. By Master proficiency, a character is a committed stealth specialist. The half-speed penalty without this feat makes Sneak borderline unusable in combat — experienced players consider it mandatory at this tier.
 
-Other skills have fewer "mandatory" feats, so their skill feats stay in the general pool as genuine choices.
+### Skills Without Auto-Unlocks
+
+The remaining 13 skills (Acrobatics, Arcana, Athletics, Deception, Diplomacy, Intimidation, Lore, Nature, Occultism, Performance, Religion, Society, Thievery) have no auto-unlocks. Their skill feats are build-dependent rather than universally mandatory:
+
+- **Athletics:** Feats vary by fighting style — Titan Wrestler matters for grapplers but not climbers or swimmers. No single feat passes the design test for all Athletics users.
+- **Intimidation:** Intimidating Glare is useful but not essential — Demoralize works fine with a verbal check. Many Intimidation builds skip it entirely.
+- **Acrobatics:** Cat Fall and Kip Up are nice but situational. No universal must-take.
+- **Social skills** (Diplomacy, Deception, Performance): Feats are roleplay-dependent and build-specific. No feat taxes.
+- **Knowledge skills** (Arcana, Nature, Occultism, Religion, Society, Lore): Feats unlock specific uses (Recognize Spell, Identify Magic) but none are mandatory for all users of the skill.
+- **Thievery:** Pick a Lock and Disable a Device are skill actions, not feats. Thievery feats are Rogue-specific optimizations.
+
+All skill feats for these skills remain in the merged general feat pool as genuine choices.
 
 ## Feat Density Math
 
 - PF2e across levels 1–10: 5 skill feats + 4 general feats = 9 picks from those tracks
-- Our system: 4 general feats (merged pool) + ~3–6 automatic proficiency unlocks = 7–10 total
-- Result: Similar feat density, higher average quality of choices, less time browsing for the "right" answer
+- Our system: 4 general feats (merged pool) + 5–7 automatic proficiency unlocks = 9–11 total
+- Result: Similar or slightly higher feat density, higher average quality of choices, less time browsing for the "right" answer
 
 ## Open Design Work
 
-- Complete list of auto-unlock feats per skill: deferred until classes are fully sketched
-- Interaction between auto-unlocks and class features that already grant these feats (avoid double-granting)
-- Balance review of Battle Medicine at Trained for all characters
+- Balance review of Battle Medicine at Trained — auto-granting in-combat healing to all characters with Trained Medicine is powerful. Monitor during playtesting for whether it reduces incentive to play dedicated healers.
+- Verify Efficient Crafting specifics once finalized in [Crafting](14-crafting.md).

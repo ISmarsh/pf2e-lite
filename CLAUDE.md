@@ -17,11 +17,29 @@ a mana math spreadsheet, and a README with document index. See [README](README.m
 - **Levels 1–10 only** (Master proficiency cap)
 - **ORC licensed** — based on PF2e Remastered content
 
+## Class Grid
+
+3 martial / 4 full caster / 4 empowered (one per tradition):
+
+| Role | Classes |
+|------|---------|
+| Martial | Fighter (STR), Rogue (DEX), Barbarian (STR/CON) |
+| Full caster (mana) | Wizard (INT/arcane), Cleric (WIS/divine), Druid (WIS/primal), Bard (CHA/occult) |
+| Empowered (focus spells) | Champion (STR/divine), Ranger (DEX/primal), Artificer (INT/arcane), Thaumaturge (CHA/occult) |
+
+- Psychic: moved to expansion (complex, niche — 6 conscious minds, amps, Unleash Psyche)
+- Bard: direct port as full occult caster (compositions + mana)
+
 ## Key Custom Classes
 
 - **Artificer** (`06-artificer.md`): INT arcane-empowered crafter, Alchemist-model chassis.
   Infusions are qualitative (add capabilities, not numerical bonuses).
 - **Thaumaturge** (`05-classes.md`): CHA occult-empowered martial, ported from Dark Archive.
+
+## Reference Sources
+
+- **RPGBot** (rpgbot.net): good mechanical analysis reference. Proprietary content
+  (no open license) — use as reference/inspiration, don't copy.
 
 ## Archives of Nethys — Elasticsearch API
 
