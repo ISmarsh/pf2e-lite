@@ -12,16 +12,16 @@ No gaps. Within levels 1-10, PF2e's natural proficiency progression rarely reach
 - ⚠️ Watch during playtesting: mana flexibility may change *pacing* (front-loading power) even though encounter *balance* is unchanged
 - See [Game Mastering](17-game-mastering.md)
 
-### Proficiency Auto-Unlock Feat List — Resolved
+### Skill Feat Evaluation — Resolved
 
-Complete list finalized. Three skills have auto-unlocks (Medicine, Crafting, Stealth); remaining 13 skills have no universal must-take feats. No class overlap issues.
+Evaluated all 16 skills for must-take feats (RPGBot ratings, community consensus, AoN API verification). Only Medicine had universally mandatory feats. Auto-unlock subsystem replaced with Medicine proficiency benefits.
 
-- ✅ Medicine: Battle Medicine (Trained), Continual Recovery (Expert), Ward Medic (Master)
-- ✅ Crafting: Repair (Trained), Quick Repair + Field Crafting (Expert), Efficient Crafting (Master)
-- ✅ Stealth: Swift Sneak (Master)
-- ✅ No class features auto-grant any of these — no double-granting
-- ⚠️ Watch during playtesting: Battle Medicine at Trained for all characters may reduce incentive for dedicated healers
-- See [Feats](08-feats.md)
+- ✅ Continual Recovery and Ward Medic folded into Medicine proficiency (Expert: 10-min immunity, Master: 4 targets)
+- ✅ Battle Medicine remains a general feat (genuine choice, not a tax)
+- ✅ Crafting/Stealth feats confirmed build-dependent, not mandatory
+- ✅ PF2e feat count corrected (15 across four tracks, not 17)
+- ✅ Feat density verified: 4 genuine choices vs PF2e's ~4-5, offset by Free Archetype
+- See [Skills](07-skills.md#proficiency-benefits) and [Feats](08-feats.md)
 
 ### Artificer Deep Design — Resolved
 
@@ -132,7 +132,6 @@ Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks deriv
 
 ### Crafting System Details
 
-- Finalize Master auto-unlock (Efficient Crafting specifics)
 - Define field crafting item list and DCs
 - Consumable batch size: is 4 the right number for all types?
 - See [Crafting](14-crafting.md)
@@ -162,7 +161,6 @@ Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks deriv
 ### Feats
 
 - Does merging general and skill feats feel like enough choices at each level?
-- Are there skill feats that feel mandatory but don't qualify for auto-unlock?
 
 ### Classes
 
