@@ -1,5 +1,7 @@
 # PF2e Lite — Design Skeleton
 
+@.planet-smars/templates/ai-context/AGENTS.md
+
 This is a tabletop RPG design project — markdown design documents, not code.
 No build system, no tests, no linting. Changes are markdown edits.
 
