@@ -147,5 +147,5 @@ Rare backgrounds have special mechanics beyond the standard framework. Require G
 
 - **All 56 common backgrounds ported.** Every remastered background is already setting-neutral. The original plan to curate 15–20 was unnecessary — none reference Golarion-specific content.
 - **Lore subcategories** with player-chosen topics (Terrain, City, etc.) add flavor at zero mechanical cost.
-- **Raised by Belief** references deities — use with setting-appropriate pantheon.
+- **Raised by Belief** references deities — use with setting-appropriate pantheon. In pantheonless settings, treat the "deity" as a defining ideal, philosophy, or cosmic force and work with the player to set appropriate edicts and anathema.
 - **Rare backgrounds** should be offered sparingly. Amnesiac, Haunted, and Feybound require significant GM investment. Blessed and Returned grant mechanical benefits (innate cantrip, Diehard) that other backgrounds don't.

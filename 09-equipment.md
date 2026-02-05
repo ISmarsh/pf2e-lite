@@ -466,7 +466,7 @@ Typical upgrade path for a martial character:
 
 ## Interaction with Artificer Infusions
 
-Artificer infusions (see [Artificer](06-artificer.md)) occupy a separate "space" from permanent runes. A weapon can have both its normal runes **and** an active infusion without conflict. Infusions provide qualitative capabilities (like a damage type or a utility effect), not numerical bonuses that would stack with fundamental runes.
+Artificer infusions (see [Artificer](06-artificer.md)) occupy a separate "space" from permanent runes. A weapon can have both its normal runes **and** an active infusion without conflict. Most infusions provide qualitative capabilities (like a damage type or a utility effect), not numerical bonuses. Exception: the Enchanter subclass can create temporary fundamental runes, but standard rune restrictions prevent stacking with existing ones.
 
 ## Design Notes
 
