@@ -53,7 +53,7 @@ Our Block Value and Durability Ticks are derived from PF2e's Hardness, HP, and B
 
 PF2e's Hardness directly reduces damage on Shield Block. Our Block Value does the same thing, so a direct conversion preserves the damage reduction math. Mundane shields block less damage per hit than Sturdy shields — this is intentional. Mundane shields are starter gear; Sturdy shields are the dedicated Shield Block upgrade path.
 
-**Durability Ticks ≈ ceil(BT / (avg damage at level − Hardness))**
+**Durability Ticks ≈ ceil(BT / (avg damage at level - Hardness))**
 
 This measures how many Shield Blocks a shield survives against level-appropriate monsters before reaching its Broken Threshold in PF2e. Average monster damage benchmarks: ~9 at level 1, ~13 at level 4, ~17 at level 7, ~21 at level 10.
 
