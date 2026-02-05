@@ -1,0 +1,3 @@
+[submodule ".planet-smars"]
+	path = .planet-smars
+	url = https://github.com/ISmarsh/planet-smars
