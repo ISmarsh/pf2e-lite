@@ -204,7 +204,7 @@ Upgraded shields with progressively better defenses. Available as loot or purcha
 | Sturdy Shield (Lesser) | 7 | 10 | 7 | 360 gp |
 | Sturdy Shield (Moderate) | 10 | 13 | 8 | 1,000 gp |
 
-> Block Value and Durability derived from PF2e's Hardness/HP/BT. See [Shields](13-shields.md) for the conversion formula and rationale.
+> Block Value and Durability derived from PF2e's Hardness/HP/BT. See [Conversion Formula](13-shields.md#conversion-formula) for the conversion formula and rationale.
 
 ### Material Shields
 

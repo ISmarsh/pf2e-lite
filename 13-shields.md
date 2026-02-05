@@ -130,7 +130,7 @@ Precious material shields use the base shield type's Block Value. Special materi
 | Dawnsilver | Standard | 8 | Base | Base +1 | Silver properties, 1 Bulk lighter |
 | Duskwood | Standard | 8 | Base | Base +1 | 1 Bulk lighter (wooden shields only) |
 
-> "Base" means the Block Value and Durability of the underlying shield type (Buckler, Wooden, Steel, or Tower). For example, a Standard Adamantine Steel Shield has Block 5 / Ticks 4 (Steel's 3 + 1 for special material).
+> "Base" means the Block Value and Durability of the underlying shield type (Buckler, Wooden, Steel, or Tower). For example, a Standard Adamantine Steel Shield has Block 5 / Ticks 4 (base Steel 3 + 1 for Adamantine material = 4 total).
 
 Material shields can also receive Reinforcing runes, stacking both bonuses.
 

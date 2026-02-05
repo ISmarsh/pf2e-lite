@@ -18,7 +18,7 @@ a mana math spreadsheet, and a README with document index. See [README](README.m
 
 - **Preserve PF2e's core math** (±10 crit threshold, 65% base hit rate, degrees of success)
 - **Simplify systems, not depth** — fewer subsystems, same tactical decisions
-- **Levels 1–10 only** (Master proficiency cap)
+- **Levels 1-10 only** (Master proficiency cap)
 - **ORC licensed** — based on PF2e Remastered content
 
 ## Class Grid
