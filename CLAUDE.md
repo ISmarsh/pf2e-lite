@@ -10,18 +10,40 @@ No build system, no tests, no linting. Changes are markdown edits.
 19 numbered design docs (`00-overview.md` through `18-open-questions.md`),
 a mana math spreadsheet, and a README with document index. See [README](README.md).
 
+## Writing Style
+
+- Use hyphens (`-`), not en dashes (`–`) or em dashes (`—`), for negative numbers and ranges (e.g., `-5 ft`, `levels 1-10`)
+
 ## Design Philosophy
 
 - **Preserve PF2e's core math** (±10 crit threshold, 65% base hit rate, degrees of success)
 - **Simplify systems, not depth** — fewer subsystems, same tactical decisions
-- **Levels 1–10 only** (Master proficiency cap)
+- **Levels 1-10 only** (Master proficiency cap)
 - **ORC licensed** — based on PF2e Remastered content
+
+## Class Grid
+
+3 martial / 4 full caster / 4 empowered (one per tradition):
+
+| Role | Classes |
+|------|---------|
+| Martial | Fighter (STR), Rogue (DEX), Barbarian (STR/CON) |
+| Full caster (mana) | Wizard (INT/arcane), Cleric (WIS/divine), Druid (WIS/primal), Bard (CHA/occult) |
+| Empowered (focus spells) | Champion (STR/divine), Ranger (DEX/primal), Artificer (INT/arcane), Thaumaturge (CHA/occult) |
+
+- Psychic: moved to expansion (complex, niche — 6 conscious minds, amps, Unleash Psyche)
+- Bard: direct port as full occult caster (compositions + mana)
 
 ## Key Custom Classes
 
 - **Artificer** (`06-artificer.md`): INT arcane-empowered crafter, Alchemist-model chassis.
   Infusions are qualitative (add capabilities, not numerical bonuses).
 - **Thaumaturge** (`05-classes.md`): CHA occult-empowered martial, ported from Dark Archive.
+
+## Reference Sources
+
+- **RPGBot** (rpgbot.net): good mechanical analysis reference. Proprietary content
+  (no open license) — use as reference/inspiration, don't copy.
 
 ## Archives of Nethys — Elasticsearch API
 

@@ -4,20 +4,24 @@
 
 ### Encounter Building Math Verification — Resolved
 
-No gaps. Within levels 1–10, PF2e's natural proficiency progression rarely reaches Master and never reaches Legendary. The "Master cap" isn't actively constraining anything — it's a restatement of "we stop at level 10." Fighter gets Master weapons at 5 (normal PF2e). All other classes stay at Expert in their key offensive stat through level 10 (normal PF2e). Creature stat benchmarks, XP budgets, and hit rate targets all port directly.
+No gaps. Within levels 1-10, PF2e's natural proficiency progression rarely reaches Master and never reaches Legendary. The "Master cap" isn't actively constraining anything — it's a restatement of "we stop at level 10." Fighter gets Master weapons at 5 (normal PF2e). All other classes stay at Expert in their key offensive stat through level 10 (normal PF2e). Creature stat benchmarks, XP budgets, and hit rate targets all port directly.
 
 - ✅ Master cap doesn't create gaps — classes naturally stay within Master through level 10
-- ✅ GM Core creature building benchmarks hold — designed for full 1–25 range, work fine at 1–10
+- ✅ GM Core creature building benchmarks hold — designed for full 1-25 range, work fine at 1-10
 - ✅ 65% hit rate and crit thresholds work — same proficiency bonuses as standard PF2e at these levels
 - ⚠️ Watch during playtesting: mana flexibility may change *pacing* (front-loading power) even though encounter *balance* is unchanged
 - See [Game Mastering](17-game-mastering.md)
 
-### Proficiency Auto-Unlock Feat List
+### Skill Feat Evaluation — Resolved
 
-- Complete list of auto-unlock feats per skill at Trained/Expert/Master
-- Cross-reference with class features that already grant these feats (avoid double-granting)
-- Playtest for balance — auto-granting Battle Medicine at Trained in Medicine is powerful
-- See [Feats](08-feats.md)
+Evaluated all 16 skills for must-take feats (RPGBot ratings, community consensus, AoN API verification). Only Medicine had universally mandatory feats. Auto-unlock subsystem replaced with Medicine proficiency benefits.
+
+- ✅ Continual Recovery and Ward Medic folded into Medicine proficiency (Expert: 10-min immunity, Master: 4 targets)
+- ✅ Battle Medicine remains a general feat (genuine choice, not a tax)
+- ✅ Crafting/Stealth feats confirmed build-dependent, not mandatory
+- ✅ PF2e feat count corrected (15 across four tracks, not 17)
+- ✅ Feat density verified: 4 genuine choices vs PF2e's ~4-5, offset by Free Archetype
+- See [Skills](07-skills.md#proficiency-benefits) and [Feats](08-feats.md)
 
 ### Artificer Deep Design — Resolved
 
@@ -58,7 +62,7 @@ All questions answered, class ports cleanly:
 - Grid would become **4 martial / 4 full caster / 4 empowered = 12 classes** — fully symmetric
 - Monk is WIS-based in PF2e — would add a WIS martial (currently WIS only has Cleric and Druid, both full casters)
 - Unarmed/unarmored chassis is mechanically distinct from all three existing martials
-- Flurry of Blows, ki spells (focus), stances — all port cleanly to levels 1–10
+- Flurry of Blows, ki spells (focus), stances — all port cleanly to levels 1-10
 - **Arguments for core:** symmetric grid, popular class fantasy, fills WIS martial gap, proven PF2e class
 - **Arguments for expansion:** currently listed as "niche for core," 11 classes is already many, adds documentation burden
 - See [Classes](05-classes.md)
@@ -88,7 +92,7 @@ All questions answered, class ports cleanly:
 
 ### Spell List Audit
 
-- Verify all PF2e spells in ranks 1–5 work with the mana system
+- Verify all PF2e spells in ranks 1-5 work with the mana system
 - Spells referencing Golarion-specific concepts need renaming
 - Spells balanced around specific slot counts may need rebalancing for mana flexibility
 - See [Spellcasting](10-spellcasting.md)
@@ -114,15 +118,20 @@ All questions answered, class ports cleanly:
 - Verify knockdown count reset timing
 - See [Dying](12-dying.md)
 
-### Shield Material Progression
+### Shield Material Progression — Resolved
 
-- Define wooden → steel → special material progression
-- Block value and durability numbers for each tier
+Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks derived from expected Shield Blocks at-level. Full progression documented including base shields, Sturdy shields, Reinforcing runes, and material shields.
+
+- ✅ Conversion formula with validation table
+- ✅ Base shields: Buckler 3/2, Wooden 3/2, Steel 5/3, Tower 5/3
+- ✅ Sturdy shields: Minor 8/6, Lesser 10/7, Moderate 13/8
+- ✅ Reinforcing runes: +2/+2, +3/+3, +4/+4 (trails Sturdy by design)
+- ✅ Material shields: special materials gain +1 Tick
+- ⚠️ Remaining: shield repair tick restoration amount (all ticks vs fixed number?)
 - See [Shields](13-shields.md)
 
 ### Crafting System Details
 
-- Finalize Master auto-unlock (Efficient Crafting specifics)
 - Define field crafting item list and DCs
 - Consumable batch size: is 4 the right number for all types?
 - See [Crafting](14-crafting.md)
@@ -152,7 +161,6 @@ All questions answered, class ports cleanly:
 ### Feats
 
 - Does merging general and skill feats feel like enough choices at each level?
-- Are there skill feats that feel mandatory but don't qualify for auto-unlock?
 
 ### Classes
 
@@ -174,7 +182,8 @@ All questions answered, class ports cleanly:
 1. ~~Encounter math verification~~ — ✅ Resolved, ports directly
 1. ~~Artificer class design~~ — ✅ Resolved. Full design in [06-artificer.md](06-artificer.md), balance report in [06c-artificer-balance-report.md](06c-artificer-balance-report.md)
 1. ~~Thaumaturge integration review~~ — ✅ Resolved, ports cleanly
-1. Auto-unlock feat list (first draft)
+1. ~~Auto-unlock feat list~~ — ✅ Resolved. Finalized in [08-feats.md](08-feats.md)
+1. ~~Shield conversion formula~~ — ✅ Resolved. Formula and full progression in [13-shields.md](13-shields.md)
 1. Pull all sections into a unified playtest document
 1. Begin human-written flavor text for classes and ancestries
 1. Character sheet design

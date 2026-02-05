@@ -142,9 +142,9 @@ The Provisioner's 10-minute swap is the "flexibility" answer at a slower timesca
 
 ### Level Tier Design Philosophy
 
-- **L1–4 (Pre-Rune Era):** Infusions are the only source of qualitative equipment enhancement. The party has no property runes yet. This is where the Artificer shines most visibly — elemental damage, weapon traits, darkvision, and resistance are things nobody else can provide.
-- **L5–7 (Transition):** A few property runes trickle in (Ghost Touch L4, Armor Potency L5). Infusions should increasingly occupy space runes don't — material bypasses, movement modes, environmental protection, talisman-style triggers.
-- **L8–10 (Rune Saturation):** Flaming, Frost, Energy-Resistant, and Resilient all arrive. Infusions shift hard into unique territory: trait combos, meta-rune effects (Rune Amplifier/Resonance), teleportation, flight. The Artificer's value proposition changes from "I give you things runes will eventually give you" to "I give you things runes can't."
+- **L1-4 (Pre-Rune Era):** Infusions are the only source of qualitative equipment enhancement. The party has no property runes yet. This is where the Artificer shines most visibly — elemental damage, weapon traits, darkvision, and resistance are things nobody else can provide.
+- **L5-7 (Transition):** A few property runes trickle in (Ghost Touch L4, Armor Potency L5). Infusions should increasingly occupy space runes don't — material bypasses, movement modes, environmental protection, talisman-style triggers.
+- **L8-10 (Rune Saturation):** Flaming, Frost, Energy-Resistant, and Resilient all arrive. Infusions shift hard into unique territory: trait combos, meta-rune effects (Rune Amplifier/Resonance), teleportation, flight. The Artificer's value proposition changes from "I give you things runes will eventually give you" to "I give you things runes can't."
 
 ### Rune Coexistence
 

@@ -16,7 +16,7 @@ All 16 PF2e skills preserved unchanged. Nothing is redundant enough to justify m
 | Diplomacy | Social | Persuade, gather information, make an impression |
 | Intimidation | Social | Demoralize, coerce |
 | Lore | Knowledge | Wildcard subcategory (Lore: Cooking, Lore: Sailing, etc.) |
-| Medicine | Technical | Treat wounds, first aid, battle medicine |
+| Medicine | Technical | Treat wounds, first aid, treat disease |
 | Nature | Knowledge | Primal magic, natural creatures, Command an Animal |
 | Occultism | Knowledge | Occult magic, occult creatures |
 | Performance | Social | Perform for an audience (Bard's primary skill) |
@@ -24,6 +24,20 @@ All 16 PF2e skills preserved unchanged. Nothing is redundant enough to justify m
 | Society | Knowledge | Law, government, culture, deciphering text |
 | Stealth | Physical | Sneak, hide, avoid detection |
 | Thievery | Technical | Pick locks, pick pockets, disable devices |
+
+## Proficiency Benefits
+
+Some skills grant additional benefits at higher proficiency ranks beyond the improved check bonus. These replace PF2e skill feats that were effectively mandatory — experienced players universally took them, making them feat taxes rather than real choices.
+
+### Medicine
+
+| Proficiency | Benefit |
+|-------------|---------|
+| Trained | Treat Wounds (base action) |
+| Expert | Treat Wounds immunity reduced to 10 minutes (instead of 1 hour) |
+| Master | Treat Wounds and Treat Disease can target up to 4 creatures simultaneously |
+
+This replaces Continual Recovery and Ward Medic from PF2e. Battle Medicine remains a general feat — it grants a fundamentally different action (single-action combat healing) rather than scaling an existing one, making it a genuine build choice.
 
 ## Design Notes
 

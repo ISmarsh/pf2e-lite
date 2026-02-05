@@ -2,7 +2,7 @@
 
 ## Vision
 
-A streamlined derivative of Pathfinder 2e Remastered, designed to lower the barrier to entry while preserving the tactical depth and tight math that make PF2e great. Targets levels 1–10 (Adventurer tier), where PF2e's design shines brightest.
+A streamlined derivative of Pathfinder 2e Remastered, designed to lower the barrier to entry while preserving the tactical depth and tight math that make PF2e great. Targets levels 1-10 (Adventurer tier), where PF2e's design shines brightest.
 
 ## Design Principles
 
@@ -14,7 +14,7 @@ A streamlined derivative of Pathfinder 2e Remastered, designed to lower the barr
 
 ## Scope
 
-- Levels 1–10 only
+- Levels 1-10 only
 - Proficiency cap: Master (no Legendary)
 - Four spell traditions: Arcane, Divine, Primal, Occult
 - 11 classes, 7 ancestries, 16 skills

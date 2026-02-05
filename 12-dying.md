@@ -20,8 +20,8 @@ When you reach 0 HP: you become **unconscious and dying**. You get three boxes: 
 | Result | Outcome |
 |--------|---------|
 | **Critical Success** (20+) | Clear two boxes. If none marked, wake at 0 HP |
-| **Success** (10–19) | Clear one box. If none marked, stabilize (unconscious but no longer dying) |
-| **Failure** (1–9) | Mark one box |
+| **Success** (10-19) | Clear one box. If none marked, stabilize (unconscious but no longer dying) |
+| **Failure** (1-9) | Mark one box |
 | **Critical Failure** (nat 1 or <0) | Mark two boxes |
 
 ### Taking Damage While Dying

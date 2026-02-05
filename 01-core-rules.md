@@ -2,7 +2,7 @@
 
 ## Level Range and Proficiency
 
-- **Levels 1–10** (Adventurer tier). This is where PF2e's math is tightest and the system performs best.
+- **Levels 1-10** (Adventurer tier). This is where PF2e's math is tightest and the system performs best.
 - **Maximum proficiency rank: Master.** No Legendary proficiency at this tier.
 - Preserves tight math: 65% base hit rate, ±10 crit threshold.
 

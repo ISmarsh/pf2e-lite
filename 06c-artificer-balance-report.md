@@ -50,7 +50,7 @@ Gravity Weapon's bonus is a status bonus (can be overwritten by Inspire Courage)
 - Versatile Vials: 2 + INT mod per day, recover 2 per 10-minute rest
 - At INT +4: 8 daily items + 6 vials
 
-**Design rationale:** Our Artificer subclass version should produce approximately 50–60% of the full PF2e Alchemist's output. The remaining power budget is spent on:
+**Design rationale:** Our Artificer subclass version should produce approximately 50-60% of the full PF2e Alchemist's output. The remaining power budget is spent on:
 - Tamper (universal combat action — no PF2e Alchemist equivalent)
 - Crafting auto-scaling (Expert@3, Master@7 — faster than any other class)
 - Arcwright spells (focus spell access through feats)

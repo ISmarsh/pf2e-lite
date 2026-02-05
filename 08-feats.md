@@ -2,7 +2,7 @@
 
 ## Overview
 
-PF2e's four feat tracks (class, skill, general, ancestry) consolidated to **three chosen tracks** plus one automatic system. Reduces browsing complexity while preserving meaningful character customization.
+PF2e's four feat tracks (class, skill, general, ancestry) consolidated to **three tracks**. Reduces browsing complexity while preserving meaningful character customization.
 
 ## The Three Feat Tracks
 
@@ -33,51 +33,27 @@ PF2e's four feat tracks (class, skill, general, ancestry) consolidated to **thre
 | 9 | — | ✓ | ✓ |
 | 10 | ✓ | — | — |
 
-**Total: 5 class + 4 general + 3 ancestry = 12 feats** (down from PF2e's 17 across four tracks).
+**Total: 5 class + 4 general + 3 ancestry = 12 feats** (down from PF2e's 15 across four tracks).
 
 With Free Archetype as standard (see [Core Rules](01-core-rules.md)), characters also get archetype feats at every even level, partially compensating for the reduction.
 
-## Proficiency Auto-Unlocks
+## Skill Feats in the General Pool
 
-When you reach a proficiency threshold in a skill, you automatically gain the feat that most players would take anyway. The "feat tax" becomes a reward for investment.
+PF2e's skill feats join the general feat pool as genuine choices. After evaluating all 16 skills for "must-take" feats (using RPGBot ratings and community consensus), only Medicine had feats that were effectively mandatory rather than build-dependent. Those two feats — Continual Recovery and Ward Medic — are folded into Medicine proficiency benefits instead of existing as feats (see [Skills](07-skills.md#proficiency-benefits)).
 
-**Design test:** "Would an experienced PF2e player tell a new player they're making a mistake by *not* taking this feat?" If yes, it should auto-unlock.
+All remaining skill feats (Battle Medicine, Quick Repair, Swift Sneak, Intimidating Glare, Bon Mot, etc.) are genuine choices in the merged general pool.
 
-### Likely Candidates (To Be Finalized)
+### Why no other skills have mandatory feats
 
-**Medicine:**
-
-- Trained: Battle Medicine
-- Expert: Continual Recovery
-- Master: Ward Medic
-
-**Athletics:**
-
-- Expert: Titan Wrestler or similar
-
-**Intimidation:**
-
-- Trained: Intimidating Glare
-
-**Crafting:**
-
-- Expert: Quick Repair + Field Crafting (see [Crafting](14-crafting.md))
-- Master: Efficient Crafting
-
-**Stealth:**
-
-- Expert: Swift Sneak
-
-Other skills have fewer "mandatory" feats, so their skill feats stay in the general pool as genuine choices.
+- **Crafting:** Quick Repair and specialty feats (Alchemical, Magical, Snare) are build-dependent. The Craft and Repair actions already scale by proficiency (more HP restored, higher-level items craftable).
+- **Stealth:** Swift Sneak is Green-rated (nice, not essential). Sneaking at half Speed is a meaningful trade-off, not a trap.
+- **Athletics:** Feats vary by fighting style — Titan Wrestler matters for grapplers, not swimmers.
+- **Intimidation:** Intimidating Glare is useful but not essential — Demoralize works fine verbally.
+- **Social / Knowledge / Thievery:** All feats are build-dependent or roleplay-dependent. No universal taxes.
 
 ## Feat Density Math
 
-- PF2e across levels 1–10: 5 skill feats + 4 general feats = 9 picks from those tracks
-- Our system: 4 general feats (merged pool) + ~3–6 automatic proficiency unlocks = 7–10 total
-- Result: Similar feat density, higher average quality of choices, less time browsing for the "right" answer
-
-## Open Design Work
-
-- Complete list of auto-unlock feats per skill: deferred until classes are fully sketched
-- Interaction between auto-unlocks and class features that already grant these feats (avoid double-granting)
-- Balance review of Battle Medicine at Trained for all characters
+- PF2e levels 1-10: 5 skill feats + 2 general feats = 7 picks from those tracks, but 2-3 are mandatory (Medicine chain for any healer), leaving ~4-5 genuine choices
+- Our system: 4 general feats from a merged pool, all genuine choices. Medicine's mandatory feats are proficiency benefits, not feat picks.
+- Free Archetype (standard in our system, see [Core Rules](01-core-rules.md)) adds 5 archetype feats as a separate customization axis.
+- Net: 4 genuine choices vs PF2e's ~4-5 genuine choices. The gap is 0-1 feat, offset by archetype flexibility.

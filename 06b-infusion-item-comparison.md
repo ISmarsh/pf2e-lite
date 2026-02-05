@@ -16,7 +16,7 @@
 
 ## Weapon Infusions vs Property Runes
 
-### Relevant PF2e Weapon Property Runes (L1–10)
+### Relevant PF2e Weapon Property Runes (L1-10)
 
 | Rune | Lvl | Price | Effect |
 |------|-----|-------|--------|
@@ -67,7 +67,7 @@
 
 ## Armor Infusions vs Property Runes & Material Armors
 
-### Relevant PF2e Armor Runes (L1–10)
+### Relevant PF2e Armor Runes (L1-10)
 
 | Rune/Material | Lvl | Price | Effect |
 |---------------|-----|-------|--------|
@@ -90,7 +90,7 @@
 | **Resistant Coating** | 1 | Energy-Resistant | 8 | Temporal gap (7 levels) | R2 at L1 vs R5 at L8. Infusion covers the entire pre-rune era. At L8+, they coexist covering different elements. Auto-scaling (R3 at L5, R5 at L9) means the infusion grows to match the rune's value. **Consider: scaling should cap below rune value** (e.g., R2 → R3 → R4 instead of R5) to maintain rune superiority. |
 | **Featherlight Treatment** | 1 | — | — | ZERO overlap | No rune reduces check/speed penalties. Pure utility, always relevant. |
 | **Reactive Shield Plating** | 2 | — | — | ZERO overlap | "Shield absorbs chosen energy type entirely during Block" has no rune parallel. Tactical, reactive — good design space for Wardsmith. |
-| **Impact Dampener** | 3 | Fortification (L12), Adamantine Armor (L12) | 12 | ZERO overlap (in range) | Physical damage resistance has no rune in L1–10. Fortification (crit prevention) is L12 and a different mechanic. |
+| **Impact Dampener** | 3 | Fortification (L12), Adamantine Armor (L12) | 12 | ZERO overlap (in range) | Physical damage resistance has no rune in L1-10. Fortification (crit prevention) is L12 and a different mechanic. |
 | **Fortifying Weave** | 4 | — | — | ZERO overlap | "Crit fail → regular fail for one condition" is unique. Narrow but clutch. |
 | **Environmental Seal** | 5 | Electric Eelskin (L10, underwater only) | 10 | Temporal gap + broader | Eelskin only covers underwater. Our version covers heat, cold, underwater, or toxic. Available 5 levels earlier. |
 | **Displacement Mesh** | 7 | Invisibility rune (L8) | 8 | Low overlap | Invisibility is proactive (10 min invisible). Displacement Mesh is reactive (concealed for 1 round when hit, 1/encounter). Completely different tactical use. |
@@ -109,7 +109,7 @@
 
 ## Gear Infusions vs Worn Items
 
-### Key PF2e Worn Items (L1–10)
+### Key PF2e Worn Items (L1-10)
 
 | Item | Lvl | Price | Effect |
 |------|-----|-------|--------|
@@ -129,11 +129,11 @@
 
 | Infusion | Lvl | Closest Worn Item | Their Lvl | Overlap | Notes |
 |----------|-----|-------------------|-----------|---------|-------|
-| **Nighteye Modification** | 1 | Darkvision Elixir (L2, 10 min) | L2 (consumable) | Temporal gap + duration | Elixir: 10 min, consumable. Infusion: all-day. No permanent worn item grants darkvision in L1–10. Obsidian Goggles (L5) only give low-light. Eyes of the Cat (L9) give low-light + Perception. **Darkvision is a huge gap in the worn item space** — this infusion fills it perfectly. |
+| **Nighteye Modification** | 1 | Darkvision Elixir (L2, 10 min) | L2 (consumable) | Temporal gap + duration | Elixir: 10 min, consumable. Infusion: all-day. No permanent worn item grants darkvision in L1-10. Obsidian Goggles (L5) only give low-light. Eyes of the Cat (L9) give low-light + Perception. **Darkvision is a huge gap in the worn item space** — this infusion fills it perfectly. |
 | **Sure-Footed Soles** | 2 | Feather Step Stone (L3 talisman, 8 gp) | L3 (single use) | Low overlap | Talisman is one Step. Infusion is all-day ignore non-magical difficult terrain. Massively stronger sustained effect. |
 | **Climbing Grips** | 3 | Arboreal Boots (L5, 160 gp) | L5 | Temporal gap (2 levels) | Arboreal Boots give +1 Stealth + climb bonus on plants. Our version gives raw climb speed (half land speed). Different: ours is movement mode, theirs is skill bonus. |
-| **Scent Amplifier** | 3 | — | — | ZERO overlap | No worn item in L1–10 grants scent. Unique sensory enhancement. |
-| **Aquatic Apparatus** | 4 | Extra Lung (L8, 500 gp), Electric Eelskin (L10) | L8–10 | Temporal gap (4–6 levels) | Breathe underwater + swim speed at L4. Nearest permanent worn items are L8–L10. Huge temporal advantage. |
+| **Scent Amplifier** | 3 | — | — | ZERO overlap | No worn item in L1-10 grants scent. Unique sensory enhancement. |
+| **Aquatic Apparatus** | 4 | Extra Lung (L8, 500 gp), Electric Eelskin (L10) | L8-10 | Temporal gap (4-6 levels) | Breathe underwater + swim speed at L4. Nearest permanent worn items are L8-L10. Huge temporal advantage. |
 | **Whispering Resonator** | 5 | Aeon Stone Envisioning (L8, 425 gp) | L8 | Temporal gap (3 levels) | Our version: 30 ft telepathy. Aeon Stone: 100 ft telepathy. Earlier but shorter range. At L8 the aeon stone is strictly better if you can afford it. |
 | **Terrain Skimmers** | 6 | — | — | ZERO overlap | Ignore ALL difficult terrain (including magical). No worn item provides this. Upgrade path from Sure-Footed Soles. |
 | **Leaping Springs** | 7 | Boots of Bounding (L7, 340 gp) | 7 | **Direct overlap** | Both at L7, both enhance jumping. Boots: High Jump as 1 action, +10 distances. Infusion: no initial Stride for jumps, +10 distances. Very similar effects. **FLAG: The 340 gp permanent item does almost the same thing as a daily infusion slot.** Either differentiate more (e.g., infusion grants +20 feet or adds a minor flight component) or lean into it as "the budget version that costs a slot instead of gold." |
@@ -145,7 +145,7 @@
 - **3 of 10 have zero overlap** — unique sensory/movement effects
 - **5 have temporal gaps** — infusions as early access to effects worn items provide later
 - **1 has direct overlap (Leaping Springs ↔ Boots of Bounding)** — needs differentiation
-- **Darkvision is a standout gap** — no permanent worn item grants darkvision in L1–10, making Nighteye Modification extremely valuable
+- **Darkvision is a standout gap** — no permanent worn item grants darkvision in L1-10, making Nighteye Modification extremely valuable
 - Gear infusions occupy the "movement modes and senses" space that worn items spread across many price points
 
 ---
@@ -207,7 +207,7 @@
 
 3. **Leaping Springs (L7)** — Near-identical to Boots of Bounding (L7, 340 gp). Differentiate: increase jump bonus to +20 ft, or add a minor aerial component (e.g., "you can change direction mid-jump" or "you don't provoke reactions while jumping").
 
-4. **Neutralizing Agent (L6)** — Too strong at L6 for instant condition removal. Options: add a flat check (DC 10), limit to poisons only (let diseases need Philosopher's Draught), or raise to L7–8.
+4. **Neutralizing Agent (L6)** — Too strong at L6 for instant condition removal. Options: add a flat check (DC 10), limit to poisons only (let diseases need Philosopher's Draught), or raise to L7-8.
 
 5. **Bottled Lightning (L7)** — 4d6 + stunned 1 matches PF2e's L11 Greater Bottled Lightning. Reduce to 3d6, or accept as intentional Artificer power.
 
@@ -217,7 +217,7 @@
 
 2. **Meta-rune effects (Rune Amplifier, Rune Resonance)** — No PF2e item enhances existing runes. Brilliant L9 design that bridges infusions and the rune system.
 
-3. **All-day darkvision at L1** — Nighteye Modification fills a genuine gap. No permanent worn item grants darkvision in L1–10. Signature Artificer utility.
+3. **All-day darkvision at L1** — Nighteye Modification fills a genuine gap. No permanent worn item grants darkvision in L1-10. Signature Artificer utility.
 
 4. **Armor infusion category** — 7 of 10 have zero overlap. Best-differentiated category overall.
 
@@ -227,9 +227,9 @@
 
 | Tier | Infusion Design Goal | Validation |
 |------|---------------------|------------|
-| **L1–4** (Pre-Rune Era) | Infusions provide capabilities nobody else can | ✅ Confirmed. Darkvision, energy type tags, weapon traits, energy resistance, difficult terrain — all uniquely available through infusions at these levels. |
-| **L5–7** (Transition) | Shift toward effects runes can't replicate | ✅ Mostly confirmed. Weapon traits, environmental protection, scent, magical terrain bypass all have zero rune overlap. Two exceptions (Phasing Edge, Returning Mechanism) need fixes. |
-| **L8–10** (Rune Saturation) | Unique territory: trait combos, meta-rune, teleport, flight | ✅ Confirmed. Rune Amplifier/Resonance, Trait Fusion, Displacement Locus, Aegis Protocol — all occupy space runes explicitly don't. |
+| **L1-4** (Pre-Rune Era) | Infusions provide capabilities nobody else can | ✅ Confirmed. Darkvision, energy type tags, weapon traits, energy resistance, difficult terrain — all uniquely available through infusions at these levels. |
+| **L5-7** (Transition) | Shift toward effects runes can't replicate | ✅ Mostly confirmed. Weapon traits, environmental protection, scent, magical terrain bypass all have zero rune overlap. Two exceptions (Phasing Edge, Returning Mechanism) need fixes. |
+| **L8-10** (Rune Saturation) | Unique territory: trait combos, meta-rune, teleport, flight | ✅ Confirmed. Rune Amplifier/Resonance, Trait Fusion, Displacement Locus, Aegis Protocol — all occupy space runes explicitly don't. |
 
 ### Item Economy Observations
 
@@ -240,7 +240,7 @@ Infusions compete with worn items and runes for the "equipment enhancement" budg
 - **Infusions:** No gold cost, uses a daily infusion slot. Flexible (swap daily) but limited (slot count caps throughput).
 
 This means infusions are strongest when:
-- The party can't afford the permanent item yet (L1–4 especially)
+- The party can't afford the permanent item yet (L1-4 especially)
 - Flexibility matters more than permanence (dungeon has fire elementals today, undead tomorrow)
 - The effect has no permanent item equivalent at all (weapon traits, scent, meta-rune)
 
