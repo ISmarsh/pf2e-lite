@@ -1,14 +1,15 @@
 # Classes
 
-## Roster (11 Classes)
+## Roster (12 Classes)
 
-Three martials covering the physical stats, a full caster and an empowered class for each of the four spell traditions. Empowered classes express their tradition through class features and focus spells — no mana pool.
+Four martials covering the physical stats, a full caster and an empowered class for each of the four spell traditions. Empowered classes express their tradition through class features and focus spells — no mana pool.
 
 | Class | Role | Primary Stat | Tradition | Tier |
 |-------|------|-------------|-----------|------|
 | **Fighter** | STR martial | STR | — | Martial |
 | **Rogue** | DEX martial | DEX | — | Martial |
 | **Barbarian** | CON martial | STR/CON | — | Martial |
+| **Monk** | Unarmed martial | STR/DEX | — | Martial |
 | **Wizard** | Arcane full caster | INT | Arcane | Full Caster |
 | **Artificer** | Arcane-empowered crafter | INT | Arcane | Empowered |
 | **Cleric** | Divine full caster | WIS | Divine | Full Caster |
@@ -30,13 +31,13 @@ Mana is a full-caster-only system. Empowered classes get their magic through cla
 
 ### Stat Balance
 
-- **STR:** Fighter, Barbarian, Champion — 3 classes
-- **DEX:** Rogue, Ranger — 2 classes
+- **STR:** Fighter, Barbarian, Champion, Monk — 4 classes (Monk chooses STR or DEX)
+- **DEX:** Rogue, Ranger, Monk — 3 classes (Monk chooses STR or DEX)
 - **INT:** Wizard, Artificer — 2 classes
 - **WIS:** Cleric, Druid — 2 classes
 - **CHA:** Bard, Thaumaturge — 2 classes
 
-Every mental stat has exactly two classes. STR has three (appropriate since it's the martial stat with three martials).
+Every mental stat has exactly two classes. STR and DEX are well-represented across the martial roster, with Monk straddling both. Monk's optional qi spells key off WIS, giving that stat secondary martial relevance.
 
 ## Ported Classes
 
@@ -58,6 +59,14 @@ All non-Artificer classes port directly from PF2e Remastered. Mechanical chassis
 - **Instincts (6):** Animal, Dragon, Fury, Giant, Spirit, Superstition
 - All mechanical, no Golarion dependencies. Dragon references generic dragon types.
 - All port directly.
+
+### Monk
+
+- **No formal subclass.** Differentiated entirely through stance choices — combat style emerges from stance feat selections (Crane, Dragon, Mountain, Tiger, Wolf, etc.). Same approach as Fighter.
+- **Qi spells** are optional, gained through the Qi Spells feat (level 1). Player chooses divine or occult tradition for their qi spells; spellcasting attribute is WIS. Focus pool system (1-3 Focus Points).
+- **Core features:** Flurry of Blows (two unarmed Strikes as one action), Powerful Fist (1d6 unarmed, no lethal penalty), Incredible Movement (+10 ft at L3, +15 ft at L7), Mystic Strikes (magical unarmed at L3), Expert Strikes at L5, Path to Perfection (one save to Master) at L7, Metal Strikes (cold iron/silver) at L9.
+- **Unarmed/unarmored chassis:** Expert unarmored defense from L1, no armor proficiency. Uses Explorer's Clothing for armor property runes and Handwraps of Mighty Blows for weapon runes (see [Equipment](09-equipment.md)).
+- Ports directly from Player Core 2.
 
 ### Wizard
 
@@ -127,7 +136,6 @@ Each empowered class has a signature mechanic that defines its identity. No mana
 Classes reserved for future expansion:
 
 - **Psychic** — CHA occult caster with conscious minds, amps, and Unleash Psyche. Powerful and mechanically distinct but complex — 6 conscious minds, per-cantrip amp modifications, crash state management. Strong expansion class for experienced players. Streamlining candidates: standardize amps, simplify Unleash Psyche crash to "can't Unleash again this combat."
-- **Monk** — Unarmed/unarmored martial. Interesting but niche for core.
 - **Sorcerer** — Overlaps with Wizard in arcane caster space. Bloodline mechanics are cool expansion content.
 - **Witch** — CHA occult caster with familiar. Familiar management complexity deferred; strong expansion class.
 - **Magus** — Arcane gish with Spellstrike. Strong expansion with established dedication template.

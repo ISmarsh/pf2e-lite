@@ -17,7 +17,7 @@ A streamlined derivative of Pathfinder 2e Remastered, designed to lower the barr
 - Levels 1-10 only
 - Proficiency cap: Master (no Legendary)
 - Four spell traditions: Arcane, Divine, Primal, Occult
-- 11 classes, 7 ancestries, 16 skills
+- 12 classes, 7 ancestries, 16 skills
 - Streamlined conditions, dying, shields, feats, and crafting
 - Free Archetype and Gradual Ability Boosts as standard rules
 

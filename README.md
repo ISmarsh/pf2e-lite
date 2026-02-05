@@ -15,7 +15,7 @@
 | 02 | [Character Creation](02-character-creation.md) | Stub | Character creation walkthrough, ability scores, gradual boosts |
 | 03 | [Ancestries](03-ancestries.md) | Draft | 7 core ancestries, 43 heritages, class pairings, expansion candidates |
 | 04 | [Backgrounds](04-backgrounds.md) | Stub | Character backgrounds, skill training, ability boosts |
-| 05 | [Classes](05-classes.md) | Draft | 11-class roster, subclasses, stat balance, expansion candidates |
+| 05 | [Classes](05-classes.md) | Draft | 12-class roster, subclasses, stat balance, expansion candidates |
 | 06 | [Artificer](06-artificer.md) | Draft | Full Artificer design — infusions, 4 subclasses, crafting interaction |
 | 07 | [Skills](07-skills.md) | Draft | 16 skills unchanged from PF2e, design rationale |
 | 08 | [Feats](08-feats.md) | Draft | Three feat tracks, proficiency auto-unlocks, advancement table |
@@ -25,7 +25,7 @@
 | 12 | [Dying](12-dying.md) | Draft | Three-box dying system, baked-in wounded, survival probability |
 | 13 | [Shields](13-shields.md) | Draft | Simplified shield system — block value, durability ticks |
 | 14 | [Crafting](14-crafting.md) | Draft | Redesigned crafting — 25% cost, proficiency-based time, batch crafting |
-| 15 | [Dedications](15-dedications.md) | Draft | Multiclass dedication templates, all 11 dedications, Artificer dedication |
+| 15 | [Dedications](15-dedications.md) | Draft | Multiclass dedication templates, all 12 dedications, Artificer dedication |
 | 16 | [Exploration & Downtime](16-exploration.md) | Stub | Exploration mode, travel, rest, downtime activities |
 | 17 | [Game Mastering](17-game-mastering.md) | Draft | Encounter math verified, XP budgets, DCs, creature benchmarks, treasure by level |
 | 18 | [Open Questions](18-open-questions.md) | Draft | Prioritized to-do, open design questions, next steps |
@@ -43,11 +43,11 @@
 - **Simplified shields** — Block value + durability ticks
 - **Three feat tracks** — Class / General (merged skill+general) / Ancestry + proficiency auto-unlocks
 - **16 skills unchanged**
-- **11 classes** — 3 martial + 4 full caster + 4 empowered (one per tradition pair)
+- **12 classes** — 4 martial + 4 full caster + 4 empowered (one per tradition pair)
 - **Empowered classes** — Tradition-flavored martial/skill classes with focus spells, no mana pool (Champion, Ranger, Artificer, Thaumaturge)
 - **Artificer** — INT arcane-empowered crafter, Alchemist-model infusion system, 4 subclasses
 - **Thaumaturge** — CHA occult-empowered martial, Exploit Vulnerability + Implements, ported from Dark Archive
 - **7 ancestries, 43 heritages** — All ported from PF2e Remastered
 - **Crafting redesigned** — 25% material cost, 1-3 day crafting time by proficiency
 - **Free Archetype + Gradual Ability Boosts** — Standard rules
-- **All multiclass dedications defined** — Three templates (martial/empowered/full caster)
+- **All multiclass dedications defined** — Three templates (martial/empowered/full caster), 12 dedications total

@@ -25,7 +25,7 @@ Multiclass dedications allow any character to gain basic features of another cla
 
 Key difference from full caster dedications: the dedication feat grants the signature mechanic instead of cantrips. No Basic Spellcasting option.
 
-### Martial Dedications (Fighter, Rogue, Barbarian)
+### Martial Dedications (Fighter, Rogue, Barbarian, Monk)
 
 - **Dedication feat (level 2):** Weapon/armor training + reduced signature feature
 - **Basic Class Feat (level 4):** Pick a class feat of half your level or lower
@@ -51,6 +51,13 @@ Key difference from full caster dedications: the dedication feat grants the sign
 - **Prerequisite:** STR 14, CON 14
 - **Grants:** Ability to Rage (reduced duration/uses), trained in a Barbarian skill
 - Ports directly.
+
+### Monk Dedication
+
+- **Prerequisite:** STR 14, DEX 14
+- **Grants:** Trained in unarmed attacks, Powerful Fist (1d6 fists, no lethal penalty), trained in Acrobatics or Athletics (or a free skill if already trained in both), trained in monk class DC
+- Leads to Basic Kata (class feat access), Monk's Flurry (Flurry of Blows), Monk Moves (Incredible Movement), Monk Resiliency (HP bonus), Perfection's Path (Path to Perfection).
+- Ports directly from Player Core 2.
 
 ### Wizard Dedication
 

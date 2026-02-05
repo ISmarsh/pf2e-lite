@@ -115,6 +115,16 @@ These require the appropriate ancestry or a feat granting access.
 | Temple Sword | 1d8 | S | 1 | 2 gp | 1 | Monk, Trip | Sword |
 | Wakizashi | 1d4 | S | 1 | 1 gp | L | Agile, Deadly d8, Finesse, Versatile P | Sword |
 
+### Handwraps of Mighty Blows
+
+| Item | Level | Price | Bulk |
+|------|-------|-------|------|
+| Handwraps of Mighty Blows | 2 | 5 gp | — |
+
+Worn on hands. Transfer weapon fundamental runes (potency, striking) and property runes to all unarmed attacks. Etch runes onto handwraps using the same rune costs and levels as weapons — a Monk with +1 Striking handwraps deals 2d6 with fists at the same cost as a Fighter's +1 Striking longsword.
+
+Essential for unarmed-focused characters (primarily Monk). Without handwraps, unarmed attacks can't benefit from item bonuses to attack rolls or extra damage dice from striking runes.
+
 ### Ammunition
 
 | Type | Price (per 10) | Bulk |
