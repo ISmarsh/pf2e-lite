@@ -10,6 +10,10 @@ No build system, no tests, no linting. Changes are markdown edits.
 19 numbered design docs (`00-overview.md` through `18-open-questions.md`),
 a mana math spreadsheet, and a README with document index. See [README](README.md).
 
+## Writing Style
+
+- Use hyphens (`-`), not en dashes (`–`) or em dashes (`—`), for negative numbers and ranges (e.g., `-5 ft`, `levels 1-10`)
+
 ## Design Philosophy
 
 - **Preserve PF2e's core math** (±10 crit threshold, 65% base hit rate, degrees of success)

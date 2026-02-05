@@ -100,4 +100,4 @@ See [Dedications](15-dedications.md) for full multiclass details.
 - Mana cost curve needs playtesting validation
 - Partial mana recovery: deferred, preserving PF2e's no-slot-recovery philosophy
 - Staves, arcane bond, slot-expansion equivalents: future design space, not in base system
-- Spell list audit: verify all PF2e spells in ranks 1–5 work with mana system
+- Spell list audit: verify all PF2e spells in ranks 1-5 work with mana system

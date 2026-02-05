@@ -22,7 +22,7 @@ All mechanics ported directly from PF2e Remastered under ORC. Golarion-specific 
 | **8 HP** | Gnome | Human |
 | **10 HP** | — | Dwarf, Orc |
 
-Good coverage. Every class archetype has at least 3–4 strong ancestry pairings. The only empty cell (Small 10 HP) is a niche fantasy not needed for core.
+Good coverage. Every class archetype has at least 3-4 strong ancestry pairings. The only empty cell (Small 10 HP) is a niche fantasy not needed for core.
 
 ## Ancestry Mechanics
 

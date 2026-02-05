@@ -84,7 +84,7 @@ Mundane shields (Buckler/Wooden at 2 ticks, Steel at 3 ticks) are intentionally 
 | Steel Shield | +2 | 5 | 3 | 2 gp | 1 |
 | Tower Shield | +2 (+4 Take Cover) | 5 | 3 | 10 gp | 4 |
 
-> **Tower Shield:** Takes an action to set in place (Take Cover), granting +4 AC instead of +2. –5 ft speed penalty while wielding.
+> **Tower Shield:** Takes an action to set in place (Take Cover), granting +4 AC instead of +2. -5 ft speed penalty while wielding.
 
 ### Sturdy Shields
 

@@ -36,7 +36,7 @@
 
 ## Key Design Decisions
 
-- **Levels 1–10, Master cap** — Adventurer tier only
+- **Levels 1-10, Master cap** — Adventurer tier only
 - **Mana replaces Vancian** — Moderate cost curve (1/2/4/7/11), long rest recovery only, full-caster-only
 - **20 conditions** — Down from 40+, two-tier detection
 - **Three-box dying** — Visual checkboxes, baked-in wounded escalation
@@ -48,6 +48,6 @@
 - **Artificer** — INT arcane-empowered crafter, Alchemist-model infusion system, 4 subclasses
 - **Thaumaturge** — CHA occult-empowered martial, Exploit Vulnerability + Implements, ported from Dark Archive
 - **7 ancestries, 43 heritages** — All ported from PF2e Remastered
-- **Crafting redesigned** — 25% material cost, 1–3 day crafting time by proficiency
+- **Crafting redesigned** — 25% material cost, 1-3 day crafting time by proficiency
 - **Free Archetype + Gradual Ability Boosts** — Standard rules
 - **All multiclass dedications defined** — Three templates (martial/empowered/full caster)

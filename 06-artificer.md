@@ -30,7 +30,7 @@ INT arcane-empowered crafter. The system's best crafter — combat, exploration,
 | **Artificer Class DC** | Trained | |
 | **Skills** | Crafting + 3 + INT | Matches Inventor |
 
-## Universal Base Class Features (L1–10)
+## Universal Base Class Features (L1-10)
 
 ### Level 1
 
@@ -490,7 +490,7 @@ Simplified from PF2e's version — failure locks out risky actions, not your ent
 - **Talisman output scaling replaces rune dominance.** L1-4, the Enchanter's value is free fundamental runes. L5+, talisman volume becomes the identity — 3/slot at L5, 4/slot at L8 means dedicating 2-3 slots to talismans floods the party with triggered effects. This parallels Alchemist consumable scaling and ensures the Enchanter's power curve doesn't dip when the party starts buying their own runes.
 - **Compared to Talisman Dabbler archetype.** The Enchanter is strictly better at talismans: more daily production (slots vs Dabbler's fixed 2+2+2), Rapid Affixture from L1 (Dabbler needs Quick Fix at L4), class DC scaling (Dabbler uses item DC). The Enchanter also adds runes — territory Talisman Dabbler doesn't touch.
 - **Compared to Thaumaturge Talisman Esoterica.** Same 2→4→6 progression (L2/L8/L14) but capped at half character level. Enchanter's full-level cap and slot-based volume are the power levers. Thaumaturge/Dabbler know all common talisman formulas for free — Enchanter's formula book is a real constraint. Remote Trigger has no parallel in either comparison.
-- **Possible feat-line improvements:** (a) *Encyclopedic Enchantments* — know formulas for all common talismans at your level or lower (removes formula book constraint, parallels Thaumaturge/Dabbler). (b) *Dual Enchantment* — one item can bear two of your talismans simultaneously (parallels Grand Talisman Esoterica / Talismanic Sage at L14; for our L10 cap, could land at L8–10 as a class feat).
+- **Possible feat-line improvements:** (a) *Encyclopedic Enchantments* — know formulas for all common talismans at your level or lower (removes formula book constraint, parallels Thaumaturge/Dabbler). (b) *Dual Enchantment* — one item can bear two of your talismans simultaneously (parallels Grand Talisman Esoterica / Talismanic Sage at L14; for our L10 cap, could land at L8-10 as a class feat).
 - **Worn items excluded at base.** Temporary worn items (goggles, boots, cloaks) are a natural expansion via class feats but add complexity. Base Enchanter sticks to runes and talismans — simpler formula list, cleaner slot math.
 - **Feat thinness — expansion-ready.** The Enchanter has the fewest dedicated class feats (~6) of any subclass. Functional but thin — Enchanter players lean on arcwright and universal feats more than other subclasses. Natural expansion candidates: worn item enchantments, multi-rune application, talisman-triggered buffs, enchantment transfer between items mid-day.
 
@@ -545,7 +545,7 @@ Arcwright spell feats (Initiate through Master) compete with subclass feats for 
 | **Tenacious Toxins** | Alchemist | — | Poisons you create last 1 additional stage before removal on a successful save. |
 | **Megaton Strike** | Innovator | — | 2 actions: Strike with innovation weapon, adding an extra weapon damage die. On a critical hit, add 2 extra dice instead. |
 | **Dual-Form Weapon** | Innovator | Modification | Weapon innovation transforms between two base weapon forms (choose both when you take this feat). Switch with an Interact action. Both forms benefit from modifications. |
-| **Surprise Deployment** | Gadgeteer | — | Deploy Gadget into a space occupied by an enemy. Trap-type gadgets trigger immediately; target takes –2 circumstance penalty to its save. |
+| **Surprise Deployment** | Gadgeteer | — | Deploy Gadget into a space occupied by an enemy. Trap-type gadgets trigger immediately; target takes -2 circumstance penalty to its save. |
 | **Extended Launcher** | Gadgeteer | — | Gadget Launcher range increment increases to 60 ft. Deploy Gadget (fire) range also increases to 60 ft. |
 | **Talisman Rotation** | Enchanter | — | During a 10-minute rest, swap up to 2 of your temporary talismans between items, replace them with different formulas, or remove them. Doesn't cost enchantment slots. |
 
@@ -555,7 +555,7 @@ Arcwright spell feats (Initiate through Master) compete with subclass feats for 
 |------|-------------|--------|---------|
 | **Expert Arcwright** | Artificer (Initiate Arcwright) | — | Gain 1 expert arcwright spell. +1 focus point (max 3). Repeatable. See [Arcwright Spells](#focus-spells--arcwright-spells). |
 | **Directional Bombs** | Alchemist | — | Shape bomb splash into a 15-ft cone originating from the target instead of normal splash area. Allies in the cone's origin square are unaffected. |
-| **Debilitating Bomb** | Alchemist | Additive | Choose a debilitation when creating a bomb: dazzled, flat-footed, –5 ft Speed, or –1 circumstance to attack rolls. On a hit, target gains that condition until the start of your next turn. |
+| **Debilitating Bomb** | Alchemist | Additive | Choose a debilitation when creating a bomb: dazzled, flat-footed, -5 ft Speed, or -1 circumstance to attack rolls. On a hit, target gains that condition until the start of your next turn. |
 | **Sticky Poison** | Alchemist | — | Applied injury poison persists through 2 successful Strikes instead of being consumed on the first. |
 | **Combine Elixirs** | Alchemist | Additive | Add a second elixir's effects when creating an elixir via Quick Alchemy (costs 1 additional versatile vial). Target gains both benefits from a single dose. |
 | **Megavolt** | Innovator | Electricity | 2 actions: 30-ft line of electricity from your innovation. 4d12 electricity damage (basic Reflex). While in Overdrive, line extends to 60 ft. |
@@ -592,7 +592,7 @@ Arcwright spell feats (Initiate through Master) compete with subclass feats for 
 
 ### Class Feat Design Notes
 
-- **54 feats total** (11 + 8 + 9 + 9 + 9 + 8). Each subclass player sees ~15–20 options across their career, selecting 6 feats.
+- **54 feats total** (11 + 8 + 9 + 9 + 9 + 8). Each subclass player sees ~15-20 options across their career, selecting 6 feats.
 - **Alchemist has the most feats** (~20) because four specialization lines create breadth. Gadgeteer and Enchanter are leaner (~9 and ~7) because their subclass features are front-loaded.
 - **Additive feats** are the Alchemist's signature — they modify items created via Quick Alchemy, rewarding in-combat improvisation.
 - **Unstable feats** give the Innovator high-risk/high-reward options. Players can go Unstable-heavy or avoid Unstable entirely.

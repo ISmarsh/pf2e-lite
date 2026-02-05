@@ -130,7 +130,7 @@ Key traits that affect combat math:
 
 | Trait | Effect |
 |-------|--------|
-| Agile | –4 MAP instead of –5 on 2nd attack, –8 instead of –10 on 3rd |
+| Agile | -4 MAP instead of -5 on 2nd attack, -8 instead of -10 on 3rd |
 | Backstabber | +1 precision damage against off-guard targets |
 | Deadly dX | Extra damage dice on critical hit |
 | Fatal dX | Damage die changes to dX on critical hit, +1 dX |
@@ -143,7 +143,7 @@ Key traits that affect combat math:
 | Trip | Can use weapon for Trip attempts |
 | Two-Hand dX | Damage die changes when wielded in two hands |
 | Versatile X | Can deal alternate damage type |
-| Volley X ft | –2 to attacks within listed range |
+| Volley X ft | -2 to attacks within listed range |
 
 ## Armor
 
@@ -154,16 +154,16 @@ Key traits that affect combat math:
 | Unarmored | — | +0 | — | — | — | — | — | — | — |
 | Explorer's Clothing | Unarmored | +0 | +5 | — | — | 1 sp | L | Comfort | Cloth |
 | Padded Armor | Light | +1 | +3 | 0 | — | 2 sp | L | Comfort | Cloth |
-| Leather Armor | Light | +1 | +4 | –1 | — | 2 gp | 1 | — | Leather |
-| Studded Leather | Light | +2 | +3 | –1 | — | 3 gp | 1 | — | Leather |
-| Chain Shirt | Light | +2 | +3 | –1 | — | 5 gp | 1 | Flexible, Noisy | Chain |
-| Hide Armor | Medium | +3 | +2 | –2 | –5 ft | 2 gp | 2 | — | Leather |
-| Scale Mail | Medium | +3 | +2 | –2 | –5 ft | 4 gp | 2 | — | Composite |
-| Chain Mail | Medium | +4 | +1 | –2 | –5 ft | 6 gp | 2 | Flexible, Noisy | Chain |
-| Breastplate | Medium | +4 | +1 | –2 | –5 ft | 8 gp | 2 | — | Plate |
-| Splint Mail | Heavy | +5 | +1 | –3 | –10 ft | 13 gp | 3 | — | Composite |
-| Half Plate | Heavy | +5 | +1 | –3 | –10 ft | 18 gp | 3 | — | Plate |
-| Full Plate | Heavy | +6 | +0 | –3 | –10 ft | 30 gp | 4 | Bulwark | Plate |
+| Leather Armor | Light | +1 | +4 | -1 | — | 2 gp | 1 | — | Leather |
+| Studded Leather | Light | +2 | +3 | -1 | — | 3 gp | 1 | — | Leather |
+| Chain Shirt | Light | +2 | +3 | -1 | — | 5 gp | 1 | Flexible, Noisy | Chain |
+| Hide Armor | Medium | +3 | +2 | -2 | -5 ft | 2 gp | 2 | — | Leather |
+| Scale Mail | Medium | +3 | +2 | -2 | -5 ft | 4 gp | 2 | — | Composite |
+| Chain Mail | Medium | +4 | +1 | -2 | -5 ft | 6 gp | 2 | Flexible, Noisy | Chain |
+| Breastplate | Medium | +4 | +1 | -2 | -5 ft | 8 gp | 2 | — | Plate |
+| Splint Mail | Heavy | +5 | +1 | -3 | -10 ft | 13 gp | 3 | — | Composite |
+| Half Plate | Heavy | +5 | +1 | -3 | -10 ft | 18 gp | 3 | — | Plate |
+| Full Plate | Heavy | +6 | +0 | -3 | -10 ft | 30 gp | 4 | Bulwark | Plate |
 
 **Bulwark:** Use +3 modifier for Reflex saves if your DEX modifier is +0 or +1.
 
@@ -192,7 +192,7 @@ Uses simplified Block Value + Durability Ticks system (see [Shields](13-shields.
 | Steel Shield | +2 | 5 | 3 | 2 gp | 1 |
 | Tower Shield | +2 (+4 Take Cover) | 5 | 3 | 10 gp | 4 |
 
-> **Tower Shield:** Takes an action to set in place (Take Cover), granting +4 AC instead of +2. –5 ft speed penalty while wielding.
+> **Tower Shield:** Takes an action to set in place (Take Cover), granting +4 AC instead of +2. -5 ft speed penalty while wielding.
 
 ### Sturdy Shields
 
@@ -208,17 +208,17 @@ Upgraded shields with progressively better defenses. Available as loot or purcha
 
 ### Material Shields
 
-Precious material shields available in the L1–10 range:
+Precious material shields available in the L1-10 range:
 
 | Material | Grade | Level | Block | Ticks | Price | Notes |
 |----------|-------|-------|-------|-------|-------|-------|
-| Cold Iron | Low | 2 | Base | Base | 30–34 gp | Effective against fey, demons |
-| Silver | Low | 2 | Base | Base | 30–34 gp | Effective against devils, werewolves |
-| Cold Iron | Standard | 7 | Base | Base | 300–340 gp | |
-| Silver | Standard | 7 | Base | Base | 300–340 gp | |
-| Adamantine | Standard | 8 | Base | Base +1 | 400–440 gp | Hardest common metal |
-| Dawnsilver | Standard | 8 | Base | Base +1 | 400–440 gp | Silver properties, 1 Bulk lighter |
-| Duskwood | Standard | 8 | Base | Base +1 | 400–560 gp | 1 Bulk lighter (wood only) |
+| Cold Iron | Low | 2 | Base | Base | 30-34 gp | Effective against fey, demons |
+| Silver | Low | 2 | Base | Base | 30-34 gp | Effective against devils, werewolves |
+| Cold Iron | Standard | 7 | Base | Base | 300-340 gp | |
+| Silver | Standard | 7 | Base | Base | 300-340 gp | |
+| Adamantine | Standard | 8 | Base | Base +1 | 400-440 gp | Hardest common metal |
+| Dawnsilver | Standard | 8 | Base | Base +1 | 400-440 gp | Silver properties, 1 Bulk lighter |
+| Duskwood | Standard | 8 | Base | Base +1 | 400-560 gp | 1 Bulk lighter (wood only) |
 
 > "Base" = the Block Value and Durability of the underlying shield type. Special materials (Adamantine, Dawnsilver, Duskwood) gain +1 Tick for superior construction. Price range reflects buckler vs shield vs tower shield variants. See [Shields](13-shields.md) for full material progression.
 
@@ -258,7 +258,7 @@ Fundamental runes provide the core numerical progression for weapons and armor.
 
 > Reinforcing runes stack with shield base stats and material bonuses. A reinforced shield trails a Sturdy shield at the same level — Sturdy is the dedicated Shield Block option, Reinforcing keeps special-ability shields viable for occasional blocking. See [Shields](13-shields.md) for comparison table.
 
-### Weapon Property Runes (Level 1–10)
+### Weapon Property Runes (Level 1-10)
 
 | Rune | Level | Price | Effect |
 |------|-------|-------|--------|
@@ -278,7 +278,7 @@ Fundamental runes provide the core numerical progression for weapons and armor.
 | Extending | 9 | 700 gp | 2-action activate: Strike with 60 ft reach |
 | Grievous | 9 | 700 gp | Enhanced critical specialization effect by weapon group |
 
-### Armor Property Runes (Level 1–10)
+### Armor Property Runes (Level 1-10)
 
 | Rune | Level | Price | Effect |
 |------|-------|-------|--------|
@@ -295,7 +295,7 @@ Fundamental runes provide the core numerical progression for weapons and armor.
 
 ## Precious Materials
 
-### Materials Available at Levels 1–10
+### Materials Available at Levels 1-10
 
 | Material | Rarity | Low-Grade | Std-Grade | Properties |
 |----------|--------|-----------|-----------|------------|
@@ -326,7 +326,7 @@ For armor:
 | Cold Iron / Silver | Standard | 11 | 1,200 gp + 120 gp/Bulk |
 | Adamantine / Dawnsilver / Duskwood / Dragonhide | Standard | 12 | 1,600 gp + 160 gp/Bulk |
 
-> Standard-grade material weapons (L10–11) and armor (L11–12) are at the edge of our level range. Low-grade cold iron and silver weapons (L2) are the primary material interaction at early levels.
+> Standard-grade material weapons (L10-11) and armor (L11-12) are at the edge of our level range. Low-grade cold iron and silver weapons (L2) are the primary material interaction at early levels.
 
 ### Material Damage Interactions
 
@@ -446,8 +446,8 @@ Per PF2e GM Core treasure tables. Use these to calibrate loot and shop availabil
 
 Per our crafting system (see [Crafting](14-crafting.md)):
 - Material cost: 25% of item price
-- Formula cost: ~10–15% of item price
-- First craft total: ~35–40% of item price
+- Formula cost: ~10-15% of item price
+- First craft total: ~35-40% of item price
 - Subsequent crafts: 25% of item price
 
 ### Equipment Progression Benchmarks

@@ -4,10 +4,10 @@
 
 ### Encounter Building Math Verification — Resolved
 
-No gaps. Within levels 1–10, PF2e's natural proficiency progression rarely reaches Master and never reaches Legendary. The "Master cap" isn't actively constraining anything — it's a restatement of "we stop at level 10." Fighter gets Master weapons at 5 (normal PF2e). All other classes stay at Expert in their key offensive stat through level 10 (normal PF2e). Creature stat benchmarks, XP budgets, and hit rate targets all port directly.
+No gaps. Within levels 1-10, PF2e's natural proficiency progression rarely reaches Master and never reaches Legendary. The "Master cap" isn't actively constraining anything — it's a restatement of "we stop at level 10." Fighter gets Master weapons at 5 (normal PF2e). All other classes stay at Expert in their key offensive stat through level 10 (normal PF2e). Creature stat benchmarks, XP budgets, and hit rate targets all port directly.
 
 - ✅ Master cap doesn't create gaps — classes naturally stay within Master through level 10
-- ✅ GM Core creature building benchmarks hold — designed for full 1–25 range, work fine at 1–10
+- ✅ GM Core creature building benchmarks hold — designed for full 1-25 range, work fine at 1-10
 - ✅ 65% hit rate and crit thresholds work — same proficiency bonuses as standard PF2e at these levels
 - ⚠️ Watch during playtesting: mana flexibility may change *pacing* (front-loading power) even though encounter *balance* is unchanged
 - See [Game Mastering](17-game-mastering.md)
@@ -62,7 +62,7 @@ All questions answered, class ports cleanly:
 - Grid would become **4 martial / 4 full caster / 4 empowered = 12 classes** — fully symmetric
 - Monk is WIS-based in PF2e — would add a WIS martial (currently WIS only has Cleric and Druid, both full casters)
 - Unarmed/unarmored chassis is mechanically distinct from all three existing martials
-- Flurry of Blows, ki spells (focus), stances — all port cleanly to levels 1–10
+- Flurry of Blows, ki spells (focus), stances — all port cleanly to levels 1-10
 - **Arguments for core:** symmetric grid, popular class fantasy, fills WIS martial gap, proven PF2e class
 - **Arguments for expansion:** currently listed as "niche for core," 11 classes is already many, adds documentation burden
 - See [Classes](05-classes.md)
@@ -92,7 +92,7 @@ All questions answered, class ports cleanly:
 
 ### Spell List Audit
 
-- Verify all PF2e spells in ranks 1–5 work with the mana system
+- Verify all PF2e spells in ranks 1-5 work with the mana system
 - Spells referencing Golarion-specific concepts need renaming
 - Spells balanced around specific slot counts may need rebalancing for mana flexibility
 - See [Spellcasting](10-spellcasting.md)

@@ -53,7 +53,7 @@ All remaining skill feats (Battle Medicine, Quick Repair, Swift Sneak, Intimidat
 
 ## Feat Density Math
 
-- PF2e levels 1–10: 5 skill feats + 2 general feats = 7 picks from those tracks, but 2–3 are mandatory (Medicine chain for any healer), leaving ~4–5 genuine choices
+- PF2e levels 1-10: 5 skill feats + 2 general feats = 7 picks from those tracks, but 2-3 are mandatory (Medicine chain for any healer), leaving ~4-5 genuine choices
 - Our system: 4 general feats from a merged pool, all genuine choices. Medicine's mandatory feats are proficiency benefits, not feat picks.
 - Free Archetype (standard in our system, see [Core Rules](01-core-rules.md)) adds 5 archetype feats as a separate customization axis.
-- Net: 4 genuine choices vs PF2e's ~4–5 genuine choices. The gap is 0–1 feat, offset by archetype flexibility.
+- Net: 4 genuine choices vs PF2e's ~4-5 genuine choices. The gap is 0-1 feat, offset by archetype flexibility.

@@ -20,7 +20,7 @@ PF2e's crafting is widely considered the system's weakest subsystem. It takes to
 |---|---|---|
 | Material cost | 50% of item price | 25% of item price |
 | Effective savings per item | ~50% (most players stop here) | ~75% |
-| Base crafting time | 4 days (flat, all proficiencies) | 1–3 days (by proficiency) |
+| Base crafting time | 4 days (flat, all proficiencies) | 1-3 days (by proficiency) |
 | Extended crafting for more savings | Yes (tiny marginal savings/day) | **No** — savings built into material cost |
 | Proficiency impact on time | None (only affects extended savings rate) | Direct — higher proficiency = faster crafting |
 
@@ -61,7 +61,7 @@ Base Crafting (Trained) only allows mundane items. Specialty feats (from the mer
 | **Magical Crafting** | Trained in Crafting | Magic items (runes, wands, scrolls, talismans, enchanted equipment) |
 | **Snare Crafting** | Trained in Crafting | Traps and snares |
 
-Taking a specialty feat is a meaningful investment (one of four general feats across levels 1–10), rewarded by the substantial savings crafting provides.
+Taking a specialty feat is a meaningful investment (one of four general feats across levels 1-10), rewarded by the substantial savings crafting provides.
 
 ## Formulas
 
@@ -104,20 +104,20 @@ Gives Crafting active utility during adventures without producing permanent item
 
 ### Wealth Impact
 
-A dedicated crafter (feat + skill investment + formula library) crafting all major items levels 1–10 saves approximately **1,440 gp** after formula costs, against total expected wealth of ~8,500 gp. That's roughly a **17% wealth advantage**.
+A dedicated crafter (feat + skill investment + formula library) crafting all major items levels 1-10 saves approximately **1,440 gp** after formula costs, against total expected wealth of ~8,500 gp. That's roughly a **17% wealth advantage**.
 
 ### Mitigating Factors
 
 - **Formula investment:** ~255 gp in formulas across the campaign
 - **Feat opportunity cost:** One of four general feats dedicated to crafting
 - **Skill opportunity cost:** Crafting proficiency instead of another skill
-- **Time investment:** 8–10 days of downtime that could be spent on other activities
+- **Time investment:** 8-10 days of downtime that could be spent on other activities
 - **Failure risk:** Statistical likelihood of at least one failure across major crafts
 - **GM throttle:** Formula availability naturally paced by what's available in settlements
 
 ### Party Crafter Scenario
 
-If the Artificer crafts for all four party members, time constraints limit total output. Crafting 20 major items at 1–2 days each = 20–40 days of downtime. Most campaigns have 30–60 days total. Net party wealth advantage: ~10–12%, earned through significant time and resource investment.
+If the Artificer crafts for all four party members, time constraints limit total output. Crafting 20 major items at 1-2 days each = 20-40 days of downtime. Most campaigns have 30-60 days total. Net party wealth advantage: ~10-12%, earned through significant time and resource investment.
 
 **Assessment:** Balanced. The wealth advantage is real but earned, constrained by time, and proportional to opportunity costs.
 
