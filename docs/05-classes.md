@@ -41,7 +41,7 @@ Every mental stat has exactly two classes. STR and DEX are well-represented acro
 
 ## Ported Classes
 
-All non-Artificer classes port directly from PF2e Remastered. Mechanical chassis, subclasses, and class feats are all ORC-licensed. Golarion-specific flavor text must be rewritten as original human-created content. Thaumaturge is from Dark Archive (ORC-licensed).
+All non-Artificer classes port directly from PF2e Remastered. Mechanical chassis, subclasses, and class feats are all ORC-licensed. Golarion-specific flavor text must be rewritten as original human-created content. Thaumaturge ports from Dark Archive Remastered (2026, ORC-licensed).
 
 ### Fighter
 
@@ -113,7 +113,7 @@ All non-Artificer classes port directly from PF2e Remastered. Mechanical chassis
 - **Esoteric Lore:** CHA-based special knowledge skill for identifying all creatures.
 - **Scroll Thaumaturgy:** Can activate scrolls from any tradition using class DC — reflects broad esoteric knowledge despite occult tradition association.
 - No formal subclass — implements ARE the specialization. Low play complexity (pick 2 of 9), high build variety.
-- Evolved from PF1e Occultist. Ports directly from Dark Archive (ORC-licensed).
+- Evolved from PF1e Occultist. Ports directly from Dark Archive Remastered (2026, ORC-licensed).
 - **Note:** Thaumaturge has no tradition in PF2e (no spellcasting). For our grid, we assign occult tradition to any focus spells gained through feats, matching the class's flavor and lineage.
 
 ## Artificer (New Design)

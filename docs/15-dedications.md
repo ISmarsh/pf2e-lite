@@ -109,7 +109,7 @@ Key difference from full caster dedications: the dedication feat grants the sign
 - **Grants:** Trained in thaumaturge class DC, trained in a skill (Arcana/Nature/Occultism/Religion), one implement (held as focus, no initiate benefit yet), **Glimpse Vulnerability** (simplified Exploit Vulnerability — grants flat weakness 2 against your Strikes, doesn't scale like full Personal Antithesis)
 - **Level 6 — Implement Initiate:** Gain your implement's initiate benefit.
 - **Level 8 — Magical Knowledge:** Advance skill proficiencies (expert → master, trained → expert).
-- Ports directly from PF2e Dark Archive.
+- Ports directly from PF2e Dark Archive Remastered.
 
 ### Empowered Dedication vs Full Class (Artificer Example)
 

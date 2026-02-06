@@ -23,23 +23,41 @@ A streamlined derivative of Pathfinder 2e Remastered, designed to lower the barr
 
 ## Licensing — ORC
 
-Released under the **ORC License (Open RPG Creative License)**.
+Released under the **ORC License** (Open RPG Creative License), registered at
+the Library of Congress as TX 9-307-067. Software code is MIT licensed. See
+[ORC_NOTICE.md](../ORC_NOTICE.md) for full attribution and [LICENSE](../LICENSE) for the code license.
 
-**Licensed Material (can use):**
+### ORC Sources
+
+All game content derives from these ORC-licensed Paizo publications:
+
+| Source | Year | Content Used |
+|--------|------|-------------|
+| Player Core | 2023 | 8 core classes, ancestries, feats, spells, skills |
+| Player Core 2 | 2024 | 4 additional classes (Alchemist, Barbarian, Champion, Monk), snares |
+| GM Core | 2023 | DC tables, creature benchmarks, encounter math, treasure by level |
+| Rage of Elements | 2023 | Elemental spells and kineticist-adjacent content |
+| Howl of the Wild | 2024 | Ancestry options, creature types |
+| War of Immortals | 2024 | Class design patterns (Animist, Exemplar as reference) |
+| Divine Mysteries | 2024 | Divine tradition spells, deity-replacement guidance |
+| Guns & Gears Remastered | 2025 | Inventor chassis (Artificer base), gadget items |
+| Dark Archive Remastered | 2026 | Thaumaturge class, implements, Exploit Vulnerability |
+
+### Licensed Material (can use)
 
 - Game mechanics: statblocks, rules, character attributes, systems
 - Spell mechanics: range, area, numerical effects, mechanical descriptions
 - Class mechanics: proficiency progressions, HP, feat lists, class features
 - The license explicitly permits use "in connection with printed books, video games, podcasts, AI, or any other technology"
 
-**Reserved Material (cannot use):**
+### Reserved Material (cannot use)
 
 - Trademarks (Pathfinder, Golarion, etc.)
 - World lore, story arcs, distinctive characters (named NPCs, deities)
 - Visual art
 - Named deities, specific locations, setting-specific history
 
-**Practical implications:**
+### Practical implications
 
 - All PF2e mechanical systems are available (classes, ancestries, feats, spells, conditions, etc.)
 - Golarion lore, named deities, and Paizo IP characters must be replaced
@@ -53,7 +71,7 @@ AI is used as a design partner only — mechanics, brainstorming, math analysis.
 
 **Paizo's AI policy** bans AI-generated content in their own products and on the Pathfinder Infinite marketplace. This does not restrict independent ORC-licensed projects, but community sentiment is strongly anti-AI-generated content. Transparent framing matters: "AI-assisted design," not "AI-generated product."
 
-## Reference Sources (ORC Licensed)
+## Reference Sources
 
 - **Archives of Nethys** (2e.aonprd.com) — Complete PF2e Remastered rules reference
 - **GM Core Chapter 2** — Building Creatures benchmark stat tables

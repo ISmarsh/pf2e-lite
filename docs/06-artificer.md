@@ -8,7 +8,7 @@ INT arcane-empowered crafter. The system's best crafter — combat, exploration,
 
 - **Inventor** — Tamper, Crafting proficiency auto-scaling (Expert Overdrive / Master Overdrive model), Overdrive (→ Innovator subclass)
 - **Alchemist** — Advanced Alchemy daily prep model, consumable batch production, versatile vials (→ Alchemist subclass)
-- **Gadget + Snare items** (Guns & Gears, Player Core 2, Grand Bazaar) — Clockwork/mechanical devices and traps, merged under unified "gadget" category (→ Gadgeteer subclass)
+- **Gadget + Snare items** (Guns & Gears Remastered, Player Core 2) — Clockwork/mechanical devices and traps, merged under unified "gadget" category (→ Gadgeteer subclass)
 - **Original infusion design** — Qualitative equipment enhancements (→ Enchanter subclass, see [06a](06a-artificer-infusions.md) for backup drafts)
 
 ## Base Class Proficiencies
@@ -409,13 +409,13 @@ Simplified from PF2e's version — failure locks out risky actions, not your ent
 
 ### Gadgeteer
 
-**Original subclass.** Draws from PF2e Gadget items (Guns & Gears) and Snare items (Player Core 2, Grand Bazaar, etc.), rebranded under a unified "gadget" category. Produces clockwork/mechanical devices deployed into the environment. Party role: battlefield controller, tactical utility, ranged support.
+**Original subclass.** Draws from PF2e Gadget items (Guns & Gears Remastered) and Snare items (Player Core 2), rebranded under a unified "gadget" category. Produces clockwork/mechanical devices deployed into the environment. Party role: battlefield controller, tactical utility, ranged support.
 
 **Subclass pacing:** L1 / L5 / L7. No sub-specialization at L1 — gadget variety comes from formula book breadth and feat choices.
 
 #### L1 — Gadgeteer's Workshop
 
-- **Gadget Crafting** (free feat) — New specialty feat. Replaces and subsumes Snare Crafting. Unlocks the full "gadget" formula pool: published PF2e gadget items (Guns & Gears) and snare items (Player Core 2, Grand Bazaar, etc.), all treated as gadgets. ~98 items at L1-10. Covers traps, scouts, smoke devices, deployable cover, launchers, and other mechanical creations.
+- **Gadget Crafting** (free feat) — New specialty feat. Replaces and subsumes Snare Crafting. Unlocks the full "gadget" formula pool: published PF2e gadget items (Guns & Gears Remastered) and snare items (Player Core 2), all treated as gadgets. ~98 items at L1-10. Covers traps, scouts, smoke devices, deployable cover, launchers, and other mechanical creations.
 - **Daily Gadgets** — During daily prep, produce a number of gadgets from your formula book equal to your **INT modifier** (minimum 1). Items last until next daily prep. No in-combat recovery — what you prepped is what you've got.
 - **Gadget Launcher** — Class-specific simple ranged weapon. Your signature tool — fires small bolts normally, or delivers gadgets at range via Deploy Gadget.
 
@@ -437,7 +437,7 @@ Simplified from PF2e's version — failure locks out risky actions, not your ent
   - Some powerful gadgets (large area denial, complex deployables) cost **2 actions** — noted per-gadget.
 
   **Published item examples (place):** Alarm Snare (L1), Hampering Snare (L1), Trip Snare (L4), Clockwork Chirper (L3)
-  **Published item examples (fire):** Smoke Fan (L2), Explosive Mine (L1), Cryomister (L1), Flash Pellet / Dust Pods (L1)
+  **Published item examples (fire):** Smoke Fan (L2), Explosive Mine (L1), Cryomister (L1)
 
 #### L5 — Reliable Gadgets
 
@@ -453,7 +453,7 @@ Simplified from PF2e's version — failure locks out risky actions, not your ent
 - **Gadget launcher is a hybrid weapon.** Strike with it for 1d4 P (modest fallback damage), or Deploy Gadget (fire) through it to deliver gadget effects at 30 ft range. One item, two uses — always in your hand. Modeled on Wrist Launcher (1d4, 1H, free-hand) and Bomb Launcher (consumable delivery at range). A class feat could extend range to 60 ft (Bomb Launcher parity) at higher levels.
 - **Battlefield controller identity.** Alchemist uses personal consumables. Innovator buffs themselves. Gadgeteer shapes the environment — creates favorable conditions, then fights in the terrain they've built.
 - **Simpler resource model than Alchemist.** No vial system, no improvised creation. Just daily gadgets and deployment. Tactical complexity comes from placement and timing, not resource juggling.
-- **Merged gadget + snare pool.** Published gadgets alone (~45 items/variants L1-10, mostly Guns & Gears) were too thin. Published snares (~53 items L1-10, Player Core 2 + Grand Bazaar + Guns & Gears + APs) provide excellent coverage. Combined pool of ~98 items is very healthy — real selection pressure at every level. Many snares are already clockwork devices (Clockwork Monkey, Detonating Gears, Flame Drake Snare, Frost Worm Snare). Natural/organic snares (poison barbs, dream pollen, grasping tree) trivially reflavored as alchemical/mechanical variants.
+- **Merged gadget + snare pool.** Published gadgets alone (~45 items/variants L1-10, mostly Guns & Gears Remastered) were too thin. Published snares (~53 items L1-10, Player Core 2 + Guns & Gears Remastered) provide excellent coverage. Combined pool of ~98 items is very healthy — real selection pressure at every level. Many snares are already clockwork devices (Clockwork Monkey, Detonating Gears, Flame Drake Snare, Frost Worm Snare). Natural/organic snares (poison barbs, dream pollen, grasping tree) trivially reflavored as alchemical/mechanical variants.
 - **Gadget Crafting replaces Snare Crafting.** The Gadgeteer doesn't take Snare Crafting — Gadget Crafting subsumes it. Any character can still take Snare Crafting as a skill feat for the basic snare pool; the Gadgeteer's advantage is daily prep volume, class DC scaling (Reliable Gadgets at L5), and perpetual gadgets at L7. Rangers keep their Snare Crafting feat chain — different economy (feat-gated free snares vs daily prep slots), no conflict.
 - **Rarity access.** The common core (~18 snares, mostly Player Core 2) is available to all Gadgeteers via Gadget Crafting. Uncommon items (~66 items) require finding formulas — formula book is the real constraint. Rare items (~9) require GM permission as usual. This mirrors Alchemist and Enchanter formula book models.
 
@@ -484,7 +484,7 @@ Simplified from PF2e's version — failure locks out risky actions, not your ent
 #### Design Notes
 
 - **Existing items, not custom infusions.** The Enchanter's formula list draws from published PF2e runes and talismans rather than bespoke infusion effects. The class adds value by making permanent magic items temporary and slot-based instead of gold-based. See [06a](06a-artificer-infusions.md) for the original custom infusion design (retained as backup/reference).
-- **Fundamental runes are a conscious exception** to the "qualitative over quantitative" design principle. Weapon Potency +1 and Striking are numerical bonuses — but low-level buff spells (Runic Weapon, Magic Weapon) already grant similar effects on a per-encounter basis. Temporary enchantments are the daily-prep equivalent. May need rebalancing if they trivialize gold economy at higher levels.
+- **Fundamental runes are a conscious exception** to the "qualitative over quantitative" design principle. Weapon Potency +1 and Striking are numerical bonuses — but low-level buff spells (Runic Weapon) already grant similar effects on a per-encounter basis. Temporary enchantments are the daily-prep equivalent. May need rebalancing if they trivialize gold economy at higher levels.
 - **Rune restrictions preserve balance.** Standard PF2e rules mean the Enchanter fills gaps, not piles on. Low-level party with no runes gets Weapon Potency +1 and Striking from the Enchanter. High-level party with permanent runes gets property runes filling remaining slots, or shifts Enchanter resources toward talismans.
 - **Remote Trigger is low-bespoke by design.** Talismans already define their own trigger conditions and effects — Remote Trigger only changes who spends the reaction. One-sentence rule, no new checks or damage formulas. The Enchanter's combat identity: distribute talismans before the fight, quarterback their activation during it. Trades your own reaction economy for allies keeping theirs.
 - **Talisman output scaling replaces rune dominance.** L1-4, the Enchanter's value is free fundamental runes. L5+, talisman volume becomes the identity — 3/slot at L5, 4/slot at L8 means dedicating 2-3 slots to talismans floods the party with triggered effects. This parallels Alchemist consumable scaling and ensures the Enchanter's power curve doesn't dip when the party starts buying their own runes.
@@ -598,7 +598,7 @@ Arcwright spell feats (Initiate through Master) compete with subclass feats for 
 - **Unstable feats** give the Innovator high-risk/high-reward options. Players can go Unstable-heavy or avoid Unstable entirely.
 - **Modification feats** expand the Innovator's innovation beyond the 2 standard modifications (Initial + Breakthrough). Each costs a feat slot.
 - **No hard prerequisites within chains** except where noted (Gigaton → Megaton, Greater Debilitating → Debilitating, Electrify → armor innovation).
-- **Sources.** Alchemist feats ported from PF2e Alchemist (Player Core 2). Innovator feats ported from PF2e Inventor (Guns & Gears). Gadgeteer feats adapted from Snarecrafter archetype and Ranger snare feats (Player Core 2). Enchanter feats adapted from Talisman Dabbler archetype and crafting skill feats, plus new designs.
+- **Sources.** Alchemist feats ported from PF2e Alchemist (Player Core 2). Innovator feats ported from PF2e Inventor (Guns & Gears Remastered). Gadgeteer feats adapted from Snarecrafter archetype and Ranger snare feats (Player Core 2). Enchanter feats adapted from Talisman Dabbler archetype and crafting skill feats, plus new designs.
 - **Number tuning deferred.** Damage dice, healing amounts, bonus values, and DCs are first-pass estimates. Subject to balance pass alongside production slot counts.
 
 ## Artificer and Crafting

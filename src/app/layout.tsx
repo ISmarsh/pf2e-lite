@@ -20,15 +20,25 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="flex min-w-0 flex-1 flex-col">
             <main className="flex-1 px-6 py-8 md:px-10">{children}</main>
             <footer className="border-t border-stone-200 px-6 py-4 text-sm text-stone-500 md:px-10">
-              Licensed under the{' '}
+              Game content licensed under the{' '}
               <a
-                href="https://paizo.com/community/communityuse/openrpgcreativelicense"
+                href="https://paizo.com/orclicense"
                 className="underline hover:text-stone-700"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Open RPG Creative License
+                ORC License
               </a>
+              {' '}(TX 9-307-067). Based on Paizo Inc. Licensed Material. Code under{' '}
+              <a
+                href="https://opensource.org/licenses/MIT"
+                className="underline hover:text-stone-700"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                MIT
+              </a>
+              .
             </footer>
           </div>
         </div>
