@@ -38,7 +38,7 @@ Every shield has three stats:
 - **Reaction decision:** Choosing when to Shield Block (and risk durability) vs. taking the hit
 - **Material progression:** Better shields have higher Hardness and more durability
 - **Consumable resource feel:** Shields degrade and need repair, creating resource management
-- **Crit danger:** Critical hits mark two durability, making crits threatening to shield users
+- **Crit danger:** Critical hits cost 2 Durability instead of 1, making crits threatening to shield users
 
 ## What This Simplifies
 
@@ -130,7 +130,7 @@ Precious material shields use the base shield type's Hardness. Special materials
 | Dawnsilver | Standard | 8 | Base | Base +1 | Silver properties, 1 Bulk lighter |
 | Duskwood | Standard | 8 | Base | Base +1 | 1 Bulk lighter (wooden shields only) |
 
-> "Base" means the Hardness and Durability of the underlying shield type (Buckler, Wooden, Steel, or Tower). For example, a Standard Adamantine Steel Shield has H5 / D4 (base Steel 3 + 1 for Adamantine material = 4 total).
+> "Base" means the Hardness and Durability of the underlying shield type (Buckler, Wooden, Steel, or Tower). For example, a Standard Adamantine Steel Shield has H5 / D4 (base Steel Durability 3 + 1 from Adamantine = D4).
 
 Material shields can also receive Reinforcing runes, stacking both bonuses.
 

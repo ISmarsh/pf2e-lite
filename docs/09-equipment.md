@@ -309,7 +309,7 @@ Magical staves give casters access to themed spell lists and extra daily casting
 
 ### Core Mechanics
 
-**Preparing a staff:** During daily preparations, a caster can prepare one staff they own (and that contains at least one spell on their tradition's spell list). The staff gains **charges equal to the highest spell rank you can cast** (free, no mana cost). Only one staff per person per day.
+**Preparing a staff:** During daily preparations, a caster can prepare one staff they own (and that contains at least one spell on your tradition's spell list). The staff gains **charges equal to the highest spell rank you can cast** (free, no mana cost). Only one staff per person per day.
 
 **Casting from a staff:** Spend charges equal to the spell's rank. Uses your spell attack modifier and spell DC. The spell gains your tradition's trait and can be modified by spellshape feats. Staff cantrips are free (no charges).
 
@@ -601,6 +601,7 @@ Single-use magical charms affixed to weapons, armor, or shields. Activated as a 
 | Murderer's Knot | 7 | 66 gp | Enhanced sneak attack / surprise strike damage |
 | Alloy Orb (Standard) | 8 | 80 gp | As Low-Grade, works on higher-level weapons |
 | Bloodseeker Beak (Greater) | 8 | 100 gp | +2d4 precision; +2d4 persistent bleed with sneak attack |
+| Brine Dragon Scale | 8 | 100 gp | Reaction on concentrate: 2d8 acid, DC 24 Reflex (uncommon) |
 | Gallows Tooth | 8 | 100 gp | Enhanced melee Strike with special effect |
 | Jade Bauble | 8 | 100 gp | Magically draws additional attacks (melee) |
 | Potency Crystal (Greater) | 9 | 150 gp | Weapon becomes +2 greater striking for the turn |

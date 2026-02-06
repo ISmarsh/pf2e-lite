@@ -91,7 +91,7 @@ Promoted to core. Grid is now 4 martial / 4 full caster / 4 empowered = 12 class
 
 ### Metamagic System — Resolved
 
-Ported directly from PF2e Remastered as "Spellshape" class feats. Action cost (not mana cost), per-class feat lists, truncated at level 10. All four full caster classes get spellshape options. Detection-interacting feats (Conceal Spell, Melodious Spell) flagged for review once two-tier detection is finalized.
+Ported directly from PF2e Remastered as "Spellshape" class feats. Action cost (not mana cost), per-class feat lists, truncated at level 10. All four full caster classes get spellshape options. Detection-interacting feats (Conceal Spell, Melodious Spell) reviewed and confirmed to port cleanly with the finalized two-tier detection system.
 
 - ✅ Action-cost model preserved from PF2e (1 extra action, not mana)
 - ✅ Per-class feat lists: Wizard 6, Cleric 5, Druid 7, Bard 9 options within L1-10
