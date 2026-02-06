@@ -101,5 +101,5 @@ See [Dedications](15-dedications.md) for full multiclass details.
 - Partial mana recovery: deferred, preserving PF2e's no-slot-recovery philosophy
 - Staves, arcane bond, slot-expansion equivalents: future design space, not in base system
 - ~~Spell list audit~~ — ✅ Resolved. 412 spells audited, vast majority compatible. See [Spell List Audit](10a-spell-audit.md)
-- Healing Font mana conversion: design tagged bonus mana (+WIS mod, Heal/Harm only) — see [Spell Audit](10a-spell-audit.md#5-class-feature-conversions-high--design-work-needed)
-- Wizard curriculum spell conversion: design tagged bonus mana (+INT mod, curriculum only) — see [Spell Audit](10a-spell-audit.md#5-class-feature-conversions-high--design-work-needed)
+- Healing Font mana conversion: design tagged bonus mana (+WIS mod, Heal/Harm only) — see [Spell Audit](10a-spell-audit.md#5-class-feature-conversions)
+- Wizard curriculum spell conversion: design tagged bonus mana (+INT mod, curriculum only) — see [Spell Audit](10a-spell-audit.md#5-class-feature-conversions)

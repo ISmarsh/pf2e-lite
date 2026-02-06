@@ -179,7 +179,7 @@ Low-rank summons are cheap (1 mana) but summon very weak creatures. High-rank su
 
 ---
 
-### 5. Class Feature Conversions (HIGH — design work needed)
+### 5. Class Feature Conversions
 
 Several PF2e class features grant bonus spell slots that don't directly map to mana. These need conversion to maintain class identity.
 
