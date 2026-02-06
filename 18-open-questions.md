@@ -152,6 +152,27 @@ Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks deriv
 - Port relevant equipment from PF2e, verify pricing against crafting economics
 - See [Equipment](09-equipment.md)
 
+### Animal Companion Rules
+
+- Required for Beastmaster archetype (currently blocked), Druid Animal Order, Ranger companion feats
+- No core class *requires* companions (Druid Animal is one of four orders, Ranger companions are feat-gated), but missing rules leave a gap
+- See [Dedications](15-dedications.md)
+
+### Hero Points
+
+- Port PF2e's Hero Point system as-is, or simplify?
+- Hero Points provide a narrative safety valve (spend to stabilize or reroll) — interacts with our three-box dying system
+- See [Exploration & Downtime](16-exploration.md)
+
+### Archetype Implementation Work
+
+Follow-up from the resolved Generic Archetypes Review — the review is complete, but these adaptations are still needed:
+
+- Bastion: "Hardness" → "Block Value", "HP" → "durability ticks" terminology translation
+- Eldritch Archer / Blessed Spell: "spell slots" → mana conversion
+- Assassin: Observed/Undetected → Concealed/Hidden condition mapping
+- See [Dedications](15-dedications.md)
+
 ### Exploration and Downtime
 
 - Review PF2e's exploration mode and downtime rules for simplification opportunities

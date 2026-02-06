@@ -23,7 +23,7 @@ Four martials covering the physical stats, a full caster and an empowered class 
 
 | Tier | Magic Access | Resource |
 |------|-------------|----------|
-| **Martial** | Focus spells from subclass/feats | Focus points |
+| **Martial** | Optional focus spells from subclass/feats (Monk, some Barbarian instincts) | Focus points (if applicable) |
 | **Empowered** | Tradition-flavored class features + focus spells | Signature mechanic + focus points |
 | **Full Caster** | Full tradition spell list + focus spells | Mana pool + focus points |
 

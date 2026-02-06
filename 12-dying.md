@@ -43,7 +43,7 @@ Each time you recover from dying (via healing or stabilizing), note your knockdo
 | 1 | 1 — one already marked (☒ ☐ ☐) |
 | 2 | 2 — two already marked (☒ ☒ ☐) — one failure = death |
 
-Knockdown count resets on long rest.
+Knockdown count resets on long rest (pending verification — see Open Design Work).
 
 ## Survival Probability
 
