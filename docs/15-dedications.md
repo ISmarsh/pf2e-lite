@@ -162,21 +162,21 @@ All archetypes below are from Player Core 2 (ORC-licensed, remastered). Core vs 
 
 - **Prerequisite:** Shield Block reaction
 - **Grants:** Reactive Shield (raise shield as a reaction when attacked).
-- **Feat chain (L2-L10, 13 feats):** Two L1 stance feats (Everstand Stance, Agile Shield Grip) available at L4+, shield movement (Shielded Stride L4), offensive blocks (Disarming Block L4, Everstand Strike L4), defensive reactions (Reflexive Shield L6, Shield Warden L6, Quick Shield Block L8), reflection (Mirror Shield L10), durability management (Destructive Block L10, Shield Salvation L10). Improved Reflexive Shield at L16 naturally excluded.
-- **System flags:** Destructive Block references "shield's Hardness" — reword to "Block Value" per our shield system (see [Shields](13-shields.md)). Shield Salvation references restoring "1 Hit Point" — reword to "1 durability tick." **Requires terminology translation, not mechanical redesign.**
+- **Feat chain (L2-L12, 13 feats; only L2-L10 available in this system):** Two L1 stance feats (Everstand Stance, Agile Shield Grip) available at L4+, shield movement (Shielded Stride L4), offensive blocks (Disarming Block L4, Everstand Strike L4), defensive reactions (Reflexive Shield L6, Shield Warden L6, Quick Shield Block L8), reflection (Mirror Shield L10), durability management (Destructive Block L10, Shield Salvation L12 — above our L1-10 cap). Improved Reflexive Shield at L16 naturally excluded.
+- **System flags:** We keep PF2e's "Hardness" term, so Destructive Block (L10) ports as-is. Shield Salvation (L12): above level cap, naturally excluded. **No adaptation needed.**
 - Deepest feat chain of any generic archetype. Natural companion to our simplified shield system. Pairs well with Champion, Fighter, or any shield-using build.
 
 ### Medium Priority — Viable but Narrower or Blocked
 
-- **Archer** — Ranged combat specialist. Deep feat chain (11 feats L1-L10). Includes nested Eldritch Archer sub-archetype (L6 dedication) that grants spellcasting — needs mana conversion for spell slot references. Otherwise ports cleanly.
+- **Archer** — Ranged combat specialist. Deep feat chain (11 feats L1-L10). Includes nested Eldritch Archer sub-archetype (L6 dedication) that grants spellcasting. Basic Eldritch Archer Spellcasting (L8) grants quarter-caster mana pool (same progression as multiclass caster dedications). Eldritch Reload (L10) triggers on casting a spell using mana. Ports with mana conversion.
 - **Acrobat** — Agility specialist. Clean feat chain (6 feats L1-L10). Grants scaling Acrobatics proficiency. Ports cleanly.
 - **Beastmaster** — Animal companion specialist. Decent chain (6 feats L1-L10). **Blocked:** requires animal companion rules, which are not yet defined in our system. Grants primal focus spells (separate from mana — fine).
-- **Blessed One** — Divine healing via Lay on Hands focus spell. Thin chain (3 feats L1-L10). Blessed Spell (L8) references "spell slots" — needs mana conversion. Otherwise ports cleanly.
+- **Blessed One** — Divine healing via Lay on Hands focus spell. Thin chain (3 feats L1-L10). Blessed Spell (L8): prerequisite "ability to cast spells using mana" (replaces "from spell slots"); effect triggers when casting a spell using mana that targets a single ally. Ports with mana conversion.
 - **Archaeologist** — Exploration/knowledge specialist. Niche but clean port. Relevant for dungeon-crawl campaigns.
 
 ### Low Priority / Deferred
 
-- **Assassin** — Stealth assassination specialist. References Observed and Undetected conditions (both cut — need mapping to our Concealed/Hidden two-tier detection system). Core feat Assassinate is L12, above our level cap. Functional but needs condition adaptation work.
+- **Assassin** — Stealth assassination specialist. Observed→default state, Undetected→Hidden in our two-tier detection system. Core feat Assassinate is L12, above our level cap. Functional with minor rephrasing of detection references.
 
 ### Not Yet Remastered (Legacy Candidates)
 
@@ -188,17 +188,17 @@ Cavalier, Dragon Disciple, Dual-Weapon Warrior, Duelist, Familiar Master, Gladia
 
 | System | Archetypes Affected | Adaptation Needed |
 |--------|-------------------|-------------------|
-| Shield terminology | Bastion | "Hardness" → "Block Value", "HP" → "durability ticks" |
-| Conditions (cut) | Assassin | Observed/Undetected → map to Concealed/Hidden |
-| Medicine proficiency | Medic | No conflict — Medic adds unique Battle Medicine bypass |
-| Mana system | Archer (Eldritch Archer), Blessed One | "Spell slots" → mana costs |
-| Animal companions | Beastmaster | Blocked until companion rules are defined |
-| Level cap (L1-10) | All archetypes | Higher-level feats naturally excluded |
+| Shield terminology | Bastion | ✅ "Hardness" kept as-is. Destructive Block ports directly. Shield Salvation above cap. |
+| Conditions (resolved) | Assassin | ✅ Observed→default, Undetected→Hidden. Minor rephrasing only. |
+| Medicine proficiency | Medic | ✅ No conflict — Medic adds unique Battle Medicine bypass |
+| Mana system | Archer (Eldritch Archer), Blessed One | ✅ "Spell slots" → mana. EA gets quarter-caster pool. |
+| Animal companions | Beastmaster | ⚠️ Blocked until companion rules are defined |
+| Level cap (L1-10) | All archetypes | ✅ Higher-level feats naturally excluded |
 
 ## Open Design Work
 
-- Bastion shield terminology translation (Block Value / durability ticks)
-- Eldritch Archer and Blessed Spell mana conversion
+- ~~Bastion shield terminology~~ — ✅ Resolved. Keeping "Hardness" — Destructive Block ports as-is.
+- ~~Eldritch Archer and Blessed Spell mana conversion~~ — ✅ Resolved. "Spell slots" → mana throughout.
 - Animal companion rules (blocks Beastmaster, also affects Druid/Ranger)
-- Assassin condition mapping (Observed/Undetected → Concealed/Hidden)
+- ~~Assassin condition mapping~~ — ✅ Resolved. Observed→default, Undetected→Hidden. Minor rephrasing only.
 - Verify all multiclass dedication features against system changes (mana, conditions, etc.)

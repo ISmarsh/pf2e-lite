@@ -73,11 +73,22 @@ Four traditions preserved:
 - **Primal** — material + spirit
 - **Occult** — spiritual + mind
 
-## Metamagic
+## Spellshape (Metamagic)
 
-Modular complexity lever, primarily for Wizards. Extra mana cost to modify spells (extend range, widen area, quicken casting, add effects). Wizards get more metamagic access via class feats. Base casting system stays simple for all classes; Wizards have a deeper toolkit for players who want to master it.
+Ported directly from PF2e Remastered. Spellshape feats modify a spell as part of casting — typically costing 1 extra action, not mana. Each full caster class has spellshape feats on its class feat list, truncated at level 10.
 
-*Full metamagic design to be developed.*
+### Available Spellshape Feats by Class (L1-10)
+
+| Class | Feats |
+|-------|-------|
+| **Wizard** | Reach Spell (1), Widen Spell (1), Conceal Spell (2), Energy Ablation (2), Quickened Casting (10), Overwhelming Energy (10) |
+| **Cleric** | Reach Spell (1), Divine Infusion (4), Cast Down (6), Martyr (8), Heroic Recovery (10) |
+| **Druid** | Reach Spell (1), Widen Spell (1), Form Control (4), Snowdrift Spell (4), Current Spell (6), Healing Transformation (10), Thunderclap Spell (10) |
+| **Bard** | Reach Spell (1), Courageous Advance (4), In Tune (4), Melodious Spell (4), Defensive Coordination (6), Harmonize (6), Call and Response (8), Courageous Assault (10), Unusual Composition (10) |
+
+Shared feats (Reach Spell, Widen Spell) appear on multiple class lists. All feats above are class feats — they compete with other class feat options at that level.
+
+**Note:** Conceal Spell and Melodious Spell interact with the two-tier detection system (Concealed/Hidden). Both port cleanly with two-tier terminology. See [Conditions](11-conditions.md).
 
 ## Dedication Caster Mana (Multiclass Spellcasting)
 
@@ -95,11 +106,48 @@ Equivalent to PF2e's Basic Spellcasting slots (1× R1, 1× R2, 1× R3) converted
 
 See [Dedications](15-dedications.md) for full multiclass details.
 
+## Class Bonus Casts
+
+Some class features grant free spell casts per day that don't cost mana. These supplement the mana pool, preserving PF2e's class-specific bonus slot mechanics without introducing a second mana pool.
+
+### Healing Font / Harmful Font (Cleric)
+
+WIS modifier (minimum 1) free Heal (or Harm) casts per day at any rank you can cast. Choose Healing Font or Harmful Font at character creation.
+
+| Level | Max Rank | Free Casts (WIS +4) | Equivalent Mana Value |
+|-------|----------|---------------------|----------------------|
+| 1 | R1 | 4 × R1 | 4 |
+| 3 | R2 | 4 × up to R2 | up to 8 |
+| 5 | R3 | 4 × up to R3 | up to 16 |
+| 7 | R4 | 4 × up to R4 | up to 28 |
+| 10 | R5 | 4 × up to R5 | up to 44 |
+
+Each free cast can be at any rank up to your maximum — you choose the rank when you cast. This is slightly more flexible than PF2e Font's bonus slots (which are all at the caster's highest available rank), but aligns with mana's inherent flexibility. A cleric choosing lower-rank Heals is self-nerfing, not exploiting — lower ranks heal less. The free casts are Heal (or Harm) only; they can't be used for other spells.
+
+**Design rationale:** PF2e Font gives ~WIS mod bonus Heal slots separate from regular slots. Free casts map 1:1 to this power level. A flat tagged mana bonus (+WIS mod mana) was considered but doesn't scale with rank costs — at level 10, +4 mana can't buy a single R4 Heal, while PF2e Font gives ~4 R5 Heals.
+
+### Wizard Curriculum Spells
+
+1 free curriculum spell cast per day per spell rank you can access. Must be a spell from your school's curriculum list.
+
+| Level | Max Rank | Free Casts | Equivalent Mana Value |
+|-------|----------|-----------|----------------------|
+| 1 | R1 | 1 × R1 | 1 |
+| 3 | R2 | 1 × R1 + 1 × R2 | 3 |
+| 5 | R3 | 1 × R1 + 1 × R2 + 1 × R3 | 7 |
+| 7 | R4 | 1 × R1 through R4 | 14 |
+| 10 | R5 | 1 × R1 through R5 | 25 |
+
+Each rank's free cast is independent — using your free R2 curriculum cast doesn't affect your free R3 cast. You can cast any curriculum spell at that rank (not locked to a single prepared choice), which is slightly more flexible than PF2e's prepared bonus but consistent with mana's inherent flexibility.
+
+**Design rationale:** PF2e gives 1 bonus prepared curriculum spell per rank. Free casts map 1:1. Preserves school specialization incentive — your curriculum spells are effectively cheaper than general spells.
+
 ## Open Design Work
 
 - Mana cost curve needs playtesting validation
 - Partial mana recovery: deferred, preserving PF2e's no-slot-recovery philosophy
-- Staves, arcane bond, slot-expansion equivalents: future design space, not in base system
+- ~~Staves~~ — ✅ Resolved. Charge system ports directly; prepared casters spend mana during prep for bonus charges, spontaneous casters spend 1 charge + mana during play. See [Equipment](09-equipment.md#staves).
+- Arcane bond, slot-expansion equivalents: future design space, not in base system
 - ~~Spell list audit~~ — ✅ Resolved. 412 spells audited, vast majority compatible. See [Spell List Audit](10a-spell-audit.md)
-- Healing Font mana conversion: design tagged bonus mana (+WIS mod, Heal/Harm only) — see [Spell Audit](10a-spell-audit.md#5-class-feature-conversions)
-- Wizard curriculum spell conversion: design tagged bonus mana (+INT mod, curriculum only) — see [Spell Audit](10a-spell-audit.md#5-class-feature-conversions)
+- ~~Healing Font mana conversion~~ — ✅ Resolved. Free casts (WIS mod Heal/Harm per day). See [Class Bonus Casts](#class-bonus-casts).
+- ~~Wizard curriculum spell conversion~~ — ✅ Resolved. Free casts (1 curriculum spell per rank per day). See [Class Bonus Casts](#class-bonus-casts).

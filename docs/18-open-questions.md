@@ -89,12 +89,15 @@ Promoted to core. Grid is now 4 martial / 4 full caster / 4 empowered = 12 class
 - Check HP/Size grid gaps that new ancestries could fill
 - See [Ancestries](03-ancestries.md)
 
-### Metamagic System
+### Metamagic System — Resolved
 
-- Full metamagic design for Wizard
-- Mana cost multipliers or flat additions for each effect
-- Which metamagic options are available to non-Wizards via feats
-- See [Spellcasting](10-spellcasting.md)
+Ported directly from PF2e Remastered as "Spellshape" class feats. Action cost (not mana cost), per-class feat lists, truncated at level 10. All four full caster classes get spellshape options. Detection-interacting feats (Conceal Spell, Melodious Spell) reviewed and confirmed to port cleanly with the finalized two-tier detection system.
+
+- ✅ Action-cost model preserved from PF2e (1 extra action, not mana)
+- ✅ Per-class feat lists: Wizard 6, Cleric 5, Druid 7, Bard 9 options within L1-10
+- ✅ Shared feats (Reach Spell, Widen Spell) kept shared across applicable classes
+- ✅ Conceal Spell / Melodious Spell: interact with Concealed/Hidden two-tier system — detection resolved, feats port with two-tier terminology
+- See [Spellcasting](10-spellcasting.md#spellshape-metamagic)
 
 ### Spell List Audit — Resolved
 
@@ -104,22 +107,31 @@ Promoted to core. Grid is now 4 martial / 4 full caster / 4 empowered = 12 class
 - ✅ Cost curve (1/2/4/7/11) creates natural efficiency gradient — lower ranks are more mana-efficient, discouraging degenerate top-rank concentration
 - ✅ PF2e's existing constraints (bonus type stacking, Sustained action limits, 3-action rounds) are unaffected
 - ✅ Only 1 of 412 spells (Ymeri's Mark) requires Golarion-specific renaming
-- ⚠️ Healing Font and Wizard curriculum spells need mana-system conversion (proposed: tagged bonus mana)
+- ✅ Healing Font: WIS mod free Heal/Harm casts per day (free casts, not tagged mana — flat mana doesn't scale with rank costs)
+- ✅ Wizard curriculum: 1 free curriculum spell per rank per day (maps 1:1 to PF2e bonus prepared slots)
 - ⚠️ 8 spells flagged for playtest monitoring (Heal, Haste, Heroism, Slow, summons, Invisibility, Fly, Wall of Stone)
 - See [Spell List Audit](10a-spell-audit.md)
 
 ## Lower Priority
 
-### Detection System Edge Cases
+### Detection System Edge Cases — Resolved
 
-- Two-tier detection (Concealed/Hidden): how do abilities referencing Undetected or Unnoticed map to Hidden?
-- Playtest to confirm DC 5 and DC 11 flat checks feel right
+Two feats excluded from the system due to two-tier collapse; all other references map cleanly.
+
+- ✅ Blind-Fight (Fighter/Ranger L8): excluded — upgrades Undetected→Hidden, same tier in our system
+- ✅ Startling Appearance (Rogue L6): excluded — requires Unnoticed, which no longer exists
+- ✅ Revealing Stab (Rogue L6): minor rephrase ("make Hidden creature Concealed")
+- ✅ All spells granting Undetected (Invisibility, etc.) map cleanly to Hidden
+- ⚠️ Playtest: confirm DC 5 and DC 11 flat checks feel right
 - See [Conditions](11-conditions.md)
 
-### Stupefied Simplification
+### Stupefied — Resolved (Kept As-Is)
 
-- Verify no spells or abilities specifically rely on the "flat check to lose spell" mechanic
-- Check if creature abilities or class features reference the removed mechanic
+Flat check (DC 5 + value) preserved from PF2e. Removing it would weaken the condition by ~45-60% against casters.
+
+- ✅ No abilities specifically rely on the flat check mechanic — they just apply the Stupefied value
+- ✅ Flat check is core to PF2e Remastered's condition definition
+- ✅ Preserves Stupefied's identity as the anti-caster debuff
 - See [Conditions](11-conditions.md)
 
 ### Dying System Edge Cases
@@ -131,14 +143,14 @@ Promoted to core. Grid is now 4 martial / 4 full caster / 4 empowered = 12 class
 
 ### Shield Material Progression — Resolved
 
-Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks derived from expected Shield Blocks at-level. Full progression documented including base shields, Sturdy shields, Reinforcing runes, and material shields.
+Keeping PF2e's "Hardness" term (same values, no rename). Durability derived from expected Shield Blocks at-level. Full progression documented including base shields, Sturdy shields, Reinforcing runes, and material shields.
 
 - ✅ Conversion formula with validation table
 - ✅ Base shields: Buckler 3/2, Wooden 3/2, Steel 5/3, Tower 5/3
 - ✅ Sturdy shields: Minor 8/6, Lesser 10/7, Moderate 13/8
 - ✅ Reinforcing runes: +2/+2, +3/+3, +4/+4 (trails Sturdy by design)
-- ✅ Material shields: special materials gain +1 Tick
-- ⚠️ Remaining: shield repair tick restoration amount (all ticks vs fixed number?)
+- ✅ Material shields: special materials gain +1 Durability
+- ⚠️ Remaining: shield repair restoration amount (all durability vs fixed number?)
 - See [Shields](13-shields.md)
 
 ### Crafting System Details
@@ -147,9 +159,17 @@ Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks deriv
 - Consumable batch size: is 4 the right number for all types?
 - See [Crafting](14-crafting.md)
 
-### Equipment Tables
+### Equipment Tables — Partially Resolved
 
-- Port relevant equipment from PF2e, verify pricing against crafting economics
+Core weapon/armor/shield tables ported. Six magic item categories documented (staves, wands, scrolls, worn items, talismans, held items). All port cleanly with zero or minimal mana conversion.
+
+- ✅ Staves: charge system preserved; prepared casters spend mana for bonus charges, spontaneous casters spend 1 charge + mana
+- ✅ Wands: 1/day + overcharge, no mana interaction
+- ✅ Scrolls: single-use consumables, no mana interaction
+- ✅ Worn items: 108 items cataloged; only Mage's Hat (Greater) needs minor rephrasing
+- ✅ Talismans: 38 items, zero mana interaction
+- ✅ Held items: 22 item families, zero mana interaction
+- ⚠️ Remaining: verify pricing against crafting economics, Aeon Stones (deferred to expansion), Companion Items (blocked on companion rules)
 - See [Equipment](09-equipment.md)
 
 ### Animal Companion Rules
@@ -164,13 +184,14 @@ Conversion formula defined: Block Value = Hardness (1:1), Durability Ticks deriv
 - Hero Points provide a narrative safety valve (spend to stabilize or reroll) — interacts with our three-box dying system
 - See [Exploration & Downtime](16-exploration.md)
 
-### Archetype Implementation Work
+### Archetype Implementation Work — Partially Resolved
 
-Follow-up from the resolved Generic Archetypes Review — the review is complete, but these adaptations are still needed:
+Follow-up from the resolved Generic Archetypes Review. Bastion and mana conversions complete; Assassin blocked on detection system.
 
-- Bastion: "Hardness" → "Block Value", "HP" → "durability ticks" terminology translation
-- Eldritch Archer / Blessed Spell: "spell slots" → mana conversion
-- Assassin: Observed/Undetected → Concealed/Hidden condition mapping
+- ✅ Bastion: keeping "Hardness" — Destructive Block ports as-is. Shield Salvation above L10 cap.
+- ✅ Eldritch Archer: Basic EA Spellcasting grants quarter-caster mana pool. Eldritch Reload triggers on mana casting.
+- ✅ Blessed Spell: prerequisite and effect updated from "spell slots" to "mana"
+- ✅ Assassin: Observed→default state, Undetected→Hidden. Assassinate (L12) above cap. Functional with minor rephrasing.
 - See [Dedications](15-dedications.md)
 
 ### Exploration and Downtime
@@ -187,8 +208,8 @@ Follow-up from the resolved Generic Archetypes Review — the review is complete
 
 ### Conditions
 
-- Is two-tier detection sufficient, or do edge cases require the full four-tier PF2e system?
-- Does simplified Stupefied (no spell-loss flat check) make the condition too weak as a caster debuff?
+- ~~Is two-tier detection sufficient?~~ — ✅ Yes, with 2 feat exclusions and 1 rephrase. See Detection System Edge Cases above.
+- ~~Does simplified Stupefied make the condition too weak?~~ — ✅ Resolved by keeping flat check as-is from PF2e. See Stupefied above.
 
 ### Feats
 

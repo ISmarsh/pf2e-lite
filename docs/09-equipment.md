@@ -191,11 +191,11 @@ Characters with armor specialization (class feature) gain bonus effects by armor
 
 ## Shields
 
-Uses simplified Block Value + Durability Ticks system (see [Shields](13-shields.md) for full mechanics).
+Uses simplified Hardness + Durability system (see [Shields](13-shields.md) for full mechanics).
 
 ### Base Shields
 
-| Shield | AC | Block Value | Durability | Price | Bulk |
+| Shield | AC | Hardness | Durability | Price | Bulk |
 |--------|-----|-------------|------------|-------|------|
 | Buckler | +1 | 3 | 2 | 1 gp | L |
 | Wooden Shield | +2 | 3 | 2 | 1 gp | 1 |
@@ -208,19 +208,19 @@ Uses simplified Block Value + Durability Ticks system (see [Shields](13-shields.
 
 Upgraded shields with progressively better defenses. Available as loot or purchases.
 
-| Shield | Level | Block Value | Durability | Price |
+| Shield | Level | Hardness | Durability | Price |
 |--------|-------|-------------|------------|-------|
 | Sturdy Shield (Minor) | 4 | 8 | 6 | 100 gp |
 | Sturdy Shield (Lesser) | 7 | 10 | 7 | 360 gp |
 | Sturdy Shield (Moderate) | 10 | 13 | 8 | 1,000 gp |
 
-> Block Value and Durability derived from PF2e's Hardness/HP/BT. See [Conversion Formula](13-shields.md#conversion-formula) for the conversion formula and rationale.
+> Hardness and Durability derived from PF2e's Hardness/HP/BT. See [Conversion Formula](13-shields.md#conversion-formula) for the conversion formula and rationale.
 
 ### Material Shields
 
 Precious material shields available in the L1-10 range:
 
-| Material | Grade | Level | Block | Ticks | Price | Notes |
+| Material | Grade | Level | Hardness | Durability | Price | Notes |
 |----------|-------|-------|-------|-------|-------|-------|
 | Cold Iron | Low | 2 | Base | Base | 30-34 gp | Effective against fey, demons |
 | Silver | Low | 2 | Base | Base | 30-34 gp | Effective against devils, werewolves |
@@ -230,7 +230,7 @@ Precious material shields available in the L1-10 range:
 | Dawnsilver | Standard | 8 | Base | Base +1 | 400-440 gp | Silver properties, 1 Bulk lighter |
 | Duskwood | Standard | 8 | Base | Base +1 | 400-560 gp | 1 Bulk lighter (wood only) |
 
-> "Base" = the Block Value and Durability of the underlying shield type. Special materials (Adamantine, Dawnsilver, Duskwood) gain +1 Tick for superior construction. Price range reflects buckler vs shield vs tower shield variants. See [Shields](13-shields.md) for full material progression.
+> "Base" = the Hardness and Durability of the underlying shield type. Special materials (Adamantine, Dawnsilver, Duskwood) gain +1 Durability for superior construction. Price range reflects buckler vs shield vs tower shield variants. See [Shields](13-shields.md) for full material progression.
 
 ## Runes
 
@@ -262,9 +262,9 @@ Fundamental runes provide the core numerical progression for weapons and armor.
 
 | Rune | Level | Price | Effect |
 |------|-------|-------|--------|
-| Reinforcing (Minor) | 4 | 75 gp | +2 Block Value, +2 Durability |
-| Reinforcing (Lesser) | 7 | 300 gp | +3 Block Value, +3 Durability |
-| Reinforcing (Moderate) | 10 | 900 gp | +4 Block Value, +4 Durability |
+| Reinforcing (Minor) | 4 | 75 gp | +2 Hardness, +2 Durability |
+| Reinforcing (Lesser) | 7 | 300 gp | +3 Hardness, +3 Durability |
+| Reinforcing (Moderate) | 10 | 900 gp | +4 Hardness, +4 Durability |
 
 > Reinforcing runes stack with shield base stats and material bonuses. A reinforced shield trails a Sturdy shield at the same level — Sturdy is the dedicated Shield Block option, Reinforcing keeps special-ability shields viable for occasional blocking. See [Shields](13-shields.md) for comparison table.
 
@@ -302,6 +302,388 @@ Fundamental runes provide the core numerical progression for weapons and armor.
 | Greater Slick | 8 | 450 gp | +2 item bonus to Escape and Squeeze |
 | Greater Shadow | 9 | 650 gp | +2 item bonus to Stealth |
 | Greater Invisibility | 10 | 1,000 gp | Up to 3/day (light armor only) |
+
+## Staves
+
+Magical staves give casters access to themed spell lists and extra daily casting capacity through a charge system separate from mana.
+
+### Core Mechanics
+
+**Preparing a staff:** During daily preparations, a caster can prepare one staff they own (and that contains at least one spell on your tradition's spell list). The staff gains **charges equal to the highest spell rank you can cast** (free, no mana cost). Only one staff per person per day.
+
+**Casting from a staff:** Spend charges equal to the spell's rank. Uses your spell attack modifier and spell DC. The spell gains your tradition's trait and can be modified by spellshape feats. Staff cantrips are free (no charges).
+
+**Bonus charges (prepared casters — Wizard, Cleric, Druid):** During daily prep, you may spend mana equal to a rank's mana cost to add charges equal to that rank number. Maximum one sacrifice per day.
+- Example: spend 4 mana (R3 cost) to add 3 charges.
+
+**Bonus charges (spontaneous casters — Bard):** During play, you may cast a staff spell by spending 1 charge + the mana cost of the rank you're casting at. This stretches your charges by supplementing with mana on the fly.
+- Example: cast a R3 staff spell for 1 charge + 4 mana (instead of 3 charges).
+
+**Staff weapons:** Staves can be etched with fundamental runes (potency, striking) but not property runes.
+
+| Level | Base Charges | Max Bonus (Prepared) | Total | Mana Cost for Bonus |
+|-------|-------------|---------------------|-------|---------------------|
+| 3 | 2 | +2 | 4 | 2 mana (R2) |
+| 5 | 3 | +3 | 6 | 4 mana (R3) |
+| 7 | 4 | +4 | 8 | 7 mana (R4) |
+| 10 | 5 | +5 | 10 | 11 mana (R5) |
+
+### Staff Lines (L1-10, Remastered)
+
+36 staves across 19 staff lines. Most lines start at L4 or L6 with a Greater version at L8 or L10 that adds higher-rank spells. All from GM Core, Player Core 2, or Rage of Elements (ORC licensed).
+
+#### Level 3
+
+| Staff | Price | Tradition | Key Spells |
+|-------|-------|-----------|------------|
+| Staff of Fire | 60 gp | Arcane/Primal | Ignition (cantrip), breathe fire (R1) |
+
+#### Level 4
+
+| Staff | Price | Tradition | Key Spells |
+|-------|-------|-----------|------------|
+| Animal Staff | 90 gp | Primal | Know the way (cantrip), runic body, summon animal |
+| Mentalist's Staff | 90 gp | Occult | Daze (cantrip), mindlink, phantom pain |
+| Staff of Healing | 90 gp | Divine/Primal | Stabilize (cantrip), heal (+1 item bonus to HP healed) |
+| Atmospheric Staff (Lesser) | 95 gp | Arcane/Primal | Gale blast (cantrip), air bubble, gravitational pull |
+
+#### Level 6
+
+| Staff | Price | Tradition | Key Spells |
+|-------|-------|-----------|------------|
+| Fluid Form Staff | 230 gp | Primal | Pest form, animal form, enlarge, shrink |
+| Staff of Control | 230 gp | Arcane/Occult | Daze, charm, command, laughing fit, stupefy |
+| Staff of Elemental Power | 230 gp | Arcane/Primal | Frostbite, breathe fire, thunderstrike, blazing bolt |
+| Staff of Phantasms | 230 gp | Arcane/Occult | Figment, illusory disguise/object/creature |
+| Staff of Protection | 230 gp | Arcane/Divine | Shield, alarm, mystic armor, dispel magic |
+| Staff of Providence | 230 gp | Divine | Guidance, bless, augury, create food, status |
+| Staff of Summoning | 230 gp | Arcane/Primal | Tangle vine, summon animal/elemental, marvelous mount |
+| Staff of the Dead | 230 gp | Arcane/Divine | Void warp, grim tendrils, summon undead |
+| Staff of the Tempest | 230 gp | Arcane/Primal | Electric arc, hydraulic push, thunderstrike, mist |
+| Verdant Staff | 225 gp | Primal | Tangle vine, entangling flora, shape wood |
+| Staff of Impossible Visions | 230 gp | Occult | Daze, fear, phantom pain, augury, paranoia |
+| Staff of Metal | 250 gp | Arcane/Primal | Detect metal, conductive weapon, magnetic attraction |
+| Staff of the Unblinking Eye | 230 gp | Arcane/Divine | Detect magic, sure strike, darkvision, see the unseen |
+
+> Uncommon staves: Atmospheric Staff, Staff of Impossible Visions, Staff of the Unblinking Eye. All others are common.
+
+#### Level 8
+
+| Staff | Price | New Spells Added |
+|-------|-------|-----------------|
+| Animal Staff (Greater) | 460 gp | +R2-R3: animal messenger, speak with animals, animal form |
+| Atmospheric Staff (Greater) | 480 gp | +R2-R3: gentle breeze, gravity well, tempest cloak |
+| Mentalist's Staff (Greater) | 460 gp | +R2-R3: paranoia, hypercognition |
+| Staff of Fire (Greater) | 450 gp | +R2-R3: floating flame, fireball |
+| Staff of Healing (Greater) | 470 gp | +R2-R3: clear mind, sound body, cleanse affliction, heal (+2 bonus) |
+| Staff of Illumination | 425 gp | Cantrip + R2-R3: light, everlight, holy light |
+
+#### Level 10
+
+| Staff | Price | New Spells Added |
+|-------|-------|-----------------|
+| Fluid Form Staff (Greater) | 900 gp | +R3-R4: feet to fins, insect form, aerial form |
+| Staff of Control (Greater) | 900 gp | +R3-R4: enthrall, charm, confusion, suggestion |
+| Staff of Elemental Power (Greater) | 900 gp | +R3-R4: fireball, lightning bolt, wall of fire |
+| Staff of Metal (Greater) | 900 gp | +R3-R4: magnetic acceleration, noxious metals, mercurial stride |
+| Staff of Phantasms (Greater) | 900 gp | +R3-R4: heightened illusory disguise/creature |
+| Staff of Protection (Greater) | 900 gp | +R3-R4: alarm, safe passage, dispel magic, mystic armor |
+| Staff of Providence (Greater) | 900 gp | +R3-R4: safe passage, wanderer's guide, cleanse affliction |
+| Staff of Summoning (Greater) | 900 gp | +R3-R4: heightened summon animal/elemental |
+| Staff of the Dead (Greater) | 900 gp | +R3-R4: vampiric feast, vision of death |
+| Staff of the Tempest (Greater) | 900 gp | +R3-R4: lightning bolt, wall of wind, hydraulic torrent |
+| Staff of the Unblinking Eye (Greater) | 900 gp | +R3-R4: mind reading, clairvoyance, detect scrying, telepathy |
+
+### What This Preserves
+
+- **Charge management mini-game:** Allocating limited charges across multiple spell ranks remains a meaningful daily decision
+- **Prepared vs. spontaneous distinction:** Different bonus charge mechanics match PF2e's different staff interactions for each caster type
+- **Spell access value:** Staves provide access to spells outside your preparations or repertoire — the primary benefit alongside extra daily casts
+- **Staff weapon identity:** Fundamental runes only (no property runes) — a staff is a casting implement first
+
+### What This Simplifies
+
+- **Unified mana conversion:** "Sacrifice a spell slot" becomes "spend mana equal to that rank's cost" for prepared casters. Same power level, one fewer concept.
+- **Spontaneous charge discount maps directly:** 1 charge + 1 slot becomes 1 charge + mana. No new mechanics needed.
+
+## Wands
+
+Wands hold a single spell and let you cast it once per day without spending mana. Each wand contains a specific spell at a specific rank.
+
+### Core Mechanics
+
+**Casting from a wand:** Hold the wand and Cast the Spell using its normal actions. The spell must be on your tradition's spell list. Uses your spell attack modifier and spell DC. Frequency: once per day.
+
+**Overcharge:** After using the wand for the day, you can attempt to cast the spell one more time. Roll a **DC 10 flat check** — on success, the wand is broken (repairable); on failure, the wand is destroyed. A wand can only be overcharged once per day.
+
+**Crafting a wand:** Supply a casting of the spell (costs mana equal to the spell's rank cost) during the crafting process. The spell's magic is captured in the wand.
+
+**No mana conversion needed.** Wands don't interact with spell slots in PF2e and don't interact with mana in our system — they're a self-contained 1/day resource.
+
+### Magic Wand (Generic)
+
+The base wand type — holds any single spell at the listed rank.
+
+| Item Level | Spell Rank | Price |
+|------------|-----------|-------|
+| 3 | 1st | 60 gp |
+| 5 | 2nd | 160 gp |
+| 7 | 3rd | 360 gp |
+| 9 | 4th | 700 gp |
+
+### Specialty Wands
+
+Specialty wands enhance specific spells with bonus effects. 5 types from GM Core, 4 from Player Core 2. All common rarity.
+
+| Wand | Levels | Price Range | Effect |
+|------|--------|-------------|--------|
+| Wand of Widening | 4/6/8/10 | 100-1,000 gp | Increase area (burst, cone, or line); +1 action |
+| Wand of Continuation | 5/7/9 | 160-700 gp | Duration increased by half; +1 action |
+| Wand of Shardstorm | 5/9 | 160-700 gp | Force barrage; extra missile each turn for 1 min |
+| Wand of Hopeless Night | 6/10 | 250-1,000 gp | Darkness + frightened on failed Will save |
+| Wand of the Spider | 7 | 360 gp | Web + 1d6 poison on failed escape |
+| Wand of Crackling Lightning | 8/10 | 500-1,000 gp | Lightning bolt double-wide + off-guard on fail |
+| Wand of Smoldering Fireballs | 8 | 500 gp | Fireball + persistent fire on failed save |
+| Wand of Overflowing Life | 9 | 700 gp | Heal + self-heal at start of next turn |
+
+> 9 wand types, 20 specific variants in L1-10. All ORC licensed (GM Core + Player Core 2).
+
+## Scrolls
+
+Single-use consumables containing one spell at a fixed rank. Destroyed after casting. The cheapest way to access a spell you don't prepare daily.
+
+### Core Mechanics
+
+**Casting from a scroll:** Hold the scroll and Cast the Spell using its normal actions. The spell must be on your tradition's spell list. Uses your spell attack modifier and spell DC. The scroll is destroyed after casting.
+
+**No mana cost.** Scrolls don't interact with spell slots in PF2e or mana in our system — the spell is pre-loaded.
+
+**Crafting scrolls:** Supply a casting of the spell (costs mana) during the crafting process. Scrolls can be crafted in **batches of four** (same spell, same rank, one casting per scroll). See [Crafting](14-crafting.md).
+
+### Scroll Pricing
+
+Item level = (spell rank x 2) - 1.
+
+| Spell Rank | Item Level | Price |
+|------------|-----------|-------|
+| 1st | 1 | 4 gp |
+| 2nd | 3 | 12 gp |
+| 3rd | 5 | 30 gp |
+| 4th | 7 | 70 gp |
+| 5th | 9 | 150 gp |
+
+> No specialty scroll types exist in remastered L1-10. Scrolls are the baseline consumable — GM Core: "You'll never need to design a new scroll."
+
+### Scrolls vs. Wands
+
+| | Scroll | Wand |
+|--|--------|------|
+| Uses | Single use (destroyed) | 1/day + overcharge |
+| Price | 4-150 gp (R1-R5) | 60-700 gp (R1-R4) |
+| Ratio | Baseline | 10-15x scroll price |
+| Best for | Situational spells, emergencies | Routinely used spells |
+| Batch crafting | Yes (4 per batch) | No |
+
+## Worn Magic Items
+
+108 remastered worn items exist in L1-10 (81 common, 25 uncommon, 2 rare). All from GM Core, Player Core 2, Rage of Elements, or Howl of the Wild (ORC licensed). Vast majority port with zero changes — no mana interaction.
+
+### Skill Bonus Items
+
+The backbone of the worn item economy. Each skill typically has a dedicated item line: +1 at L3-5, +2 at L9-10.
+
+| Skill | Item | +1 (Level/Price) | +2 (Level/Price) |
+|-------|------|-------------------|-------------------|
+| Acrobatics | Bracelet of Dashing / Arboreal Boots | L3/58 gp, L5/160 gp | L9/645 gp, L9/700 gp |
+| Arcana | Mage's Hat | L3/50 gp | L9/650 gp |
+| Athletics | Lifting Belt / Armbands of Athleticism | L4/80 gp | L9/645 gp |
+| Crafting | Crafter's Eyepiece | L3/60 gp | — |
+| Deception | Ventriloquist's Ring | L3/60 gp | L9/670 gp |
+| Diplomacy | Diplomat's Badge / Lover's Gloves | L5/125 gp | L8/500 gp |
+| Intimidation | Demon Mask | L4/85 gp | L9/700 gp |
+| Medicine | Healer's Gloves | L4/80 gp | L9/700 gp |
+| Nature | Primeval Mistletoe / Living Mantle | L6/230 gp | L10/1,000 gp |
+| Occultism | Pendant of the Occult | L3/60 gp | L9/650 gp |
+| Performance | Persona Mask / Dancing Scarf | L3/50-60 gp | L9/650 gp |
+| Perception | Obsidian Goggles / Eyes of the Cat | L5/150 gp | L9/700 gp |
+| Religion | Shining Symbol | L3/55 gp | L9/650 gp |
+| Society | Messenger's Ring | — | L9/700 gp |
+| Stealth | Clandestine Cloak (uncommon) | L6/230 gp | L10/900 gp |
+| Survival | Tracker's Goggles / Coyote Cloak | L3/60 gp | L9/650-660 gp |
+
+> Skill items follow the same investment pattern as runes: +1 becomes available around L3-5, +2 around L9-10. Most are common rarity.
+
+### Combat Items
+
+| Item | Level | Price | Effect |
+|------|-------|-------|--------|
+| Bracers of Missile Deflection | 3 | 52 gp | Activate: +2 AC vs. ranged for 1 round |
+| Doubling Rings | 3 | 50 gp | Second weapon inherits first weapon's runes |
+| Boots of Bounding | 7 | 340 gp | +5-ft item bonus to Speed |
+| Bands of Force | 8 | 500 gp | +1 AC (force); activate for shield reaction |
+| Shadow Signet | 10 | 1,000 gp | Spellshape: target Fort/Reflex DC instead of AC on spell attacks |
+| Winged Sandals | 10 | 850 gp | Slow fall; activate for fly 30 ft for 1 minute |
+
+### Utility Items
+
+| Item | Level | Price | Effect |
+|------|-------|-------|--------|
+| Sleeves of Storage | 4 | 100 gp | Two extradimensional pockets (1 Bulk each) |
+| Choker of Elocution | 6 | 200 gp | Fluency in one extra language |
+| Charm of Resistance | 6 | 245 gp | Resistance 5 to one energy type (chosen at investment) |
+| Cloak of Illusions | 7 | 360 gp | Figment cantrip; 1/day illusory disguise |
+| Ring of Sustenance | 7 | 325 gp | No food/drink needed; 2-hour sleep (uncommon) |
+| Sleeves of Storage (Greater) | 9 | 600 gp | 20 Bulk per sleeve |
+| Charm of Resistance (Greater) | 10 | 975 gp | Resistance 10 to one energy type |
+| Choker of Elocution (Greater) | 10 | 850 gp | +2; fluency in three languages |
+
+### Focused Items (Class-Specific, L10)
+
+Seven L10 items (all 1,000 gp) grant 1 bonus Focus Point per day for a class-specific focus spell. Focus Point economy is preserved from PF2e — no mana conversion needed.
+
+| Item | Class | Focus Spell Type |
+|------|-------|-----------------|
+| Accolade Robe | Wizard | School spell |
+| Entertainer's Cincture | Bard | Composition spell |
+| Living Mantle | Druid | Order spell |
+| Sash of Prowess | Monk | Qi spell |
+
+> 3 additional focused items exist for expansion classes (Crown of Witchcraft/Witch, Prognostic Veil/Oracle, Sanguine Pendant/Sorcerer). No focused items exist for Champion, Ranger, Fighter, Rogue, Barbarian, Artificer, or Thaumaturge — potential gap for future design.
+
+### Items That Cast Spells
+
+Several worn items grant 1/day spell activations with fixed ranks and DCs baked into the item. These don't cost mana — they're self-contained activations, same as PF2e.
+
+| Item | Level | Spell(s) |
+|------|-------|----------|
+| Healer's Gloves | 4 | Heal 2d6+7 (1/day) |
+| Primeval Mistletoe | 6 | Runic weapon/body (1/10 min), one with plants (1/day) |
+| Demon Mask (Greater) | 10 | 3rd-rank fear (DC 29) |
+| Symbol of Conflict (Greater) | 10 | 4th-rank bane/bless/divine wrath/cleanse affliction (DC 27) |
+
+### Mana Conversion Notes
+
+- **Mage's Hat (Greater)** is the only worn item referencing prepared spells: "If you prepare arcane spells, you can change the spell." Rephrase to: "If you are an arcane caster, you can change the spell."
+- **All other items** are self-contained activations (fixed DCs, no slot costs) or skill bonuses. Zero mana interaction.
+
+### Deferred Categories
+
+- **Aeon Stones** (10 items, all uncommon): Niche ecosystem tied to Wayfinder item. Deferred to expansion.
+- **Companion Items** (5 items): Blocked on animal companion rules. See [Open Questions](18-open-questions.md).
+
+## Talismans
+
+Single-use magical charms affixed to weapons, armor, or shields. Activated as a free action during a specific trigger (Strike, Shield Block, Leap, etc.), then crumbles to dust. "Martial characters' answer to scrolls" — they expand non-caster options without requiring spellcasting.
+
+### Core Mechanics
+
+**Affixing:** 10 minutes with a repair toolkit. One talisman per item — attaching a second deactivates both.
+
+**Activating:** Free action on a specific trigger (listed per talisman). Must be wielding or wearing the affixed item.
+
+**No mana interaction.** Talismans are entirely self-contained consumables. No spellcasting prerequisites, no slot costs.
+
+**Enchanter subclass relevance:** The Artificer's Enchanter subclass creates temporary enchantments. Talismans are the consumable half of that design space. See [Artificer](06-artificer.md).
+
+### Talisman List (L1-10, 38 Items)
+
+#### Weapon Talismans
+
+| Talisman | Level | Price | Effect |
+|----------|-------|-------|--------|
+| Potency Crystal | 1 | 4 gp | Weapon becomes +1 striking for the rest of the turn |
+| Predator's Claw | 1 | 3 gp | Strike gains weapon's critical specialization effect |
+| Alloy Orb (Low-Grade) | 3 | 10 gp | Weapon gains cold iron or silver property (metal weapons) |
+| Bloodseeker Beak | 4 | 20 gp | +1d4 precision damage; +1d4 persistent bleed with sneak attack |
+| Fear Gem | 4 | 20 gp | On hit: target frightened 1 (frightened 2 on crit) |
+| Tiger Menuki | 5 | 30 gp | Weapon gains forceful and sweep for the Strike |
+| Iron Cube | 6 | 50 gp | On hit: target immobilized/slowed |
+| Murderer's Knot | 7 | 66 gp | Enhanced sneak attack / surprise strike damage |
+| Alloy Orb (Standard) | 8 | 80 gp | As Low-Grade, works on higher-level weapons |
+| Bloodseeker Beak (Greater) | 8 | 100 gp | +2d4 precision; +2d4 persistent bleed with sneak attack |
+| Brine Dragon Scale | 8 | 100 gp | Reaction on concentrate: 2d8 acid, DC 24 Reflex (uncommon) |
+| Gallows Tooth | 8 | 100 gp | Enhanced melee Strike with special effect |
+| Jade Bauble | 8 | 100 gp | Magically draws additional attacks (melee) |
+| Potency Crystal (Greater) | 9 | 150 gp | Weapon becomes +2 greater striking for the turn |
+| Mummified Bat | 10 | 175 gp | Grants echolocation/blindsense for the attack |
+
+#### Armor Talismans
+
+| Talisman | Level | Price | Effect |
+|----------|-------|-------|--------|
+| Wolf Fang | 1 | 4 gp | Deal bludgeoning damage on a trip |
+| Bronze Bull Pendant | 2 | 7 gp | Bonus to Shove |
+| Crying Angel Pendant | 2 | 7 gp | +1 to Administer First Aid; extra healing on success |
+| Effervescent Ampoule | 2 | 7 gp | Movement benefits until end of turn |
+| Hunter's Bane | 2 | 6 gp | Sense exact location of attacker |
+| Jade Cat | 2 | 6 gp | Reduce falling damage; land on feet for 1 min |
+| Mesmerizing Opal | 2 | 7 gp | Feint with bonus; success upgrades to critical |
+| Monkey Pin | 2 | 6 gp | Climb action with +1 item bonus |
+| Onyx Panther | 2 | 7 gp | Sneak action with +1 item bonus |
+| Savior Spike | 2 | 7 gp | Force strand prevents falling |
+| Feather Step Stone | 3 | 8 gp | Step through difficult terrain |
+| Dragon Turtle Scale | 4 | 13 gp | Swim Speed = half land Speed for 1 min |
+| Emerald Grasshopper | 5 | 30 gp | Leap up to 50 ft horizontal, 20 ft vertical |
+| Shark Tooth Charm | 5 | 23 gp | Escape using Acrobatics with bonus |
+| Sneaky Key | 5 | 22 gp | +1 status bonus to Thievery for 1 min |
+| Ferrofluid Urchin (Lesser) | 7 | 55 gp | Resistance 3 to physical from triggering attack (metal armor) |
+| Grim Trophy | 7 | 55 gp | Demoralize with bonus; enhanced Intimidation |
+| Dragon Turtle Scale (Greater) | 8 | 75 gp | Swim Speed = full land Speed |
+| Emerald Grasshopper (Greater) | 9 | 150 gp | Leap up to 100 ft horizontal, 30 ft vertical |
+| Iron Medallion | 10 | 175 gp | +2 status bonus to saves vs. fear |
+| Vanishing Coin | 10 | 160 gp | Become invisible |
+
+#### Shield Talismans
+
+| Talisman | Level | Price | Effect |
+|----------|-------|-------|--------|
+| Swift Block Cabochon | 7 | 70 gp | Shield Block without the feat (uncommon) |
+| Basilisk Eye | 9 | 150 gp | Attacker must save (DC 26) or slowed 1 after blocking |
+
+> 36 common, 2 uncommon (Swift Block Cabochon, Brine Dragon Scale). All from GM Core, Player Core 2, or Rage of Elements (ORC licensed).
+
+## Held Magic Items
+
+Items you hold or wield (not worn on a body slot). Mostly utility and skill items. 22 unique item families across L1-10 from remastered sources. Zero mana interaction — all self-contained activations.
+
+### Class-Specific Items
+
+| Item | Level | Price | Effect |
+|------|-------|-------|--------|
+| Maestro's Instrument (Lesser) | 3 | 60 gp | +1 item bonus to Performance checks (Bard) |
+| Maestro's Instrument (Moderate) | 10 | 900 gp | +2 Performance; 1/day 4th-rank charm (DC 27) |
+| Thurible of Revelation (Lesser) | 3 | 55 gp | Brass censer; activate to detect divine auras (30 ft) |
+| Thurible of Revelation (Moderate) | 10 | 900 gp | +2 Religion; enhanced daily revelation |
+
+> Maestro's Instrument requires 2 hands and must be played — directly supports Bard compositions. Thurible of Revelation is the Cleric/divine equivalent, providing detection and Religion bonuses.
+
+### Skill Items
+
+| Item | Level | Price | Skill | Effect |
+|------|-------|-------|-------|--------|
+| Skeleton Key | 5 | 125 gp | Thievery | +1 item bonus to Pick a Lock |
+| Twisting Twine (Lesser) | 3 | 45 gp | Athletics | Aid grapple/trip; +1 Athletics |
+| Twisting Twine (Moderate) | 5 | 125 gp | Athletics | 1/hour: Athletics +12 for grapple/trip |
+| Twisting Twine (Greater) | 7 | 300 gp | Athletics | No frequency limit; Athletics +15 |
+
+### Storage
+
+| Item | Level | Price | Capacity |
+|------|-------|-------|----------|
+| Spacious Pouch (Type I) | 4 | 75 gp | Extradimensional bag; holds 25 Bulk |
+| Spacious Pouch (Type II) | 7 | 300 gp | Holds 50 Bulk |
+
+### Utility
+
+| Item | Level | Price | Effect |
+|------|-------|-------|--------|
+| Everlight Crystal | 1 | 15 gp | Permanent bright light (20-ft radius) |
+| Traveler's Any-Tool | 6 | 200 gp | Transforms into any simple tool |
+| Bottled Air | 7 | 320 gp | Limitless fresh air supply; breathe underwater or in hazardous environments |
+
+### Niche / Expansion Candidates
+
+14 additional held items exist in L1-10 from Rage of Elements and Howl of the Wild (elemental-themed purifying spoons, lantern variants, fossil fragments, censers). These are viable expansion content but too niche for the core set.
 
 ## Precious Materials
 
@@ -481,8 +863,9 @@ Artificer infusions (see [Artificer](06-artificer.md)) occupy a separate "space"
 ## Design Notes
 
 - **Weapon and armor tables are straight ports** — the math is PF2e's core balance. No modifications needed.
-- **Shield stats use the simplified system** from [Shields](13-shields.md). Block Value = PF2e Hardness (1:1), Durability Ticks derived from expected Shield Blocks at-level. See 13-shields.md for full conversion formula.
+- **Shield stats use the simplified system** from [Shields](13-shields.md). Hardness kept as-is from PF2e (same term, same values). Durability derived from expected Shield Blocks at-level. See 13-shields.md for full conversion formula.
 - **Runes capped at L10** — only fundamental runes and property runes available in our range are listed. Greater/Major tiers exist in PF2e but are beyond our scope.
 - **Armor Potency +2 (L11)** is technically out of range — characters will cap at +1 Armor Potency + Resilient. This is a natural power ceiling for the system.
 - **Material progression matters** — cold iron and silver weapons are affordable by L2 and relevant for creature vulnerabilities. Standard-grade special materials (L8) are late-game upgrades.
 - **Adventuring gear** is mostly a straight port. Level 3 upgraded toolkits are the main mechanical interaction (+1 item bonuses).
+- **Magic items are overwhelmingly clean ports.** Staves are the only category requiring mana conversion (charge bonus mechanics). Wands, scrolls, worn items, talismans, and held items are all self-contained — no mana interaction. Only one item (Mage's Hat Greater) needs minor rephrasing.
