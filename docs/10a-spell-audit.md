@@ -242,7 +242,7 @@ This emergent property is a feature of the moderate cost curve. It incentivizes 
 
 ### Heightening Patterns That Work Well
 
-- **+1 heightening** (Heal, Harm, Magic Missile, Fireball): Smooth scaling, natural efficiency tradeoff. No issues.
+- **+1 heightening** (Heal, Harm, Force Barrage, Fireball): Smooth scaling, natural efficiency tradeoff. No issues.
 - **+2 heightening** (Dispel Magic, Invisibility): Jumps two ranks per improvement. Less spammable since you skip a cost tier. No issues.
 - **Fixed heightening** (Haste at R7 only): Not reachable in our R1-5 range. Single-target at R3 is the only option. No issues.
 - **No heightening** (single-rank spells): Cast at base rank only. Mana cost is fixed. No issues.

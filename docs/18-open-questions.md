@@ -221,6 +221,20 @@ Follow-up from the resolved Generic Archetypes Review — the review is complete
 1. Begin human-written flavor text for classes and ancestries
 1. Character sheet design
 
+### ORC Content Verification — Partially Resolved
+
+AoN Elasticsearch audit verified all referenced content against remastered ORC-licensed sources (Feb 2026).
+
+- ✅ Spell list: all 412 spells confirmed in ORC sources (Player Core, PC2, Rage of Elements, Howl of the Wild, War of Immortals, Divine Mysteries)
+- ✅ Zero Secrets of Magic-only, APG-only, or CRB-only spells referenced
+- ✅ Pre-remaster spell names corrected (Magic Missile → Force Barrage, Magic Weapon removed, Remove Curse → Cleanse Affliction)
+- ✅ Flash Pellet removed (item doesn't exist in PF2e), Dust Pods removed (AP-only, never reprinted)
+- ✅ 5 Gadgeteer items confirmed ORC (Alarm Snare, Hampering Snare, Trip Snare from PC2; Potency Crystal, Jade Cat from GM Core)
+- ⚠️ 8 Gadgeteer items from G&G original — G&G Remastered (Feb 2025, ORC) exists but AoN hasn't indexed it yet
+- ⚠️ All Thaumaturge content matches pre-remaster Dark Archive — Dark Archive Remastered (Feb 2026, ORC) exists but AoN hasn't indexed it yet
+- ⚠️ Re-verify Gadgeteer and Thaumaturge content once AoN indexes remastered editions
+- See [ORC_NOTICE.md](../ORC_NOTICE.md) for full attribution
+
 ## Supporting Analysis
 
 - `pf2e_mana_math.xlsx` — Six-sheet workbook analyzing spell slot to mana conversion, cost curves, mana pools, and casting flexibility scenarios

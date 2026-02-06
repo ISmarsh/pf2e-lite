@@ -3,7 +3,7 @@
 A streamlined Pathfinder 2e variant for levels 1-10. Rules reference web app + design documents.
 
 **Version:** 0.1 Draft — February 2026
-**License:** ORC (Open RPG Creative License)
+**License:** Game content under [ORC](ORC_NOTICE.md) (Open RPG Creative License) | Code under [MIT](LICENSE)
 
 ---
 
@@ -74,7 +74,7 @@ All design docs live in [`docs/`](docs/). These are the source-of-truth for the 
 - **12 classes** — 4 martial + 4 full caster + 4 empowered (one per tradition pair)
 - **Empowered classes** — Tradition-flavored martial/skill classes with focus spells, no mana pool (Champion, Ranger, Artificer, Thaumaturge)
 - **Artificer** — INT arcane-empowered crafter, Alchemist-model infusion system, 4 subclasses
-- **Thaumaturge** — CHA occult-empowered martial, Exploit Vulnerability + Implements, ported from Dark Archive
+- **Thaumaturge** — CHA occult-empowered martial, Exploit Vulnerability + Implements, ported from Dark Archive Remastered
 - **7 ancestries, 43 heritages** — All ported from PF2e Remastered
 - **Crafting redesigned** — 25% material cost, 1-3 day crafting time by proficiency
 - **Free Archetype + Gradual Ability Boosts** — Standard rules

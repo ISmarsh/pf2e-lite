@@ -185,7 +185,7 @@
 | **Panacea** | 7 | Bottled Catharsis (L2+) | Partial overlap | Catharsis counteracts mental conditions with a modifier check. Our version flat reduces any condition by 2. Broader and more reliable. Reasonable at L7. |
 | **Bottled Lightning** | 7 | Bottled Lightning (PF2e, L1+) | Direct parallel | Same name! PF2e's version scales from 1d6 (L1) to 4d6 (L11). Our L7 version at 4d6 + stunned 1 on fail is comparable to PF2e's Greater version (L11). **We're giving L11-equivalent bomb power at L7.** Consider: reduce to 3d6 (matches L5-8 power band) or accept as "Artificer bombs are better than Alchemist bombs at same count." |
 | **Reconstituent** | 8 | — | ZERO overlap | Focus point recovery is intentionally scarce in PF2e. Already flagged. Very strong. |
-| **Philosopher's Draught** | 9 | Remove Curse (rank 4 spell) | Low overlap | Curse/condition removal as consumable. No alchemical equivalent. Spell-in-a-bottle design. Powerful but fits Artificer identity. |
+| **Philosopher's Draught** | 9 | Cleanse Affliction (rank 2 spell) | Low overlap | Curse/condition removal as consumable. No alchemical equivalent. Spell-in-a-bottle design. Powerful but fits Artificer identity. |
 | **Phoenix Salve** | 10 | — | ZERO overlap (in consumable space) | Death prevention as consumable. Already flagged for 2-per-slot concern. |
 
 ### Consumable Infusion Summary
