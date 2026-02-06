@@ -316,7 +316,7 @@ Magical staves give casters access to themed spell lists and extra daily casting
 **Bonus charges (prepared casters — Wizard, Cleric, Druid):** During daily prep, you may spend mana equal to a rank's mana cost to add charges equal to that rank number. Maximum one sacrifice per day.
 - Example: spend 4 mana (R3 cost) to add 3 charges.
 
-**Bonus charges (spontaneous casters — Bard):** During play, you may spend 1 charge + mana equal to the spell's rank cost to cast a staff spell at that rank or lower. This stretches your charges by supplementing with mana on the fly.
+**Bonus charges (spontaneous casters — Bard):** During play, you may cast a staff spell by spending 1 charge + mana equal to the rank you're casting at. This stretches your charges by supplementing with mana on the fly.
 - Example: cast a R3 staff spell for 1 charge + 4 mana (instead of 3 charges).
 
 **Staff weapons:** Staves can be etched with fundamental runes (potency, striking) but not property runes.
