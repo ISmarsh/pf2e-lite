@@ -1,40 +1,66 @@
-# PF2e Lite — Design Document
+# PF2e Lite
+
+A streamlined Pathfinder 2e variant for levels 1-10. Rules reference web app + design documents.
 
 **Version:** 0.1 Draft — February 2026
 **License:** ORC (Open RPG Creative License)
-**Status:** Design Skeleton
 
 ---
 
-## Documents
+## Getting Started
+
+```bash
+npm install
+npm run dev       # http://localhost:3000
+```
+
+## Tech Stack
+
+- **Next.js 15** — App Router, static export
+- **TypeScript** + **React 19**
+- **Tailwind CSS** — with `@tailwindcss/typography` for prose styling
+- **GitHub Pages** — deployed via `actions/deploy-pages`
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server |
+| `npm run build` | Build static export to `out/` |
+| `npm run lint` | Run ESLint |
+| `npm run format` | Format with Prettier |
+
+## Design Documents
+
+All design docs live in [`docs/`](docs/). These are the source-of-truth for the rule system.
 
 | # | File | Status | Contents |
 |---|------|--------|----------|
-| 00 | [Overview](00-overview.md) | Draft | Vision, design principles, ORC licensing, scope, AI policy, references |
-| 01 | [Core Rules](01-core-rules.md) | Draft | Level range, proficiency cap, action economy, degrees of success, standard variant rules |
-| 02 | [Character Creation](02-character-creation.md) | Stub | Character creation walkthrough, ability scores, gradual boosts |
-| 03 | [Ancestries](03-ancestries.md) | Draft | 7 core ancestries, 43 heritages, class pairings, expansion candidates |
-| 04 | [Backgrounds](04-backgrounds.md) | Draft | Character backgrounds, skill training, ability boosts |
-| 05 | [Classes](05-classes.md) | Draft | 12-class roster, subclasses, stat balance, expansion candidates |
-| 06 | [Artificer](06-artificer.md) | Draft | Full Artificer design — 4 subclasses, production systems, crafting interaction |
-| 07 | [Skills](07-skills.md) | Draft | 16 skills unchanged from PF2e, design rationale |
-| 08 | [Feats](08-feats.md) | Draft | Three feat tracks, proficiency auto-unlocks, advancement table |
-| 09 | [Equipment](09-equipment.md) | Stub | Weapons, armor, adventuring gear, materials, pricing |
-| 10 | [Spellcasting](10-spellcasting.md) | Draft | Mana system, cost curve, pools, caster tiers, heightening, metamagic |
-| 11 | [Conditions](11-conditions.md) | Draft | 20 consolidated conditions, detection simplification, cuts and rationale |
-| 12 | [Dying](12-dying.md) | Draft | Three-box dying system, baked-in wounded, survival probability |
-| 13 | [Shields](13-shields.md) | Draft | Simplified shield system — block value, durability ticks |
-| 14 | [Crafting](14-crafting.md) | Draft | Redesigned crafting — 25% cost, proficiency-based time, batch crafting |
-| 15 | [Dedications](15-dedications.md) | Draft | Multiclass dedication templates, all 12 dedications, Artificer dedication |
-| 16 | [Exploration & Downtime](16-exploration.md) | Stub | Exploration mode, travel, rest, downtime activities |
-| 17 | [Game Mastering](17-game-mastering.md) | Draft | Encounter math verified, XP budgets, DCs, creature benchmarks, treasure by level |
-| 18 | [Open Questions](18-open-questions.md) | Draft | Prioritized to-do, open design questions, next steps |
+| 00 | [Overview](docs/00-overview.md) | Draft | Vision, design principles, ORC licensing, scope, AI policy, references |
+| 01 | [Core Rules](docs/01-core-rules.md) | Draft | Level range, proficiency cap, action economy, degrees of success, standard variant rules |
+| 02 | [Character Creation](docs/02-character-creation.md) | Stub | Character creation walkthrough, ability scores, gradual boosts |
+| 03 | [Ancestries](docs/03-ancestries.md) | Draft | 7 core ancestries, 43 heritages, class pairings, expansion candidates |
+| 04 | [Backgrounds](docs/04-backgrounds.md) | Draft | Character backgrounds, skill training, ability boosts |
+| 05 | [Classes](docs/05-classes.md) | Draft | 12-class roster, subclasses, stat balance, expansion candidates |
+| 06 | [Artificer](docs/06-artificer.md) | Draft | Full Artificer design — 4 subclasses, production systems, crafting interaction |
+| 07 | [Skills](docs/07-skills.md) | Draft | 16 skills unchanged from PF2e, design rationale |
+| 08 | [Feats](docs/08-feats.md) | Draft | Three feat tracks, proficiency auto-unlocks, advancement table |
+| 09 | [Equipment](docs/09-equipment.md) | Stub | Weapons, armor, adventuring gear, materials, pricing |
+| 10 | [Spellcasting](docs/10-spellcasting.md) | Draft | Mana system, cost curve, pools, caster tiers, heightening, metamagic |
+| 11 | [Conditions](docs/11-conditions.md) | Draft | 20 consolidated conditions, detection simplification, cuts and rationale |
+| 12 | [Dying](docs/12-dying.md) | Draft | Three-box dying system, baked-in wounded, survival probability |
+| 13 | [Shields](docs/13-shields.md) | Draft | Simplified shield system — block value, durability ticks |
+| 14 | [Crafting](docs/14-crafting.md) | Draft | Redesigned crafting — 25% cost, proficiency-based time, batch crafting |
+| 15 | [Dedications](docs/15-dedications.md) | Draft | Multiclass dedication templates, all 12 dedications, Artificer dedication |
+| 16 | [Exploration & Downtime](docs/16-exploration.md) | Stub | Exploration mode, travel, rest, downtime activities |
+| 17 | [Game Mastering](docs/17-game-mastering.md) | Draft | Encounter math verified, XP budgets, DCs, creature benchmarks, treasure by level |
+| 18 | [Open Questions](docs/18-open-questions.md) | Draft | Prioritized to-do, open design questions, next steps |
 
-## Supporting Files
+### Supporting Files
 
-- `pf2e_mana_math.xlsx` — Mana system mathematical analysis (cost curves, pool sizing, flexibility scenarios)
-- [10a-spell-audit.md](10a-spell-audit.md) — Spell list audit: 412 spells analyzed for mana compatibility, class feature conversions, Golarion references
-- [06c-artificer-balance-report.md](06c-artificer-balance-report.md) — Artificer balance analysis vs empowered peers
+- `docs/pf2e_mana_math.xlsx` — Mana system mathematical analysis (cost curves, pool sizing, flexibility scenarios)
+- [10a-spell-audit.md](docs/10a-spell-audit.md) — Spell list audit: 412 spells analyzed for mana compatibility, class feature conversions, Golarion references
+- [06c-artificer-balance-report.md](docs/06c-artificer-balance-report.md) — Artificer balance analysis vs empowered peers
 
 ## Key Design Decisions
 

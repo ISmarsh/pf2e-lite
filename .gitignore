@@ -12,3 +12,17 @@ Desktop.ini
 
 # Temp files
 ~$*.xlsx
+
+# Dependencies
+node_modules
+
+# Build output
+.next
+out
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment
+.env
+.env.local
+.env.*.local

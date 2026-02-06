@@ -2,13 +2,34 @@
 
 @.planet-smars/templates/ai-context/AGENTS.md
 
-This is a tabletop RPG design project — markdown design documents, not code.
-No build system, no tests, no linting. Changes are markdown edits.
+A Next.js web app (rules reference, future character builder) built on top of
+tabletop RPG design documents.
 
 ## Project Structure
 
-19 numbered design docs (`00-overview.md` through `18-open-questions.md`),
-a mana math spreadsheet, and a README with document index. See [README](README.md).
+- `src/` — Next.js App Router application (TypeScript, Tailwind CSS)
+  - `src/app/` — Pages and layouts
+  - `src/app/rules/[slug]/` — Dynamic route rendering design docs via react-markdown
+  - `src/components/` — Shared React components
+  - `src/lib/docs.ts` — Build-time utilities to read markdown from `docs/`
+- `docs/` — 19 numbered design docs (`00-overview.md` through `18-open-questions.md`),
+  supporting analysis docs, and a mana math spreadsheet. See [README](README.md).
+- `public/` — Static assets
+
+## Build Commands
+
+```
+npm run dev        # Start dev server (localhost:3000)
+npm run build      # Static export to out/
+npm run lint       # ESLint
+npm run format     # Prettier
+```
+
+## Static Export
+
+The app uses `output: 'export'` in `next.config.ts` for GitHub Pages deployment.
+`basePath: '/pf2e-lite'` is applied in production only. No API routes, no SSR —
+all pages are statically generated at build time.
 
 ## Writing Style
 
@@ -36,9 +57,9 @@ a mana math spreadsheet, and a README with document index. See [README](README.m
 
 ## Key Custom Classes
 
-- **Artificer** (`06-artificer.md`): INT arcane-empowered crafter, Alchemist-model chassis.
+- **Artificer** (`docs/06-artificer.md`): INT arcane-empowered crafter, Alchemist-model chassis.
   Infusions are qualitative (add capabilities, not numerical bonuses).
-- **Thaumaturge** (`05-classes.md`): CHA occult-empowered martial, ported from Dark Archive.
+- **Thaumaturge** (`docs/05-classes.md`): CHA occult-empowered martial, ported from Dark Archive.
 
 ## Reference Sources
 
