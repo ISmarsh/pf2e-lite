@@ -96,12 +96,17 @@ Promoted to core. Grid is now 4 martial / 4 full caster / 4 empowered = 12 class
 - Which metamagic options are available to non-Wizards via feats
 - See [Spellcasting](10-spellcasting.md)
 
-### Spell List Audit
+### Spell List Audit — Resolved
 
-- Verify all PF2e spells in ranks 1-5 work with the mana system
-- Spells referencing Golarion-specific concepts need renaming
-- Spells balanced around specific slot counts may need rebalancing for mana flexibility
-- See [Spellcasting](10-spellcasting.md)
+412 remastered spells audited across ranks 1-5 (excluding cantrips and focus spells). Vast majority compatible with mana system without modification.
+
+- ✅ Mana pool equals total Vancian slot value at each level — total daily output is equivalent
+- ✅ Cost curve (1/2/4/7/11) creates natural efficiency gradient — lower ranks are more mana-efficient, discouraging degenerate top-rank concentration
+- ✅ PF2e's existing constraints (bonus type stacking, Sustained action limits, 3-action rounds) are unaffected
+- ✅ Only 1 of 412 spells (Ymeri's Mark) requires Golarion-specific renaming
+- ⚠️ Healing Font and Wizard curriculum spells need mana-system conversion (proposed: tagged bonus mana)
+- ⚠️ 8 spells flagged for playtest monitoring (Heal, Haste, Heroism, Slow, summons, Invisibility, Fly, Wall of Stone)
+- See [Spell List Audit](10a-spell-audit.md)
 
 ## Lower Priority
 

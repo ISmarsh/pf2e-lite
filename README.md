@@ -33,6 +33,8 @@
 ## Supporting Files
 
 - `pf2e_mana_math.xlsx` — Mana system mathematical analysis (cost curves, pool sizing, flexibility scenarios)
+- [10a-spell-audit.md](10a-spell-audit.md) — Spell list audit: 412 spells analyzed for mana compatibility, class feature conversions, Golarion references
+- [06c-artificer-balance-report.md](06c-artificer-balance-report.md) — Artificer balance analysis vs empowered peers
 
 ## Key Design Decisions
 
