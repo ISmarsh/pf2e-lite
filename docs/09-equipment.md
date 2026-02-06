@@ -367,18 +367,18 @@ Magical staves give casters access to themed spell lists and extra daily casting
 
 > Uncommon staves: Atmospheric Staff, Staff of Impossible Visions, Staff of the Unblinking Eye. All others are common.
 
-#### Level 8 (Greater Versions)
+#### Level 8
 
 | Staff | Price | New Spells Added |
 |-------|-------|-----------------|
 | Animal Staff (Greater) | 460 gp | +R2-R3: animal messenger, speak with animals, animal form |
-| Atmospheric Staff | 480 gp | +R2-R3: gentle breeze, gravity well, tempest cloak |
+| Atmospheric Staff (Greater) | 480 gp | +R2-R3: gentle breeze, gravity well, tempest cloak |
 | Mentalist's Staff (Greater) | 460 gp | +R2-R3: paranoia, hypercognition |
 | Staff of Fire (Greater) | 450 gp | +R2-R3: floating flame, fireball |
 | Staff of Healing (Greater) | 470 gp | +R2-R3: clear mind, sound body, cleanse affliction, heal (+2 bonus) |
 | Staff of Illumination | 425 gp | Cantrip + R2-R3: light, everlight, holy light |
 
-#### Level 10 (Greater Versions)
+#### Level 10
 
 | Staff | Price | New Spells Added |
 |-------|-------|-----------------|
