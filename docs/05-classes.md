@@ -72,12 +72,14 @@ All non-Artificer classes port directly from PF2e Remastered. Mechanical chassis
 
 - **Schools:** Reworked in Remaster to curriculum-based system (Ars Grammatica, Battle Magic, Civic Wizardry, etc.)
 - All mechanical frameworks defining bonus spells and school abilities.
+- **Curriculum free casts:** 1 free curriculum spell cast per day per spell rank you can access. Must be from your school's curriculum list. At level 10 (max R5), this means 5 free curriculum casts (one each at R1-R5). Maps 1:1 to PF2e's bonus prepared curriculum spell per rank. See [Spellcasting](10-spellcasting.md#class-bonus-casts).
 - Port directly, may rename for flavor later.
 
 ### Cleric
 
 - **Doctrines (2):** Cloistered Cleric (full caster focused), Warpriest (more martial)
 - Plus domain selection granting focus spells. Domains reference generic divine concepts, not Golarion deities.
+- **Healing Font / Harmful Font:** WIS modifier (minimum 1) free Heal (or Harm) casts per day at any rank you can cast. These don't cost mana. At WIS +4, level 10: 4 free Heals at up to R5. Preserves the Cleric's healing identity as a resource separate from their general mana pool. See [Spellcasting](10-spellcasting.md#class-bonus-casts).
 - Port directly.
 
 ### Druid

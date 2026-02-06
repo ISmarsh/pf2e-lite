@@ -25,7 +25,7 @@ PF2e has 40+ conditions. Reduced to **20 core conditions** by merging redundant 
 | **Sickened** (value) | Physical | Penalty to all checks, must retch to reduce |
 | **Slowed** (value) | Action | Lose actions at start of turn |
 | **Stunned** (value) | Action | Lose actions, more severe than slowed |
-| **Stupefied** (value) | Mental penalty | Penalty to spell attacks and DCs only |
+| **Stupefied** (value) | Mental penalty | Penalty to spell attacks and DCs + flat check to lose spells |
 | **Unconscious** | Incapacitation | Can't act, flat-footed, drop items |
 | **Wounded** | Death track | Baked into dying system (see [Dying](12-dying.md)) |
 
@@ -38,9 +38,16 @@ PF2e has four detection states: Observed → Concealed → Hidden → Undetected
 - **Concealed** (DC 5 flat check, know location) — You can see something is there but not clearly. Fog, dim light, blur effects.
 - **Hidden** (DC 11 flat check, don't know location) — You can't see them and don't know exactly where they are. Absorbs both Undetected and Unnoticed.
 
-### Stupefied: Simplified
+**Excluded feats:** Two feats within L1-10 become non-functional under two-tier detection and are excluded from the system:
 
-PF2e Stupefied imposes a penalty on spell attacks/DCs AND requires a flat check to avoid losing spells when casting. Simplified to penalty on spell attacks and DCs only. No flat check to lose spells — removes a feel-bad random element that disproportionately punishes casters.
+- **Blind-Fight** (Fighter/Ranger L8) — Upgrades Undetected to Hidden, but those are now the same tier. Excluded.
+- **Startling Appearance** (Rogue L6) — Requires being Unnoticed, which no longer exists as a distinct state. Excluded.
+
+Revealing Stab (Rogue L6) ports with minor rephrasing: "make Hidden creature Concealed" instead of referencing Undetected.
+
+### Stupefied: Kept As-Is
+
+PF2e Stupefied imposes a penalty on spell attacks/DCs AND requires a flat check (DC 5 + value) to avoid losing the spell when casting. Both effects preserved — the flat check is what makes Stupefied the anti-caster debuff rather than just a weaker Clumsy. At Stupefied 1 (DC 6), the 25% failure chance is meaningful but not crippling. The condition is uncommon and usually temporary. Losing the flat check would weaken Stupefied by ~45-60% against casters, undermining spells specifically designed to punish spellcasting (Stupefy, Crisis of Faith, Never Mind).
 
 ### Frightened and Sickened: Kept Separate
 
@@ -62,6 +69,6 @@ STR penalty vs DEX penalty matters for martial/caster balance. Merging would cre
 
 ## Open Design Work
 
-- Detection two-tier system: examine edge cases more closely, especially abilities that reference Undetected or Unnoticed
-- Stupefied simplification: verify no spells/abilities specifically rely on the flat check mechanic
+- ~~Detection two-tier system~~ — ✅ Resolved. Two feats excluded (Blind-Fight, Startling Appearance); Revealing Stab rephrased. All spells granting Undetected map cleanly to Hidden.
+- ~~Stupefied simplification~~ — ✅ Resolved. Flat check kept as-is from PF2e. No abilities specifically rely on the flat check mechanic — they just apply the Stupefied value.
 - Verify creature abilities that reference removed conditions still work

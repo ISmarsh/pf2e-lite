@@ -195,7 +195,7 @@ PF2e's Cleric gets bonus spell slots exclusively for Heal (or Harm, for evil-ali
 | **B. Free casts** | WIS mod free Heal/Harm casts per day at highest rank | Direct slot mapping | Reintroduces slot-like tracking |
 | **C. Mana discount** | Heal/Harm costs 1 less mana (minimum 1) | Elegant, no extra pool | Hard to balance; R1 Heal at 0 cost is too strong |
 
-**Recommendation:** Option A (bonus tagged mana). At WIS +4: Cleric gets +4 mana that can only be spent on Heal/Harm. Simple to track (single number), preserves the Cleric's healing premium without inflating general casting power. The tag prevents using Font mana for Fireball equivalents.
+**Resolution:** Free casts (Option B variant). WIS modifier (minimum 1) free Heal/Harm casts per day at any rank you can cast. At WIS +4, level 10: 4 free R5 Heals (44 mana equivalent), matching PF2e Font exactly. Option A (tagged mana) was rejected — flat +WIS mod mana doesn't scale with rank costs (4 mana at L10 can't buy a single R4 Heal, 91% underpowered vs PF2e Font). See [Spellcasting](10-spellcasting.md#class-bonus-casts).
 
 #### Wizard Curriculum Spells
 
@@ -210,7 +210,7 @@ PF2e Remastered Wizards get one bonus prepared spell per rank from their school'
 | **C. Curriculum discount** | Curriculum spells cost 1 less mana (minimum 1) | Elegant, no tracking | R1 curriculum spells at 0 cost; hard to balance |
 | **D. Extended spell list** | School grants bonus spells known (spontaneous), not bonus resources | Works for spontaneous; prepared already know full list | Doesn't apply to prepared casters |
 
-**Recommendation:** Option A (bonus tagged mana) for consistency with Healing Font. At INT +4: +4 mana usable only on curriculum spells. Maintains the school's specialization incentive. Alternatively, Option B if the design prefers a cleaner mapping (one free cast per rank, max 5).
+**Resolution:** Free casts (Option B). 1 free curriculum spell cast per day per spell rank you can access. At level 10: 5 free curriculum casts (1 × R1 through R5, total 25 mana equivalent). Maps 1:1 to PF2e's bonus prepared curriculum spell per rank. Option A (tagged mana) was rejected for the same scaling reason as Healing Font — flat +INT mod mana is dramatically underpowered at higher levels. See [Spellcasting](10-spellcasting.md#class-bonus-casts).
 
 #### Drain Bonded Item (Wizard)
 
@@ -287,8 +287,8 @@ These spells use possessive names but reference generic concepts, not Golarion-s
 | 2 | Guaranteed encounter buffs | MEDIUM | Accept. 27% pool cost for every-combat Haste/Heroism is a real tradeoff. Monitor action economy impact in playtest. |
 | 3 | Exploration trivialization | LOW | Accept. Exploration balance is GM-facing, not system-critical. No changes needed. |
 | 4 | Summoning economy | LOW | Accept. Sustained action constraint is sufficient. Self-balancing. |
-| 5 | Healing Font conversion | HIGH | Design tagged bonus mana (+WIS mod, Heal/Harm only). See Class Feature Conversions. |
-| 6 | Curriculum spell conversion | HIGH | Design tagged bonus mana (+INT mod, curriculum only) or free casts. See Class Feature Conversions. |
+| 5 | Healing Font conversion | ~~HIGH~~ ✅ | Resolved. Free casts: WIS mod free Heal/Harm per day at any rank. See [Spellcasting](10-spellcasting.md#class-bonus-casts). |
+| 6 | Curriculum spell conversion | ~~HIGH~~ ✅ | Resolved. Free casts: 1 curriculum spell per rank per day. See [Spellcasting](10-spellcasting.md#class-bonus-casts). |
 | 7 | Ymeri's Mark | LOW | Rename to setting-agnostic alternative (e.g., "Flame Lord's Mark"). |
 | 8 | Per-rank casting caps | — | **Not recommended.** Would defeat the purpose of switching to mana. The cost curve and total pool equivalence provide sufficient balance. |
 
@@ -313,7 +313,7 @@ Specific spells to monitor during playtesting for mana-related balance issues:
 
 The mana pool is designed to match total Vancian slot value at each level. The moderate cost curve (1/2/4/7/11) creates natural efficiency tradeoffs that discourage degenerate concentration. PF2e's existing constraints — bonus type stacking rules, Sustained action limits, 3-action rounds, save-based mitigation — remain the primary balance mechanisms and are unaffected by the resource change.
 
-The two areas requiring active design work are **class feature conversions** (Healing Font, Wizard curriculum spells) — these are mechanical translations, not balance fixes. They should be addressed in the class design docs ([Classes](05-classes.md), [Spellcasting](10-spellcasting.md)) before compilation.
+The two class feature conversions (Healing Font, Wizard curriculum spells) have been resolved — both use free casts per day that map 1:1 to PF2e's bonus slots. See [Spellcasting](10-spellcasting.md#class-bonus-casts).
 
 Eight spells are flagged for playtest monitoring, but none require preemptive mechanical changes. The recommended approach is **accept and observe** — the theoretical flexibility concerns are bounded by real tradeoffs that only playtesting can validate.
 

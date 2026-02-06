@@ -30,7 +30,7 @@ For a level 10 party, Extreme encounters can include up to level 14 creatures. T
 - **Mana replacing slots** — Changes resource management pacing, not attack/AC/save math. Encounter difficulty ratings stay valid.
 - **Simplified conditions** — Equivalent mechanical effects, no numerical changes to the hit/damage/save economy.
 - **Three-box dying** — Survival math, not encounter building.
-- **Simplified shields** — Block values can be tuned independently; doesn't affect creature stat benchmarks.
+- **Simplified shields** — Hardness and Durability can be tuned independently; doesn't affect creature stat benchmarks.
 
 ### What to Watch in Playtesting
 
