@@ -122,7 +122,7 @@ WIS modifier (minimum 1) free Heal (or Harm) casts per day at any rank you can c
 | 7 | R4 | 4 × up to R4 | up to 28 |
 | 10 | R5 | 4 × up to R5 | up to 44 |
 
-Each free cast can be at any rank up to your maximum — you choose the rank when you cast. This matches PF2e Font's bonus slots, which are all at the caster's highest available rank. The free casts are Heal (or Harm) only; they can't be used for other spells.
+Each free cast can be at any rank up to your maximum — you choose the rank when you cast. This is slightly more flexible than PF2e Font's bonus slots (which are all at the caster's highest available rank), but aligns with mana's inherent flexibility. A cleric choosing lower-rank Heals is self-nerfing, not exploiting — lower ranks heal less. The free casts are Heal (or Harm) only; they can't be used for other spells.
 
 **Design rationale:** PF2e Font gives ~WIS mod bonus Heal slots separate from regular slots. Free casts map 1:1 to this power level. A flat tagged mana bonus (+WIS mod mana) was considered but doesn't scale with rank costs — at level 10, +4 mana can't buy a single R4 Heal, while PF2e Font gives ~4 R5 Heals.
 

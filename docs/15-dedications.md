@@ -162,7 +162,7 @@ All archetypes below are from Player Core 2 (ORC-licensed, remastered). Core vs 
 
 - **Prerequisite:** Shield Block reaction
 - **Grants:** Reactive Shield (raise shield as a reaction when attacked).
-- **Feat chain (L2-L10, 13 feats):** Two L1 stance feats (Everstand Stance, Agile Shield Grip) available at L4+, shield movement (Shielded Stride L4), offensive blocks (Disarming Block L4, Everstand Strike L4), defensive reactions (Reflexive Shield L6, Shield Warden L6, Quick Shield Block L8), reflection (Mirror Shield L10), durability management (Destructive Block L10, Shield Salvation L10). Improved Reflexive Shield at L16 naturally excluded.
+- **Feat chain (L2-L12, 13 feats; only L2-L10 available in this system):** Two L1 stance feats (Everstand Stance, Agile Shield Grip) available at L4+, shield movement (Shielded Stride L4), offensive blocks (Disarming Block L4, Everstand Strike L4), defensive reactions (Reflexive Shield L6, Shield Warden L6, Quick Shield Block L8), reflection (Mirror Shield L10), durability management (Destructive Block L10, Shield Salvation L12 — above our L1-10 cap). Improved Reflexive Shield at L16 naturally excluded.
 - **System flags:** We keep PF2e's "Hardness" term, so Destructive Block (L10) ports as-is. Shield Salvation (L12): above level cap, naturally excluded. **No adaptation needed.**
 - Deepest feat chain of any generic archetype. Natural companion to our simplified shield system. Pairs well with Champion, Fighter, or any shield-using build.
 

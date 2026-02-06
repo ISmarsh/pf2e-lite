@@ -361,7 +361,6 @@ Magical staves give casters access to themed spell lists and extra daily casting
 | Staff of the Dead | 230 gp | Arcane/Divine | Void warp, grim tendrils, summon undead |
 | Staff of the Tempest | 230 gp | Arcane/Primal | Electric arc, hydraulic push, thunderstrike, mist |
 | Verdant Staff | 225 gp | Primal | Tangle vine, entangling flora, shape wood |
-| Staff of Illumination | — | Divine | Light, everlight, holy light (starts at L8 tier) |
 | Staff of Impossible Visions | 230 gp | Occult | Daze, fear, phantom pain, augury, paranoia |
 | Staff of Metal | 250 gp | Arcane/Primal | Detect metal, conductive weapon, magnetic attraction |
 | Staff of the Unblinking Eye | 230 gp | Arcane/Divine | Detect magic, sure strike, darkvision, see the unseen |

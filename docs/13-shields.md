@@ -15,7 +15,7 @@ Preserves PF2e's shield action economy and tactical decisions while simplifying 
 When you take physical damage while your shield is raised:
 
 - Reduce damage by the shield's **Hardness** (same term as PF2e, same value)
-- Mark **one durability** on the shield (two on a critical hit)
+- The shield loses **1 Durability** (2 on a critical hit)
 - If damage exceeds **double the Hardness**, shield is destroyed outright
 
 ### Durability
