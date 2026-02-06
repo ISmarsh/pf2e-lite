@@ -7,7 +7,7 @@
 The Master proficiency cap does **not** create gaps in PF2e's encounter math. Within levels 1-10, PF2e's natural proficiency progression rarely reaches Master, and never reaches Legendary:
 
 - **Fighter** (the most advanced martial): Expert weapons at 1, Master at 5. Legendary is at 13 — outside our range. The Master cap is never hit.
-- **Other martials** (Barbarian, Rogue, Ranger, Champion, Thaumaturge): Expert weapons by level 5-7. Master at 13 — outside our range. They never reach Master in weapons during levels 1-10.
+- **Other weapon classes** (Barbarian, Rogue, Ranger, Champion, Thaumaturge — martials and empowered alike): Expert weapons by level 5-7. Master at 13 — outside our range. They never reach Master in weapons during levels 1-10.
 - **Full casters** (Wizard, Cleric, Druid, Bard): Expert spell DCs around level 7. Master at 15+ — outside our range.
 - **Saving throws**: Most Master save upgrades happen around levels 7-17 depending on class. A few classes reach Master in one save within our range (e.g., Fighter Fort at 3).
 - **Skills**: Master is achievable at level 7 (requires Expert first). This is within our range and works normally.

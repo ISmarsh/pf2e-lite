@@ -14,9 +14,9 @@
 | 01 | [Core Rules](01-core-rules.md) | Draft | Level range, proficiency cap, action economy, degrees of success, standard variant rules |
 | 02 | [Character Creation](02-character-creation.md) | Stub | Character creation walkthrough, ability scores, gradual boosts |
 | 03 | [Ancestries](03-ancestries.md) | Draft | 7 core ancestries, 43 heritages, class pairings, expansion candidates |
-| 04 | [Backgrounds](04-backgrounds.md) | Stub | Character backgrounds, skill training, ability boosts |
+| 04 | [Backgrounds](04-backgrounds.md) | Draft | Character backgrounds, skill training, ability boosts |
 | 05 | [Classes](05-classes.md) | Draft | 12-class roster, subclasses, stat balance, expansion candidates |
-| 06 | [Artificer](06-artificer.md) | Draft | Full Artificer design — infusions, 4 subclasses, crafting interaction |
+| 06 | [Artificer](06-artificer.md) | Draft | Full Artificer design — 4 subclasses, production systems, crafting interaction |
 | 07 | [Skills](07-skills.md) | Draft | 16 skills unchanged from PF2e, design rationale |
 | 08 | [Feats](08-feats.md) | Draft | Three feat tracks, proficiency auto-unlocks, advancement table |
 | 09 | [Equipment](09-equipment.md) | Stub | Weapons, armor, adventuring gear, materials, pricing |
