@@ -202,35 +202,17 @@ PF2e exploration and downtime systems ported with evaluation of SMARS Focus chec
 - ✅ All PF2e downtime activities ported (Craft cross-ref to [14-crafting.md](14-crafting.md), Earn Income, Retraining, Learn a Spell, Treat Disease, Subsist)
 - ✅ Resting mechanics documented (10-min rest activities, long rest recovery, post-combat sequence)
 - ✅ Hero Points ported with three-box dying interaction analysis
-- ✅ SMARS Focus check system evaluated: progress/danger clocks adopted as core addition, school specializations adopted as modular layer, Focus dice presented as optional variant
+- ✅ SMARS Focus check system evaluated: progress/danger clocks adopted as core addition, Focus dice presented as optional variant
 - ⚠️ Clock sizes and GM guidance need expansion during playtesting
-- ⚠️ School specialization bonuses blocked on magick schools integration decision
 - See [Exploration & Downtime](16-exploration-and-downtime.md)
 
 ## Open Design Questions
-
-### Magick Schools: Integration Approach
-
-> **Status:** Open -- highest-impact design decision remaining. See [Magick Schools](21-magick-schools.md) for full analysis.
-
-How do the six schools of MAGICK (Mutation, Artifice, Genesis, Illusion, Clarifice, Knosis) interact with PF2e's four traditions (Arcane, Divine, Primal, Occult)?
-
-Three options documented:
-
-- **Option A: Schools replace traditions.** Cleanest design, biggest PF2e departure. Requires 406-spell reclassification.
-- **Option B: Schools layer on top of traditions.** Maximum compatibility, two overlapping systems.
-- **Option C: Schools replace mechanics, traditions become flavor.** Clean mechanics + preserved flavor, still requires reclassification.
-
-**Recommended next step:** Sample classification of 20-30 iconic spells to stress-test the rubric before committing.
-
-**Downstream impact:** Class docs, spell audit, dedications, and overview scope all depend on this decision.
 
 ### Focus Terminology Collision
 
 If the SMARS Focus check system (proficiency-driven dice for Exploration/Downtime) is adopted, "Focus" would mean two things: Focus spells/Focus Points (per-encounter casting) and Focus checks (exploration dice). Options:
 
-- Rename Focus Points to "Aether Points" (lore-consistent)
-- Rename the exploration mechanic (e.g., "Settle checks," per SMARS v2 terminology)
+- Rename the exploration mechanic (e.g., "Settle checks")
 - Keep both and rely on context
 
 The Focus dice system is recommended as an optional variant only (see [Exploration & Downtime](16-exploration-and-downtime.md#part-6-variant-rule----focus-dice)), which reduces the urgency of this naming collision. If the variant sees adoption, the terminology will need resolution.
@@ -246,14 +228,6 @@ SMARS proposes dual-ability saves where the player chooses the better modifier:
 | Will | WIS or CHA | WIS-based |
 
 This would make INT relevant to Reflex (reflecting quick analytical threat processing) and CHA relevant to Will (reflecting force of personality against mental effects). **Not implemented** -- flagged for evaluation. Key concern: does this make saves too easy by letting players always use their better stat?
-
-### Creature Taxonomy Scope
-
-The SMARS creature taxonomy (see [Creature Taxonomy](20-creature-taxonomy.md)) is currently a classification aid for GMs. Open questions:
-
-- Should taxonomy traits interact mechanically with spells/abilities beyond what PF2e traits already provide?
-- How do Undead fit? (Complex creatures that lost their Mental dimension bridge)
-- How do Fey, Fiends, and Celestials fit? (May need a third dimensional space or special classification)
 
 ### Mana System
 
@@ -293,12 +267,7 @@ The SMARS creature taxonomy (see [Creature Taxonomy](20-creature-taxonomy.md)) i
 1. ~~Thaumaturge integration review~~ -- ✅ Resolved, ports cleanly
 1. ~~Auto-unlock feat list~~ -- ✅ Resolved. Finalized in [08-feats.md](08-feats.md)
 1. ~~Shield conversion formula~~ -- ✅ Resolved. Formula and full progression in [13-shields.md](13-shields.md)
-1. ~~SMARS integration: Setting lore~~ -- ✅ [Setting](19-setting.md) created
-1. ~~SMARS integration: Creature taxonomy~~ -- ✅ [Creature Taxonomy](20-creature-taxonomy.md) created
-1. ~~SMARS integration: Magick schools~~ -- ✅ [Magick Schools](21-magick-schools.md) created (integration approach TBD)
-1. ~~SMARS integration: Exploration & Downtime~~ -- ✅ [Exploration & Downtime](16-exploration-and-downtime.md) developed (PF2e audit + Focus check evaluation + clocks + variant rule)
-1. Decide magick schools integration approach (A/B/C) -- gates spell classification pass
-1. Sample spell classification (20-30 iconic spells) -- stress-test school rubric
+1. ~~Exploration & Downtime~~ -- ✅ [Exploration & Downtime](16-exploration-and-downtime.md) developed (PF2e audit + Focus check evaluation + clocks + variant rule)
 1. Pull all sections into a unified playtest document
 1. Begin human-written flavor text for classes and ancestries
 1. Character sheet design

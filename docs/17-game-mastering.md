@@ -36,10 +36,6 @@ All ported as-is from GM Core. See `.aon-cache/gm-encounter-rules.json` for full
 - **Creature building:** Stat benchmarks (AC, attack, saves, HP, damage, ability DCs by level) for creature levels -1 through 14.
 - **Treasure by level:** Expected wealth, currency/consumable/permanent item distribution.
 
-### Creature Taxonomy
-
-When building or classifying creatures, GMs can use the compositional creature taxonomy (see [Creature Taxonomy](20-creature-taxonomy.md)) for structured trait assignment. This is a classification aid -- it doesn't change stat block format or encounter math.
-
 ## Design Considerations
 
 - Treasure guidelines need to account for our crafting system's increased savings. A party with a dedicated crafter has ~17% more effective wealth.

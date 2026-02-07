@@ -2,7 +2,7 @@
 
 ## Core Ancestries (7)
 
-All mechanics ported directly from PF2e Remastered under ORC. Full data in `.aon-cache/ancestry-data.json` and `.aon-cache/heritage-data.json`. Golarion-specific lore stripped; flavor text to be human-written original content. Each ancestry's relationship to the Aether and the Physical/Mental dimensions (see [Setting](19-setting.md)) should inform their flavor -- e.g., Elves as more attuned to the Mental dimensions (explaining their magical affinity and fragility), Dwarves as deeply rooted in Physical space (explaining their hardiness and constitution).
+All mechanics ported directly from PF2e Remastered under ORC. Full data in `.aon-cache/ancestry-data.json` and `.aon-cache/heritage-data.json`. Golarion-specific lore stripped; flavor text to be human-written original content.
 
 **Selected:** Human, Dwarf, Elf, Gnome, Goblin, Halfling, Orc (7 of 23 remastered ancestries). Heritages: 43 total across the 7 ancestries (5-7 per ancestry).
 

@@ -128,9 +128,7 @@ Proficiency determines dice mode: Untrained = 1d12 (flat), Trained = 2d6 (bell),
 
 **2. Proficiency-as-position is narratively compelling.** The idea that a Master doesn't just succeed more often but *experiences a fundamentally different quality of risk* is elegant. An untrained character forging a blade risks burning themselves; a Master simply produces the blade. This captures something PF2e's flat d20 + degrees of success doesn't.
 
-**3. Magic school specializations for exploration.** Connecting the six schools of MAGICK (see [Magick Schools](21-magick-schools.md)) to exploration domains -- Artifice for crafting, Knosis for research, Clarifice for healing -- gives magical training value outside combat. This works regardless of dice system.
-
-**4. Environmental dice shifting.** Locations that upgrade or downgrade dice modes ("this place shifts your Focus one step toward chaos") is a simple, flavorful GM lever that communicates danger without stat blocks.
+**3. Environmental dice shifting.** Locations that upgrade or downgrade dice modes ("this place shifts your Focus one step toward chaos") is a simple, flavorful GM lever that communicates danger without stat blocks.
 
 ### Where the Focus System Is Problematic
 
@@ -149,13 +147,12 @@ Proficiency determines dice mode: Untrained = 1d12 (flat), Trained = 2d6 (bell),
 **For the core system:**
 - Port PF2e exploration and downtime activities using standard d20 resolution
 - **Add progress/danger clocks** as a core addition for sustained tasks (investigations, long journeys, crafting projects, reputation building). Clocks pair naturally with d20 + degrees of success: critical success fills extra segments, failure ticks the danger clock.
-- **Add school specializations** as a modular layer: characters with relevant MAGICK school proficiency get circumstance bonuses on related exploration/downtime checks (Artifice for crafting, Knosis for research, Clarifice for healing, etc.). This works with the standard d20 system.
 
 **As a variant rule:**
 - Present the full Focus dice spectrum (1d12/2d6/3d4/static 7) as an **optional variant** for tables that want more narrative-driven exploration. Clearly labeled, self-contained, and not required for other rules to function.
 - Include the environmental dice shifting rules as part of the variant.
 
-This approach gets the best SMARS innovations (clocks, school specializations) into the core system while keeping the "Lite" promise of one dice system for all modes.
+This approach gets the best innovations (clocks) into the core system while keeping the "Lite" promise of one dice system for all modes.
 
 ### Clock System (Core Addition)
 
@@ -202,21 +199,6 @@ Clocks are most valuable for tasks that:
 - When progress fills: the party identifies the killer
 - When danger fills: the killer flees or strikes first
 
-### School Specializations for Exploration (Core Addition)
-
-Characters with proficiency in a relevant school of MAGICK gain a **+1 circumstance bonus** on exploration/downtime checks in that school's domain:
-
-| School | Domain | Example Activities |
-|--------|--------|-------------------|
-| **Mutation** | Adaptation, transformation | Adapting to environments, brewing potions, altering materials |
-| **Artifice** | Crafting, construction | Forging items, building structures, repairing equipment |
-| **Genesis** | Creation from raw materials | Conjuring supplies, establishing camps, creating light/heat |
-| **Illusion** | Deception, social manipulation | Disguises, misdirection, extended social manipulation |
-| **Clarifice** | Restoration, recovery | Healing, curing conditions, restoring cursed/damaged objects |
-| **Knosis** | Research, discovery | Deciphering texts, scouting, identifying magical phenomena |
-
-**Note:** School proficiency is pending the magick schools integration decision (see [Magick Schools](21-magick-schools.md) and [Open Questions](18-open-questions.md)). If schools are adopted mechanically, these bonuses activate. If schools remain definitional only, this section is deferred.
-
 ---
 
 ## PART 6: VARIANT RULE -- FOCUS DICE
@@ -247,9 +229,9 @@ Proficiency determines which dice you roll. All configurations center around 7. 
 
 Specific environments can shift the dice mode up or down:
 - A region warped by chaotic magic: downgrade one step (Expert rolls 2d6 instead of 3d4)
-- A well-ordered arcane workshop: upgrade Artifice checks one step
+- A well-ordered arcane workshop: upgrade crafting-related checks one step
 - A cursed ruin: impose Desperate position regardless of proficiency for specific tasks
-- A sacred grove: grant Controlled position for Clarifice restoration work
+- A sacred grove: grant Controlled position for healing and restoration work
 
 ### Open Questions for This Variant
 
@@ -264,7 +246,6 @@ Specific environments can shift the dice mode up or down:
 
 - Hero Points interaction with three-box dying: monitor in playtesting
 - Clock sizes: need more examples and GM guidance for setting appropriate sizes
-- School specialization bonuses: blocked on magick schools integration decision
 - Focus dice variant: needs playtest to determine if the narrative benefits justify the complexity cost
 - Whether clocks should be used for Downtime crafting (potentially duplicates the already-redesigned crafting system in [14-crafting.md](14-crafting.md))
 - Earning Income narrative texture: consider whether clocks or complication tables can make Earn Income more engaging without increasing complexity
