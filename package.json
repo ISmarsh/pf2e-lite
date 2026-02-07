@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "aon": "node scripts/aon-fetch.mjs"
   },
   "dependencies": {
     "next": "^15.3.3",

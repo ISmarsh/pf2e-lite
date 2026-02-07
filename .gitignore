@@ -22,6 +22,9 @@ out
 *.tsbuildinfo
 next-env.d.ts
 
+# AoN API response cache (regenerable reference data)
+.aon-cache/
+
 # Environment
 .env
 .env.local

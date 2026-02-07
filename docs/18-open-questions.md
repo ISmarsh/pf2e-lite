@@ -233,7 +233,7 @@ If the SMARS Focus check system (proficiency-driven dice for Exploration/Downtim
 - Rename the exploration mechanic (e.g., "Settle checks," per SMARS v2 terminology)
 - Keep both and rely on context
 
-The Focus dice system is recommended as an optional variant only (see [Exploration & Downtime](16-exploration.md#part-6-variant-rule----focus-dice)), which reduces the urgency of this naming collision. If the variant sees adoption, the terminology will need resolution.
+The Focus dice system is recommended as an optional variant only (see [Exploration & Downtime](16-exploration-and-downtime.md#part-6-variant-rule----focus-dice)), which reduces the urgency of this naming collision. If the variant sees adoption, the terminology will need resolution.
 
 ### Saving Throw Pairings
 

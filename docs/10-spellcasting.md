@@ -85,18 +85,11 @@ How these traditions interact with the six magick schools (Mutation, Artifice, G
 
 Ported directly from PF2e Remastered. Spellshape feats modify a spell as part of casting — typically costing 1 extra action, not mana. Each full caster class has spellshape feats on its class feat list, truncated at level 10.
 
-### Available Spellshape Feats by Class (L1-10)
+Full feat data in `.aon-cache/spellshape-feats.json` (177 entries across all classes and sources; filter to Player Core + Player Core 2, L1-10 for our scope).
 
-| Class | Feats |
-|-------|-------|
-| **Wizard** | Reach Spell (1), Widen Spell (1), Conceal Spell (2), Energy Ablation (2), Quickened Casting (10), Overwhelming Energy (10) |
-| **Cleric** | Reach Spell (1), Divine Infusion (4), Cast Down (6), Martyr (8), Heroic Recovery (10) |
-| **Druid** | Reach Spell (1), Widen Spell (1), Form Control (4), Snowdrift Spell (4), Current Spell (6), Healing Transformation (10), Thunderclap Spell (10) |
-| **Bard** | Reach Spell (1), Courageous Advance (4), In Tune (4), Melodious Spell (4), Defensive Coordination (6), Harmonize (6), Call and Response (8), Courageous Assault (10), Unusual Composition (10) |
+**Condition interaction:** Conceal Spell (Wizard 2) and Melodious Spell (Bard 4) interact with the two-tier detection system (Concealed/Hidden). Both port cleanly with two-tier terminology. See [Conditions](11-conditions.md).
 
-Shared feats (Reach Spell, Widen Spell) appear on multiple class lists. All feats above are class feats — they compete with other class feat options at that level.
-
-**Note:** Conceal Spell and Melodious Spell interact with the two-tier detection system (Concealed/Hidden). Both port cleanly with two-tier terminology. See [Conditions](11-conditions.md).
+**Reevaluate:** AoN validation found Player Core spellshape feats not in our original list: Nonlethal Spell (Wizard 2), Explosive Arrival (Wizard 6), Bond Conservation (Wizard 8, depends on Drain Bonded Item -- currently deferred), Overwhelming Energy (Druid 10, listed for Wizard but has Druid trait too), Quickened Casting (Bard 10, listed for Wizard but has Bard trait too).
 
 ## Dedication Caster Mana (Multiclass Spellcasting)
 
