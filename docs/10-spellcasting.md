@@ -151,6 +151,6 @@ Each rank's free cast is independent — using your free R2 curriculum cast does
 - **Overcasting (optional rule).** SMARS proposes spending HP or taking exhaustion to cast beyond your pool. Flag as playtest variant -- not in base system.
 - ~~Staves~~ — ✅ Resolved. Charge system ports directly; prepared casters spend mana during prep for bonus charges, spontaneous casters spend 1 charge + mana during play. See [Equipment](09-equipment.md#staves).
 - Arcane bond, slot-expansion equivalents: future design space, not in base system
-- ~~Spell list audit~~ — ✅ Resolved. 412 spells audited, vast majority compatible. See [Spell List Audit](10a-spell-audit.md)
+- ~~Spell list audit~~ — ✅ Resolved. 406 spells audited, vast majority compatible. See [Spell List Audit](10a-spell-audit.md)
 - ~~Healing Font mana conversion~~ — ✅ Resolved. Free casts (WIS mod Heal/Harm per day). See [Class Bonus Casts](#class-bonus-casts).
 - ~~Wizard curriculum spell conversion~~ — ✅ Resolved. Free casts (1 curriculum spell per rank per day). See [Class Bonus Casts](#class-bonus-casts).

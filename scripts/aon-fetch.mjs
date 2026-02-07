@@ -40,7 +40,11 @@ function ensureCacheDir() {
 }
 
 function cachePath(filename) {
-  return path.join(CACHE_DIR, filename);
+  const base = path.basename(filename);
+  if (base !== filename) {
+    throw new Error(`Invalid cache filename "${filename}": path segments are not allowed.`);
+  }
+  return path.join(CACHE_DIR, base);
 }
 
 function httpsGet(url) {

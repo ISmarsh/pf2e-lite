@@ -101,12 +101,12 @@ Ported directly from PF2e Remastered as "Spellshape" class feats. Action cost (n
 
 ### Spell List Audit — Resolved
 
-412 remastered spells audited across ranks 1-5 (excluding cantrips and focus spells). Vast majority compatible with mana system without modification.
+406 remastered spells audited across ranks 1-5 (excluding cantrips and focus spells). Vast majority compatible with mana system without modification.
 
 - ✅ Mana pool equals total Vancian slot value at each level — total daily output is equivalent
 - ✅ Cost curve (1/2/4/7/11) creates natural efficiency gradient — lower ranks are more mana-efficient, discouraging degenerate top-rank concentration
 - ✅ PF2e's existing constraints (bonus type stacking, Sustained action limits, 3-action rounds) are unaffected
-- ✅ Only 1 of 412 spells (Ymeri's Mark) requires Golarion-specific renaming
+- ✅ Only 1 of 406 spells (Ymeri's Mark) requires Golarion-specific renaming
 - ✅ Healing Font: WIS mod free Heal/Harm casts per day (free casts, not tagged mana — flat mana doesn't scale with rank costs)
 - ✅ Wizard curriculum: 1 free curriculum spell per rank per day (maps 1:1 to PF2e bonus prepared slots)
 - ⚠️ 8 spells flagged for playtest monitoring (Heal, Haste, Heroism, Slow, summons, Invisibility, Fly, Wall of Stone)
@@ -217,7 +217,7 @@ How do the six schools of MAGICK (Mutation, Artifice, Genesis, Illusion, Clarifi
 
 Three options documented:
 
-- **Option A: Schools replace traditions.** Cleanest design, biggest PF2e departure. Requires 412-spell reclassification.
+- **Option A: Schools replace traditions.** Cleanest design, biggest PF2e departure. Requires 406-spell reclassification.
 - **Option B: Schools layer on top of traditions.** Maximum compatibility, two overlapping systems.
 - **Option C: Schools replace mechanics, traditions become flavor.** Clean mechanics + preserved flavor, still requires reclassification.
 
@@ -307,7 +307,7 @@ The SMARS creature taxonomy (see [Creature Taxonomy](20-creature-taxonomy.md)) i
 
 AoN Elasticsearch audit verified all referenced content against remastered ORC-licensed sources (Feb 2026).
 
-- ✅ Spell list: all 412 spells confirmed in ORC sources (Player Core, PC2, Rage of Elements, Howl of the Wild, War of Immortals, Divine Mysteries)
+- ✅ Spell list: all 406 spells confirmed in ORC sources (Player Core, PC2, Rage of Elements, Howl of the Wild, War of Immortals, Divine Mysteries)
 - ✅ Zero Secrets of Magic-only, APG-only, or CRB-only spells referenced
 - ✅ Pre-remaster spell names corrected (Magic Missile → Force Barrage, Magic Weapon removed, Remove Curse → Cleanse Affliction)
 - ✅ Flash Pellet removed (item doesn't exist in PF2e), Dust Pods removed (AP-only, never reprinted)

@@ -204,7 +204,7 @@ The relationship between schools and traditions is the system's most consequenti
 Every spell belongs to one school. Classes get access to schools rather than traditions.
 
 **Pros:** Cleaner (one system), tied to cosmogony, fills remaster vacuum, more expressive class identity.
-**Cons:** Biggest PF2e departure, requires full 412-spell reclassification, loses Cleric/Druid flavor distinction when both use Clarifice, harder for PF2e players to adopt.
+**Cons:** Biggest PF2e departure, requires full 406-spell reclassification, loses Cleric/Druid flavor distinction when both use Clarifice, harder for PF2e players to adopt.
 
 ### Option B: Schools Layer on Top of Traditions
 
@@ -225,7 +225,7 @@ Schools are the mechanical access system. "Arcane," "Divine," "Occult," "Primal"
 Key factors for resolving this:
 
 1. **How much PF2e compatibility matters.** If players should be able to bring PF2e characters with minimal conversion, Option B. If this is its own system, Option A or C.
-2. **Whether the 412-spell classification pass is worth the effort.** Options A and C require it. Option B adds school tags without removing traditions.
+2. **Whether the 406-spell classification pass is worth the effort.** Options A and C require it. Option B adds school tags without removing traditions.
 3. **Class identity.** Do classes feel distinct enough when defined by school access alone, or do traditions add necessary flavor?
 4. **Playtesting.** A sample classification of 20-30 iconic spells would stress-test the rubric before committing to the full pass.
 
