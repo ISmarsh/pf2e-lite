@@ -229,7 +229,7 @@ Proficiency determines which dice you roll. All configurations center around 7. 
 
 Specific environments can shift the dice mode up or down:
 - A region warped by chaotic magic: downgrade one step (Expert rolls 2d6 instead of 3d4)
-- A well-ordered arcane workshop: upgrade Artifice checks one step
+- A well-ordered arcane workshop: upgrade crafting-related checks one step
 - A cursed ruin: impose Desperate position regardless of proficiency for specific tasks
 - A sacred grove: grant Controlled position for healing and restoration work
 

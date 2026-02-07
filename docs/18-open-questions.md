@@ -202,7 +202,7 @@ PF2e exploration and downtime systems ported with evaluation of SMARS Focus chec
 - ✅ All PF2e downtime activities ported (Craft cross-ref to [14-crafting.md](14-crafting.md), Earn Income, Retraining, Learn a Spell, Treat Disease, Subsist)
 - ✅ Resting mechanics documented (10-min rest activities, long rest recovery, post-combat sequence)
 - ✅ Hero Points ported with three-box dying interaction analysis
-- ✅ SMARS Focus check system evaluated: progress/danger clocks adopted as core addition, school specializations adopted as modular layer, Focus dice presented as optional variant
+- ✅ SMARS Focus check system evaluated: progress/danger clocks adopted as core addition, Focus dice presented as optional variant
 - ⚠️ Clock sizes and GM guidance need expansion during playtesting
 - See [Exploration & Downtime](16-exploration-and-downtime.md)
 
