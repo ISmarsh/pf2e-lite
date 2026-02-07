@@ -6,6 +6,7 @@ Compatibility analysis of PF2e Remastered spells (ranks 1-5) with the mana syste
 
 - Queried AoN Elasticsearch API for all remastered spells at ranks 1-5, excluding cantrips and focus spells (filtered by `cantrip` and `focus` traits).
 - Sources: Player Core, Player Core 2, Rage of Elements, Howl of the Wild, War of Immortals, Divine Mysteries.
+- Deduplicated by AoN document ID (`_id`). AoN's `primary_source:"Player Core"` query returns PC2 spells as a superset -- all 158 PC2 entries appear in the PC1 result set with identical IDs. Raw cross-source total is 466; after deduplication, 406.
 - Category-based risk assessment — flagged spell types where mana flexibility changes incentives vs. Vancian slots, then analyzed specific high-profile spells.
 - Cross-referenced with [Spellcasting](10-spellcasting.md) mana pools, [Classes](05-classes.md) class features, and `pf2e_mana_math.xlsx`.
 
@@ -13,14 +14,14 @@ Compatibility analysis of PF2e Remastered spells (ranks 1-5) with the mana syste
 
 | Rank | Regular Spells |
 |------|---------------|
-| 1 | 111 |
+| 1 | 106 |
 | 2 | 100 |
-| 3 | 71 |
+| 3 | 70 |
 | 4 | 66 |
 | 5 | 64 |
-| **Total** | **412** |
+| **Total** | **406** |
 
-This excludes cantrips (auto-heighten, infinite use — no mana interaction) and focus spells (per-encounter, independent of mana). All 412 spells consume mana when cast.
+This excludes cantrips (auto-heighten, infinite use -- no mana interaction) and focus spells (per-encounter, independent of mana). All 406 spells consume mana when cast.
 
 ## Mana-Vancian Equivalence
 
@@ -277,7 +278,7 @@ These spells use possessive names but reference generic concepts, not Golarion-s
 | Trickster's Feathers | 4 | War of Immortals | Generic archetype |
 | Fire's Pathway | 5 | Rage of Elements | Generic element |
 
-**Assessment:** Only 1 of 412 spells (0.2%) requires renaming. The Remaster already did the heavy lifting for ORC compatibility.
+**Assessment:** Only 1 of 406 spells (0.2%) requires renaming. The Remaster already did the heavy lifting for ORC compatibility.
 
 ## Recommendations
 
@@ -321,4 +322,4 @@ One spell (Ymeri's Mark) requires ORC-safe renaming.
 
 ---
 
-*Audit data sourced from Archives of Nethys Elasticsearch API (remastered sources). See [Spellcasting](10-spellcasting.md) for mana system details.*
+*Audit data sourced from `.aon-cache/spells-all.json` (915 spells deduplicated across 6 remastered sources). See [Spellcasting](10-spellcasting.md) for mana system details.*
