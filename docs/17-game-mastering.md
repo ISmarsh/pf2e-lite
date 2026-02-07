@@ -84,6 +84,10 @@ GM Core Chapter 2 creature building benchmarks port directly for our level range
 
 *Relevant stat ranges for creature levels -1 through 14 to be ported as GM reference.*
 
+### Creature Taxonomy
+
+When building or classifying creatures, GMs can use the compositional creature taxonomy (see [Creature Taxonomy](20-creature-taxonomy.md)) for structured trait assignment. The taxonomy categorizes creatures as Simple (Physical only: Elemental, Plant, Animal) or Complex (Physical + Mental: Humanoid, Construct, Chimera), with subtypes that cascade into trait lists. This is a classification aid -- it doesn't change stat block format or encounter math.
+
 ## Treasure by Level
 
 Port PF2e's treasure by level guidelines:

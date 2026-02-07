@@ -4,6 +4,8 @@
 
 PF2e's crafting is widely considered the system's weakest subsystem. It takes too long, saves too little gold, and doesn't feel rewarding. Our redesign follows real-world DIY economics: if you have the skill, making something yourself should be substantially cheaper than buying it, with the tradeoff being time and risk.
 
+> **Downtime context:** Crafting is a downtime activity. For how it fits into the broader downtime and resting framework (including Field Crafting during 10-minute rests), see [Exploration & Downtime](16-exploration-and-downtime.md).
+
 ## Core Economics
 
 | Element | Rule |
