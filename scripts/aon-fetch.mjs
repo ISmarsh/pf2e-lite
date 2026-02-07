@@ -74,11 +74,18 @@ async function fetchAndCache(outputFile, query, size = 100) {
   if (fs.existsSync(dest)) {
     const stats = fs.statSync(dest);
     const ageHours = (Date.now() - stats.mtimeMs) / (1000 * 60 * 60);
-    const existing = JSON.parse(fs.readFileSync(dest, 'utf-8'));
-    const count = existing.hits?.hits?.length ?? 0;
-    console.log(`Cache hit: ${outputFile} (${count} entries, ${ageHours.toFixed(1)}h old)`);
-    console.log('Use --force to re-fetch.');
-    return existing;
+    try {
+      const raw = fs.readFileSync(dest, 'utf-8');
+      const existing = JSON.parse(raw);
+      const count = existing.hits?.hits?.length ?? 0;
+      console.log(`Cache hit: ${outputFile} (${count} entries, ${ageHours.toFixed(1)}h old)`);
+      console.log('Use --force to re-fetch.');
+      return existing;
+    } catch (e) {
+      console.warn(`Warning: failed to parse cache file ${outputFile}: ${e.message}`);
+      console.warn('Re-fetching from API.');
+      try { fs.unlinkSync(dest); } catch { /* ignore */ }
+    }
   }
 
   // Fetch
@@ -184,7 +191,16 @@ if (command === 'fetch') {
   const query = args[2];
   const forceFlag = args.includes('--force');
   const sizeIdx = args.indexOf('--size');
-  const size = sizeIdx !== -1 ? parseInt(args[sizeIdx + 1], 10) : 100;
+  let size = 100;
+  if (sizeIdx !== -1) {
+    const parsed = parseInt(args[sizeIdx + 1], 10);
+    if (!Number.isFinite(parsed) || parsed <= 0) {
+      console.error('Invalid --size value.');
+      console.error('Usage: aon-fetch.mjs fetch <output.json> <query> [--size N] [--force]');
+      process.exit(1);
+    }
+    size = parsed;
+  }
 
   if (!outputFile || !query) {
     console.error('Usage: aon-fetch.mjs fetch <output.json> <query> [--size N] [--force]');

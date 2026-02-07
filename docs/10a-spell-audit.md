@@ -322,4 +322,4 @@ One spell (Ymeri's Mark) requires ORC-safe renaming.
 
 ---
 
-*Audit data sourced from `.aon-cache/spells-all.json` (915 spells deduplicated across 6 remastered sources). See [Spellcasting](10-spellcasting.md) for mana system details.*
+*Audit data derived from `.aon-cache/spells-all.json` (915 spells deduplicated across 6 remastered sources), filtered to ranks 1-5 and excluding cantrips and focus spells. See [Spellcasting](10-spellcasting.md) for mana system details.*
