@@ -52,7 +52,7 @@ All design docs live in [`docs/`](docs/). These are the source-of-truth for the 
 | 13 | [Shields](docs/13-shields.md) | Draft | Simplified shield system — block value, durability ticks |
 | 14 | [Crafting](docs/14-crafting.md) | Draft | Redesigned crafting — 25% cost, proficiency-based time, batch crafting |
 | 15 | [Dedications](docs/15-dedications.md) | Draft | Multiclass dedication templates, all 12 dedications, Artificer dedication |
-| 16 | [Exploration & Downtime](docs/16-exploration.md) | Stub | Exploration mode, travel, rest, downtime activities |
+| 16 | [Exploration & Downtime](docs/16-exploration-and-downtime.md) | Draft | Exploration mode, travel, rest, downtime activities, Hero Points, clocks |
 | 17 | [Game Mastering](docs/17-game-mastering.md) | Draft | Encounter math verified, XP budgets, DCs, creature benchmarks, treasure by level |
 | 18 | [Open Questions](docs/18-open-questions.md) | Draft | Prioritized to-do, open design questions, next steps |
 

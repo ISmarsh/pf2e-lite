@@ -101,12 +101,12 @@ Ported directly from PF2e Remastered as "Spellshape" class feats. Action cost (n
 
 ### Spell List Audit — Resolved
 
-412 remastered spells audited across ranks 1-5 (excluding cantrips and focus spells). Vast majority compatible with mana system without modification.
+406 remastered spells audited across ranks 1-5 (excluding cantrips and focus spells). Vast majority compatible with mana system without modification.
 
 - ✅ Mana pool equals total Vancian slot value at each level — total daily output is equivalent
 - ✅ Cost curve (1/2/4/7/11) creates natural efficiency gradient — lower ranks are more mana-efficient, discouraging degenerate top-rank concentration
 - ✅ PF2e's existing constraints (bonus type stacking, Sustained action limits, 3-action rounds) are unaffected
-- ✅ Only 1 of 412 spells (Ymeri's Mark) requires Golarion-specific renaming
+- ✅ Only 1 of 406 spells (Ymeri's Mark) requires Golarion-specific renaming
 - ✅ Healing Font: WIS mod free Heal/Harm casts per day (free casts, not tagged mana — flat mana doesn't scale with rank costs)
 - ✅ Wizard curriculum: 1 free curriculum spell per rank per day (maps 1:1 to PF2e bonus prepared slots)
 - ⚠️ 8 spells flagged for playtest monitoring (Heal, Haste, Heroism, Slow, summons, Invisibility, Fly, Wall of Stone)
@@ -182,7 +182,7 @@ Core weapon/armor/shield tables ported. Six magic item categories documented (st
 
 - Port PF2e's Hero Point system as-is, or simplify?
 - Hero Points provide a narrative safety valve (spend to stabilize or reroll) — interacts with our three-box dying system
-- See [Exploration & Downtime](16-exploration.md)
+- See [Exploration & Downtime](16-exploration-and-downtime.md)
 
 ### Archetype Implementation Work — Partially Resolved
 
@@ -194,17 +194,72 @@ Follow-up from the resolved Generic Archetypes Review. Bastion and mana conversi
 - ✅ Assassin: Observed→default state, Undetected→Hidden. Assassinate (L12) above cap. Functional with minor rephrasing.
 - See [Dedications](15-dedications.md)
 
-### Exploration and Downtime
+### Exploration and Downtime — Resolved
 
-- Review PF2e's exploration mode and downtime rules for simplification opportunities
-- See [Exploration & Downtime](16-exploration.md)
+PF2e exploration and downtime systems ported with evaluation of SMARS Focus check innovations.
+
+- ✅ All PF2e exploration activities ported (Avoid Notice, Scout, Search, Detect Magic, Investigate, Defend, Hustle, Follow the Expert, etc.)
+- ✅ All PF2e downtime activities ported (Craft cross-ref to [14-crafting.md](14-crafting.md), Earn Income, Retraining, Learn a Spell, Treat Disease, Subsist)
+- ✅ Resting mechanics documented (10-min rest activities, long rest recovery, post-combat sequence)
+- ✅ Hero Points ported with three-box dying interaction analysis
+- ✅ SMARS Focus check system evaluated: progress/danger clocks adopted as core addition, school specializations adopted as modular layer, Focus dice presented as optional variant
+- ⚠️ Clock sizes and GM guidance need expansion during playtesting
+- ⚠️ School specialization bonuses blocked on magick schools integration decision
+- See [Exploration & Downtime](16-exploration-and-downtime.md)
 
 ## Open Design Questions
+
+### Magick Schools: Integration Approach
+
+> **Status:** Open -- highest-impact design decision remaining. See [Magick Schools](21-magick-schools.md) for full analysis.
+
+How do the six schools of MAGICK (Mutation, Artifice, Genesis, Illusion, Clarifice, Knosis) interact with PF2e's four traditions (Arcane, Divine, Primal, Occult)?
+
+Three options documented:
+
+- **Option A: Schools replace traditions.** Cleanest design, biggest PF2e departure. Requires 406-spell reclassification.
+- **Option B: Schools layer on top of traditions.** Maximum compatibility, two overlapping systems.
+- **Option C: Schools replace mechanics, traditions become flavor.** Clean mechanics + preserved flavor, still requires reclassification.
+
+**Recommended next step:** Sample classification of 20-30 iconic spells to stress-test the rubric before committing.
+
+**Downstream impact:** Class docs, spell audit, dedications, and overview scope all depend on this decision.
+
+### Focus Terminology Collision
+
+If the SMARS Focus check system (proficiency-driven dice for Exploration/Downtime) is adopted, "Focus" would mean two things: Focus spells/Focus Points (per-encounter casting) and Focus checks (exploration dice). Options:
+
+- Rename Focus Points to "Aether Points" (lore-consistent)
+- Rename the exploration mechanic (e.g., "Settle checks," per SMARS v2 terminology)
+- Keep both and rely on context
+
+The Focus dice system is recommended as an optional variant only (see [Exploration & Downtime](16-exploration-and-downtime.md#part-6-variant-rule----focus-dice)), which reduces the urgency of this naming collision. If the variant sees adoption, the terminology will need resolution.
+
+### Saving Throw Pairings
+
+SMARS proposes dual-ability saves where the player chooses the better modifier:
+
+| Save | SMARS Abilities | PF2e Standard |
+|------|----------------|---------------|
+| Fortitude | STR or CON | CON-based |
+| Reflex | DEX or INT | DEX-based |
+| Will | WIS or CHA | WIS-based |
+
+This would make INT relevant to Reflex (reflecting quick analytical threat processing) and CHA relevant to Will (reflecting force of personality against mental effects). **Not implemented** -- flagged for evaluation. Key concern: does this make saves too easy by letting players always use their better stat?
+
+### Creature Taxonomy Scope
+
+The SMARS creature taxonomy (see [Creature Taxonomy](20-creature-taxonomy.md)) is currently a classification aid for GMs. Open questions:
+
+- Should taxonomy traits interact mechanically with spells/abilities beyond what PF2e traits already provide?
+- How do Undead fit? (Complex creatures that lost their Mental dimension bridge)
+- How do Fey, Fiends, and Celestials fit? (May need a third dimensional space or special classification)
 
 ### Mana System
 
 - Is the moderate cost curve (1/2/4/7/11) the right balance? Needs playtesting.
 - Does mana flexibility (many low-rank spells vs. fewer high-rank) create balance issues at specific levels?
+- **Overcasting:** SMARS proposes spending HP or taking exhaustion to cast beyond your pool. Defer as optional playtest variant.
 
 ### Conditions
 
@@ -233,11 +288,17 @@ Follow-up from the resolved Generic Archetypes Review. Bastion and mana conversi
 
 ## Next Steps
 
-1. ~~Encounter math verification~~ — ✅ Resolved, ports directly
-1. ~~Artificer class design~~ — ✅ Resolved. Full design in [06-artificer.md](06-artificer.md), balance report in [06c-artificer-balance-report.md](06c-artificer-balance-report.md)
-1. ~~Thaumaturge integration review~~ — ✅ Resolved, ports cleanly
-1. ~~Auto-unlock feat list~~ — ✅ Resolved. Finalized in [08-feats.md](08-feats.md)
-1. ~~Shield conversion formula~~ — ✅ Resolved. Formula and full progression in [13-shields.md](13-shields.md)
+1. ~~Encounter math verification~~ -- ✅ Resolved, ports directly
+1. ~~Artificer class design~~ -- ✅ Resolved. Full design in [06-artificer.md](06-artificer.md), balance report in [06c-artificer-balance-report.md](06c-artificer-balance-report.md)
+1. ~~Thaumaturge integration review~~ -- ✅ Resolved, ports cleanly
+1. ~~Auto-unlock feat list~~ -- ✅ Resolved. Finalized in [08-feats.md](08-feats.md)
+1. ~~Shield conversion formula~~ -- ✅ Resolved. Formula and full progression in [13-shields.md](13-shields.md)
+1. ~~SMARS integration: Setting lore~~ -- ✅ [Setting](19-setting.md) created
+1. ~~SMARS integration: Creature taxonomy~~ -- ✅ [Creature Taxonomy](20-creature-taxonomy.md) created
+1. ~~SMARS integration: Magick schools~~ -- ✅ [Magick Schools](21-magick-schools.md) created (integration approach TBD)
+1. ~~SMARS integration: Exploration & Downtime~~ -- ✅ [Exploration & Downtime](16-exploration-and-downtime.md) developed (PF2e audit + Focus check evaluation + clocks + variant rule)
+1. Decide magick schools integration approach (A/B/C) -- gates spell classification pass
+1. Sample spell classification (20-30 iconic spells) -- stress-test school rubric
 1. Pull all sections into a unified playtest document
 1. Begin human-written flavor text for classes and ancestries
 1. Character sheet design
@@ -246,7 +307,7 @@ Follow-up from the resolved Generic Archetypes Review. Bastion and mana conversi
 
 AoN Elasticsearch audit verified all referenced content against remastered ORC-licensed sources (Feb 2026).
 
-- ✅ Spell list: all 412 spells confirmed in ORC sources (Player Core, PC2, Rage of Elements, Howl of the Wild, War of Immortals, Divine Mysteries)
+- ✅ Spell list: all 406 spells confirmed in ORC sources (Player Core, PC2, Rage of Elements, Howl of the Wild, War of Immortals, Divine Mysteries)
 - ✅ Zero Secrets of Magic-only, APG-only, or CRB-only spells referenced
 - ✅ Pre-remaster spell names corrected (Magic Missile → Force Barrage, Magic Weapon removed, Remove Curse → Cleanse Affliction)
 - ✅ Flash Pellet removed (item doesn't exist in PF2e), Dust Pods removed (AP-only, never reprinted)

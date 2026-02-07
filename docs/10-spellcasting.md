@@ -2,7 +2,13 @@
 
 ## Overview
 
-Vancian spell slots are replaced with a mana pool. Full recovery on long rest only. No mid-day mana recovery — preserves PF2e's philosophy that daily casting resources don't come back easily.
+Vancian spell slots are replaced with a mana pool. Full recovery on long rest only. No mid-day mana recovery -- preserves PF2e's philosophy that daily casting resources don't come back easily.
+
+### Lore Context
+
+Mana represents channeled **Aether** -- the primordial energy source that exists outside the Physical and Mental dimensions (see [Setting](19-setting.md)). Casting a spell means opening a dimensional pathway and directing the resulting energy through learned techniques. A caster's mana pool represents their capacity to safely channel Aether, limited by training, mental fortitude, and the body's tolerance for the energy.
+
+The six schools of MAGICK (see [Magick Schools](21-magick-schools.md)) each represent different techniques for shaping Aether -- Mutation transforms complex matter, Artifice constructs functional forms, Genesis creates raw matter, Illusion alters perception, Clarifice restores systems to their true state, Knosis discovers hidden knowledge. All schools draw from the same mana pool; the distinction is in method, not energy source.
 
 ## Mana Cost Curve (Moderate)
 
@@ -68,27 +74,22 @@ Full tradition access for all casters — no curated sublists within a tradition
 
 Four traditions preserved:
 
-- **Arcane** — material + matter
-- **Divine** — spiritual + matter
-- **Primal** — material + spirit
-- **Occult** — spiritual + mind
+- **Arcane** -- material + matter
+- **Divine** -- spiritual + matter
+- **Primal** -- material + spirit
+- **Occult** -- spiritual + mind
+
+How these traditions interact with the six magick schools (Mutation, Artifice, Genesis, Illusion, Clarifice, Knosis) is an open design question. See [Magick Schools](21-magick-schools.md#integration-with-pf2e-traditions-open-question).
 
 ## Spellshape (Metamagic)
 
 Ported directly from PF2e Remastered. Spellshape feats modify a spell as part of casting — typically costing 1 extra action, not mana. Each full caster class has spellshape feats on its class feat list, truncated at level 10.
 
-### Available Spellshape Feats by Class (L1-10)
+Full feat data in `.aon-cache/spellshape-feats.json` (177 entries across all classes and sources; filter to Player Core + Player Core 2, L1-10 for our scope).
 
-| Class | Feats |
-|-------|-------|
-| **Wizard** | Reach Spell (1), Widen Spell (1), Conceal Spell (2), Energy Ablation (2), Quickened Casting (10), Overwhelming Energy (10) |
-| **Cleric** | Reach Spell (1), Divine Infusion (4), Cast Down (6), Martyr (8), Heroic Recovery (10) |
-| **Druid** | Reach Spell (1), Widen Spell (1), Form Control (4), Snowdrift Spell (4), Current Spell (6), Healing Transformation (10), Thunderclap Spell (10) |
-| **Bard** | Reach Spell (1), Courageous Advance (4), In Tune (4), Melodious Spell (4), Defensive Coordination (6), Harmonize (6), Call and Response (8), Courageous Assault (10), Unusual Composition (10) |
+**Condition interaction:** Conceal Spell (Wizard 2) and Melodious Spell (Bard 4) interact with the two-tier detection system (Concealed/Hidden). Both port cleanly with two-tier terminology. See [Conditions](11-conditions.md).
 
-Shared feats (Reach Spell, Widen Spell) appear on multiple class lists. All feats above are class feats — they compete with other class feat options at that level.
-
-**Note:** Conceal Spell and Melodious Spell interact with the two-tier detection system (Concealed/Hidden). Both port cleanly with two-tier terminology. See [Conditions](11-conditions.md).
+**Reevaluate:** AoN validation found Player Core spellshape feats not in our original list: Nonlethal Spell (Wizard 2), Explosive Arrival (Wizard 6), Bond Conservation (Wizard 8, depends on Drain Bonded Item -- currently deferred), Overwhelming Energy (Druid 10, listed for Wizard but has Druid trait too), Quickened Casting (Bard 10, listed for Wizard but has Bard trait too).
 
 ## Dedication Caster Mana (Multiclass Spellcasting)
 
@@ -145,9 +146,11 @@ Each rank's free cast is independent — using your free R2 curriculum cast does
 ## Open Design Work
 
 - Mana cost curve needs playtesting validation
-- Partial mana recovery: deferred, preserving PF2e's no-slot-recovery philosophy
+- Partial mana recovery: deferred, preserving PF2e's no-slot-recovery philosophy. SMARS proposes a Clarifice meditation mechanic for partial mana recovery during Exploration -- evaluate if this undermines the no-mid-day-recovery philosophy or provides a meaningful tradeoff. See [Exploration & Downtime](16-exploration-and-downtime.md).
+- **Terminology: "Focus" collision.** If the SMARS Focus check system (proficiency-driven dice for Exploration/Downtime) is adopted, the term "Focus" would be used for two different things: Focus spells/Focus Points (per-encounter casting resource) and Focus checks (exploration dice mechanic). Options: (a) rename Focus Points to "Aether Points," (b) rename the exploration mechanic to something else, (c) keep both and rely on context. Phase 4 evaluation recommends Focus dice as an optional variant only (see [Exploration & Downtime](16-exploration-and-downtime.md#recommendation-adopt-clocks-present-focus-dice-as-variant)), which reduces urgency. If the variant sees adoption, the terminology will need resolution.
+- **Overcasting (optional rule).** SMARS proposes spending HP or taking exhaustion to cast beyond your pool. Flag as playtest variant -- not in base system.
 - ~~Staves~~ — ✅ Resolved. Charge system ports directly; prepared casters spend mana during prep for bonus charges, spontaneous casters spend 1 charge + mana during play. See [Equipment](09-equipment.md#staves).
 - Arcane bond, slot-expansion equivalents: future design space, not in base system
-- ~~Spell list audit~~ — ✅ Resolved. 412 spells audited, vast majority compatible. See [Spell List Audit](10a-spell-audit.md)
+- ~~Spell list audit~~ — ✅ Resolved. 406 spells audited, vast majority compatible. See [Spell List Audit](10a-spell-audit.md)
 - ~~Healing Font mana conversion~~ — ✅ Resolved. Free casts (WIS mod Heal/Harm per day). See [Class Bonus Casts](#class-bonus-casts).
 - ~~Wizard curriculum spell conversion~~ — ✅ Resolved. Free casts (1 curriculum spell per rank per day). See [Class Bonus Casts](#class-bonus-casts).

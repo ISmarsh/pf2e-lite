@@ -21,9 +21,12 @@ const DOC_ORDER = [
   '13-shields',
   '14-crafting',
   '15-dedications',
-  '16-exploration',
+  '16-exploration-and-downtime',
   '17-game-mastering',
   '18-open-questions',
+  '19-setting',
+  '20-creature-taxonomy',
+  '21-magick-schools',
 ];
 
 export interface DocMeta {
