@@ -17,11 +17,10 @@ A streamlined derivative of Pathfinder 2e Remastered, designed to lower the barr
 - Levels 1-10 only
 - Proficiency cap: Master (no Legendary)
 - Four spell traditions: Arcane, Divine, Primal, Occult
-- Six schools of MAGICK: Mutation, Artifice, Genesis, Illusion, Clarifice, Knosis (integration with traditions TBD -- see [Magick Schools](21-magick-schools.md))
 - 12 classes, 7 ancestries, 16 skills
 - Streamlined conditions, dying, shields, feats, and crafting
 - Free Archetype and Gradual Ability Boosts as standard rules
-- Original setting lore (Aether cosmogony) replacing Golarion -- see [Setting](19-setting.md)
+- Setting-agnostic (no Golarion dependency, ORC-compliant)
 
 ## Licensing — ORC
 
@@ -59,7 +58,7 @@ All game content derives from these ORC-licensed Paizo publications:
 - Visual art
 - Named deities, specific locations, setting-specific history
 
-Original setting lore (Aether cosmogony, creature taxonomy, magick schools) replaces all Golarion-specific content. See [Setting](19-setting.md).
+All Golarion-specific content (named deities, locations, lore) must be replaced with original material by any project building on this system.
 
 ### Practical implications
 
