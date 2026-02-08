@@ -1,0 +1,31 @@
+# PF2e Lite — Feat Modifications
+#
+# Key changes:
+# - Skill feats and general feats merged into single "General" track
+# - Free Archetype is standard (archetype feats at every even level)
+# - Some skill feat taxes converted to proficiency auto-unlocks
+# - Feats above level 10 are excluded by the data source query
+#
+# See docs/08-feats.md for full details.
+
+remove:
+  - name: Continual Recovery
+    reason: "Converted to Medicine Expert proficiency benefit (10-min immunity)"
+  - name: Ward Medic
+    reason: "Converted to Medicine Master proficiency benefit (4 simultaneous targets)"
+  - name: Blind-Fight
+    reason: "Detection system collapsed to 2 tiers; this feat has no target"
+  - name: Startling Appearance
+    reason: "Detection system collapsed to 2 tiers; this feat has no target"
+
+# Global transformation: tag all skill feats as general feats
+global:
+  retag:
+    - from_trait: skill
+      to_trait: general
+      note: "Skill feats merged into General feat track"
+
+modify: []
+
+add: []
+  # Class-specific feats for Artificer will come from custom/artificer.json

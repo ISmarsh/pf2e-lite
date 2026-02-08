@@ -1,0 +1,136 @@
+# PF2e Lite — Data Source Manifest
+#
+# Each dataset declares:
+#   query:          Elasticsearch bool query for AoN API (POST body format)
+#   size:           Max results to fetch
+#   fields:         _source fields to include in response
+#   modifications:  Path to YAML file with remove/modify/add operations
+#
+# IMPORTANT — "Player Core" matching gotcha:
+#   match_phrase on "Player Core" ALSO matches "Player Core 2" because the
+#   phrase is a substring. Always query primary_source explicitly for each
+#   volume, or use term-level queries on keyword fields if available.
+#   The queries below use explicit should clauses for each PC volume.
+#
+# AoN endpoint: POST https://elasticsearch.aonprd.com/aon70/_search
+# See CLAUDE.md for full API docs.
+
+datasets:
+  ancestries:
+    query:
+      bool:
+        must:
+          - match: { category: ancestry }
+        should:
+          - match_phrase: { primary_source: "Player Core" }
+          - match_phrase: { primary_source: "Player Core 2" }
+        minimum_should_match: 1
+    size: 100
+    fields: [name, level, trait, summary, text, source, primary_source, rarity, hp]
+    modifications: modifications/ancestries.yaml
+
+  heritages:
+    query:
+      bool:
+        must:
+          - match: { category: heritage }
+        should:
+          - match_phrase: { primary_source: "Player Core" }
+          - match_phrase: { primary_source: "Player Core 2" }
+        minimum_should_match: 1
+    size: 200
+    fields: [name, trait, summary, text, source, primary_source, rarity]
+    modifications: modifications/ancestries.yaml
+
+  backgrounds:
+    query:
+      bool:
+        must:
+          - match: { category: background }
+        should:
+          - match_phrase: { primary_source: "Player Core" }
+          - match_phrase: { primary_source: "Player Core 2" }
+        minimum_should_match: 1
+    size: 200
+    fields: [name, trait, summary, text, source, primary_source, rarity]
+    modifications: modifications/backgrounds.yaml
+
+  classes:
+    query:
+      bool:
+        must:
+          - match: { category: class }
+        should:
+          - match_phrase: { primary_source: "Player Core" }
+          - match_phrase: { primary_source: "Player Core 2" }
+        minimum_should_match: 1
+    size: 50
+    fields: [name, trait, summary, text, source, primary_source]
+    modifications: modifications/classes.yaml
+
+  feats:
+    query:
+      bool:
+        must:
+          - match: { category: feat }
+          - range: { level: { gte: 1, lte: 10 } }
+        should:
+          - match_phrase: { primary_source: "Player Core" }
+          - match_phrase: { primary_source: "Player Core 2" }
+        minimum_should_match: 1
+    size: 3000
+    fields: [name, level, trait, summary, text, source, primary_source, rarity]
+    modifications: modifications/feats.yaml
+
+  spells:
+    query:
+      bool:
+        must:
+          - match: { category: spell }
+          - range: { level: { gte: 0, lte: 5 } }
+        should:
+          - match_phrase: { primary_source: "Player Core" }
+          - match_phrase: { primary_source: "Player Core 2" }
+        minimum_should_match: 1
+    size: 2000
+    fields: [name, level, trait, summary, text, source, primary_source, rarity]
+    modifications: modifications/spells.yaml
+
+  equipment:
+    query:
+      bool:
+        must:
+          - match: { category: equipment }
+          - range: { level: { gte: 0, lte: 10 } }
+        should:
+          - match_phrase: { primary_source: "Player Core" }
+          - match_phrase: { primary_source: "Player Core 2" }
+          - match_phrase: { primary_source: "GM Core" }
+        minimum_should_match: 1
+    size: 2000
+    fields:
+      - name
+      - level
+      - price_raw
+      - trait
+      - summary
+      - text
+      - source
+      - primary_source
+      - rarity
+      - item_category
+      - item_subcategory
+    modifications: modifications/equipment.yaml
+
+  conditions:
+    query:
+      bool:
+        must:
+          - match: { category: condition }
+        should:
+          - match_phrase: { primary_source: "Player Core" }
+          - match_phrase: { primary_source: "GM Core" }
+        minimum_should_match: 1
+    size: 100
+    fields: [name, summary, text, source, primary_source]
+    modifications: modifications/conditions.yaml

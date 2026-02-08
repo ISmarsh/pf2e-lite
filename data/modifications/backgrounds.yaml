@@ -1,0 +1,17 @@
+# PF2e Lite — Background Modifications
+#
+# All 64 Player Core backgrounds are included (40 PC1 + 24 PC2).
+# All 56 common backgrounds are setting-neutral.
+# 8 rare backgrounds require GM approval.
+#
+# See docs/04-backgrounds.md for full details.
+
+remove: []
+
+modify:
+  - name: Raised by Belief
+    changes:
+      - field: flavor
+        note: "Deity references need adaptation to setting-appropriate pantheon or philosophy"
+
+add: []

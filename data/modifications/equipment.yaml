@@ -1,0 +1,16 @@
+# PF2e Lite — Equipment Modifications
+#
+# Most equipment is ported directly. Key changes:
+# - Shields: simplified to block value + durability ticks
+# - Staves: charge system ported (prepared casters spend mana for bonus charges)
+# - Items above level 10 excluded by data source query
+#
+# See docs/09-equipment.md and docs/13-shields.md for full details.
+
+remove: []
+
+modify: []
+  # Shield modifications TBD when shield data is structured
+  # Staff mana interactions TBD
+
+add: []

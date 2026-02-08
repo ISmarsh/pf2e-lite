@@ -1,4 +1,4 @@
-# CI workflow — lint and build on PRs
+# CI workflow — lint and build extension + builder on PRs
 # Adapted from .planet-smars/templates/github-workflows/ci.yml
 
 name: CI
@@ -19,7 +19,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  extension:
+    name: Build Extension
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -34,8 +35,29 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run linter
+      - name: Lint
         run: npm run lint
 
-      - name: Build
-        run: npm run build
+      - name: Build extension
+        run: npm run build:extension
+
+  builder:
+    name: Build Character Builder
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install builder dependencies
+        run: cd builder && npm ci
+
+      - name: Lint builder
+        run: cd builder && npm run lint
+
+      - name: Build builder
+        run: cd builder && npm run build
