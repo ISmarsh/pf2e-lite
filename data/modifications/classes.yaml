@@ -1,0 +1,64 @@
+# PF2e Lite — Class Modifications
+#
+# remove:  Entries excluded from PF2e Lite (by name)
+# modify:  Entries that exist in base PF2e but are changed
+# add:     New entries original to PF2e Lite
+
+remove:
+  - name: Alchemist
+    reason: Absorbed into Artificer (Alchemist subclass)
+  - name: Inventor
+    reason: Absorbed into Artificer (Innovator subclass)
+  - name: Kineticist
+    reason: Out of scope for levels 1-10 core
+  - name: Psychic
+    reason: Moved to expansion (complex, niche)
+  - name: Gunslinger
+    reason: Out of scope for core
+  - name: Investigator
+    reason: Out of scope for core
+  - name: Magus
+    reason: Out of scope for core
+  - name: Oracle
+    reason: Out of scope for core
+  - name: Sorcerer
+    reason: Out of scope for core (tradition overlap with full casters)
+  - name: Summoner
+    reason: Out of scope for core
+  - name: Swashbuckler
+    reason: Out of scope for core
+  - name: Witch
+    reason: Out of scope for core
+
+modify:
+  - name: Wizard
+    changes:
+      - field: spellcasting
+        note: "Mana pool replaces prepared slots. Curriculum: 1 free cast per rank/day."
+  - name: Cleric
+    changes:
+      - field: spellcasting
+        note: "Mana pool replaces prepared slots. Healing Font: WIS mod free Heal/Harm casts (not mana-tagged)."
+  - name: Druid
+    changes:
+      - field: spellcasting
+        note: "Mana pool replaces prepared slots."
+  - name: Bard
+    changes:
+      - field: spellcasting
+        note: "Mana pool replaces spontaneous slots. Compositions unchanged."
+  - name: Rogue
+    changes:
+      - field: subclasses
+        note: "Eldritch Trickster grants free full caster multiclass dedication at L1."
+  - name: Thaumaturge
+    changes:
+      - field: tradition
+        value: Occult
+        note: "Assigned occult tradition (unassigned in base PF2e)."
+
+add:
+  - name: Artificer
+    source: "PF2e Lite Original"
+    data_file: custom/artificer.json
+    note: "INT arcane-empowered crafter. 4 subclasses: Alchemist, Innovator, Gadgeteer, Enchanter."

@@ -1,0 +1,33 @@
+# PF2e Lite — Spell Modifications
+#
+# Primary change: all spells use mana costs instead of spell slots.
+# Cost is determined by rank: { 1: 1, 2: 2, 3: 4, 4: 7, 5: 11 }
+# Cantrips (rank 0) are free and auto-heighten.
+#
+# See docs/10-spellcasting.md and docs/10a-spell-audit.md for full details.
+
+# Global transformation applied to all spells by compile-data.mjs:
+global:
+  add_field:
+    mana_cost:
+      source: level
+      mapping:
+        0: 0    # Cantrips are free
+        1: 1
+        2: 2
+        3: 4
+        4: 7
+        5: 11
+
+remove: []
+  # No spells are removed outright in the core set.
+  # The spell audit (docs/10a-spell-audit.md) identifies spells that
+  # reference Golarion-specific content but recommends rephrasing, not removal.
+
+modify: []
+  # Individual spell modifications TBD based on spell audit.
+  # Most changes are systemic (mana costs) handled by the global transform above.
+
+add: []
+  # No custom spells in core. Artificer Arcwright focus spells are
+  # class features, not tradition spells.

@@ -1,0 +1,15 @@
+# PF2e Lite — Ancestry & Heritage Modifications
+#
+# All 7 core ancestries and 43 heritages are direct ports.
+# Setting-specific lore is stripped but mechanics are unchanged.
+#
+# See docs/03-ancestries.md for full details.
+
+remove: []
+  # All Player Core ancestries are included.
+  # Ancestries from non-core sources are excluded by the data source query.
+
+modify: []
+  # No mechanical changes to ancestries or heritages.
+
+add: []

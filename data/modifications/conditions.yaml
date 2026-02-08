@@ -1,0 +1,28 @@
+# PF2e Lite — Condition Modifications
+#
+# Consolidated from 40+ to 20 conditions.
+# See docs/11-conditions.md for full details.
+
+remove:
+  - name: Doomed
+    reason: "Replaced by Wounded (baked-in escalation in three-box dying system)"
+  - name: Observed
+    reason: "Default state, not a condition (you're either Concealed/Hidden or not)"
+  - name: Undetected
+    reason: "Merged into Hidden (DC 11 flat check covers both)"
+  - name: Unnoticed
+    reason: "Merged into Hidden (DC 11 flat check covers both)"
+
+modify:
+  - name: Concealed
+    changes:
+      - field: flat_check_dc
+        value: 5
+        note: "Simplified detection: 2-tier system (Concealed DC 5, Hidden DC 11)"
+  - name: Hidden
+    changes:
+      - field: flat_check_dc
+        value: 11
+        note: "Simplified detection: absorbs Undetected/Unnoticed (DC 11 flat check)"
+
+add: []

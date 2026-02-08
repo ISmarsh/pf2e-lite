@@ -1,6 +1,5 @@
-# Deploy to GitHub Pages
-# Builds Next.js static export and deploys on pushes to main
-# Adapted from .planet-smars/templates/github-workflows/deploy-gh-pages.yml
+# Deploy character builder to GitHub Pages
+# Builds Vite SPA and deploys on pushes to main
 
 name: Deploy to GitHub Pages
 
@@ -30,13 +29,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Install builder dependencies
+        run: cd builder && npm ci
 
-      - name: Build
-        run: npm run build
+      - name: Build builder
+        run: cd builder && npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -44,7 +42,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './out'
+          path: './builder/dist'
 
   deploy:
     environment:

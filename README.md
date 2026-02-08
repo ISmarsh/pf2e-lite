@@ -1,9 +1,25 @@
 # PF2e Lite
 
-A streamlined Pathfinder 2e variant for levels 1-10. Rules reference web app + design documents.
+A streamlined Pathfinder 2e variant for levels 1-10. Browser extension for Archives of Nethys annotations + character builder.
 
-**Version:** 0.1 Draft — February 2026
+**Version:** 0.2 Draft — February 2026
 **License:** Game content under [ORC](ORC_NOTICE.md) (Open RPG Creative License) | Code under [MIT](LICENSE)
+
+---
+
+## Components
+
+### Browser Extension (`extension/`)
+
+A Chrome/Firefox extension that annotates [Archives of Nethys](https://2e.aonprd.com) with PF2e Lite compatibility info — badges showing whether each spell, feat, class, etc. is included, modified, or excluded from PF2e Lite.
+
+### Character Builder (`builder/`)
+
+A React SPA for building PF2e Lite characters (levels 1-10). Under development.
+
+### Design Documents (`docs/`)
+
+The source-of-truth for all rule modifications. See the full table below.
 
 ---
 
@@ -11,24 +27,36 @@ A streamlined Pathfinder 2e variant for levels 1-10. Rules reference web app + d
 
 ```bash
 npm install
-npm run dev       # http://localhost:3000
+
+# Compile game data (fetches from AoN API, applies PF2e Lite modifications)
+npm run compile-data
+
+# Build the extension
+npm run build:extension
+
+# Develop the character builder
+cd builder && npm install && cd ..
+npm run dev:builder       # http://localhost:5173
 ```
 
-## Tech Stack
+### Loading the Extension
 
-- **Next.js 15** — App Router, static export
-- **TypeScript** + **React 19**
-- **Tailwind CSS** — with `@tailwindcss/typography` for prose styling
-- **GitHub Pages** — deployed via `actions/deploy-pages`
+1. Run `npm run build:extension`
+2. Open Chrome → `chrome://extensions/` → Enable Developer Mode
+3. Click "Load unpacked" → select the `extension/` directory
 
 ## Scripts
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start dev server |
-| `npm run build` | Build static export to `out/` |
+| `npm run compile-data` | Fetch AoN data + apply PF2e Lite modifications |
+| `npm run build:extension` | Build extension with esbuild |
+| `npm run dev:extension` | Extension build in watch mode |
+| `npm run dev:builder` | Start builder dev server (Vite) |
+| `npm run build:builder` | Build builder for production |
 | `npm run lint` | Run ESLint |
 | `npm run format` | Format with Prettier |
+| `npm run aon` | Low-level AoN API fetch utility |
 
 ## Design Documents
 
